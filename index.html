@@ -1,0 +1,2404 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+
+    <!-- hero section -->
+    <!-- HERO SECTION (Nuage Comparateur) -->
+    <section class="relative overflow-hidden bg-white">
+        <!-- soft gradient + shapes -->
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-96 w-96 rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-70">
+            </div>
+            <div
+                class="absolute -bottom-48 -left-48 h-[28rem] w-[28rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-70">
+            </div>
+            <div class="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-white via-white/70 to-transparent"></div>
+        </div>
+
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid items-center gap-10 py-14 md:grid-cols-2 md:py-20">
+                <!-- LEFT: Copy -->
+                <div>
+                    <!-- Brand pill -->
+                    <div
+                        class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/80 px-3 py-1 text-sm text-gray-700 shadow-sm backdrop-blur">
+                        <span
+                            class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-500 via-rose-500 to-amber-400 text-white">
+                            <i class="fa-solid fa-cloud"></i>
+                        </span>
+                        <span class="font-semibold">Nuage Comparateur</span>
+                        <span class="text-gray-400">•</span>
+                        <span class="text-gray-600">Banques • Assurances • Pro</span>
+                    </div>
+
+                    <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+                        Comparez les <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">meilleures
+                            offres</span>
+                        bancaires en quelques minutes
+                    </h1>
+
+                    <p class="mt-4 max-w-xl text-lg leading-relaxed text-gray-600">
+                        Trouvez le compte idéal (perso ou pro), comparez les frais, avantages, cartes et services.
+                        Un design clair, des choix rapides, des décisions sereines.
+                    </p>
+
+                    <!-- CTA row -->
+                    <div class="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+                        <a href="#comparateur"
+                            class="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 px-5 py-3 text-base font-semibold text-white shadow-lg shadow-rose-500/20 transition hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                            Lancer le comparateur
+                        </a>
+
+                        <a href="#banques"
+                            class="inline-flex items-center justify-center gap-2 rounded-xl border border-gray-200 bg-white px-5 py-3 text-base font-semibold text-gray-800 shadow-sm transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2">
+                            <i class="fa-regular fa-building"></i>
+                            Voir les banques
+                        </a>
+                    </div>
+
+                    <!-- Trust / meta -->
+                    <div class="mt-7 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                        <div
+                            class="flex items-start gap-3 rounded-2xl border border-gray-100 bg-white/70 p-4 shadow-sm backdrop-blur">
+                            <span
+                                class="mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </span>
+                            <div>
+                                <p class="font-semibold text-gray-900">Comparaison claire</p>
+                                <p class="text-sm text-gray-600">Frais, cartes, services</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex items-start gap-3 rounded-2xl border border-gray-100 bg-white/70 p-4 shadow-sm backdrop-blur">
+                            <span
+                                class="mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                <i class="fa-solid fa-bolt"></i>
+                            </span>
+                            <div>
+                                <p class="font-semibold text-gray-900">Rapide</p>
+                                <p class="text-sm text-gray-600">Résultats en minutes</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex items-start gap-3 rounded-2xl border border-gray-100 bg-white/70 p-4 shadow-sm backdrop-blur">
+                            <span
+                                class="mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <div>
+                                <p class="font-semibold text-gray-900">Pro & Perso</p>
+                                <p class="text-sm text-gray-600">Banques + assurances</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Visual card -->
+                <div class="relative">
+                    <div
+                        class="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-fuchsia-500/20 via-rose-500/20 to-amber-400/20 blur-2xl">
+                    </div>
+
+                    <div
+                        class="relative rounded-[2rem] border border-gray-200 bg-white/80 p-6 shadow-xl backdrop-blur sm:p-8">
+                        <!-- top bar -->
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <span
+                                    class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white shadow">
+                                    <i class="fa-solid fa-chart-column"></i>
+                                </span>
+                                <div>
+                                    <p class="text-sm font-semibold text-gray-900">Aperçu comparateur</p>
+                                    <p class="text-xs text-gray-500">nuagecomparateur.fr</p>
+                                </div>
+                            </div>
+
+                            <span
+                                class="inline-flex items-center gap-2 rounded-full bg-gray-900 px-3 py-1 text-xs font-semibold text-white">
+                                <i class="fa-solid fa-star"></i> Recommandé
+                            </span>
+                        </div>
+
+                        <!-- mock inputs -->
+                        <div class="mt-6 space-y-3">
+                            <div
+                                class="flex items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-gray-800">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-semibold text-gray-900">Profil</p>
+                                        <p class="text-xs text-gray-500">Particulier</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-down text-gray-400"></i>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-gray-800">
+                                        <i class="fa-solid fa-credit-card"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-semibold text-gray-900">Carte</p>
+                                        <p class="text-xs text-gray-500">Débit / Crédit</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-down text-gray-400"></i>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-gray-800">
+                                        <i class="fa-solid fa-euro-sign"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-semibold text-gray-900">Frais mensuels</p>
+                                        <p class="text-xs text-gray-500">0€ → 15€</p>
+                                    </div>
+                                </div>
+                                <div class="h-2 w-28 rounded-full bg-gray-100">
+                                    <div
+                                        class="h-2 w-3/5 rounded-full bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- results mini list -->
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <div class="flex items-center justify-between">
+                                <p class="text-sm font-semibold text-gray-900">Top offres</p>
+                                <p class="text-xs text-gray-500">Mis à jour récemment</p>
+                            </div>
+
+                            <div class="mt-4 space-y-3">
+                                <div class="flex items-center justify-between rounded-xl bg-gray-50 px-3 py-2">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white text-gray-800 shadow-sm">
+                                            <i class="fa-solid fa-landmark"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-semibold text-gray-900">Banque A</p>
+                                            <p class="text-xs text-gray-500">0€ / mois • Carte incluse</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-sm font-bold text-gray-900">9.2</span>
+                                </div>
+
+                                <div class="flex items-center justify-between rounded-xl bg-gray-50 px-3 py-2">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white text-gray-800 shadow-sm">
+                                            <i class="fa-solid fa-building-columns"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-semibold text-gray-900">Banque B</p>
+                                            <p class="text-xs text-gray-500">5€ / mois • Bonus</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-sm font-bold text-gray-900">8.7</span>
+                                </div>
+
+                                <div class="flex items-center justify-between rounded-xl bg-gray-50 px-3 py-2">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white text-gray-800 shadow-sm">
+                                            <i class="fa-solid fa-briefcase"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-semibold text-gray-900">Pro Pack</p>
+                                            <p class="text-xs text-gray-500">Compte pro • Factures</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-sm font-bold text-gray-900">8.4</span>
+                                </div>
+                            </div>
+
+                            <a href="#comparateur"
+                                class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-4 py-3 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                Comparer maintenant
+                            </a>
+                        </div>
+
+                        <!-- small note -->
+                        <p class="mt-4 text-center text-xs text-gray-500">
+                            *Exemple d’interface — front-end uniquement, design moderne et professionnel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- QUICK CATEGORIES SECTION -->
+    <section id="categories" class="relative bg-white py-12 sm:py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                        Que souhaitez-vous comparer ?
+                    </h2>
+                    <p class="mt-2 max-w-2xl text-gray-600">
+                        Choisissez une catégorie et découvrez les meilleures offres selon vos besoins.
+                    </p>
+                </div>
+
+                <a href="#comparateur"
+                    class="inline-flex items-center gap-2 self-start rounded-xl border border-gray-200 bg-white px-4 py-2 text-sm font-semibold text-gray-800 shadow-sm transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2">
+                    <i class="fa-solid fa-sliders"></i>
+                    Accéder au comparateur
+                </a>
+            </div>
+
+            <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Card 1 -->
+                <a href="#banques"
+                    class="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                    <div
+                        class="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <span
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-1 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            Populaire <i class="fa-solid fa-arrow-trend-up"></i>
+                        </span>
+                    </div>
+
+                    <h3 class="mt-4 text-lg font-extrabold text-gray-900">Banques</h3>
+                    <p class="mt-1 text-sm text-gray-600">
+                        Comparez frais, cartes, applis, bonus de bienvenue et services.
+                    </p>
+
+                    <div class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+                        Explorer
+                        <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+                    </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a href="#banques-pro"
+                    class="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                    <div
+                        class="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-violet-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <span
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-1 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            Pro
+                            <i class="fa-solid fa-badge-check"></i>
+                        </span>
+                    </div>
+
+                    <h3 class="mt-4 text-lg font-extrabold text-gray-900">Banques Pro</h3>
+                    <p class="mt-1 text-sm text-gray-600">
+                        Comptes pros, facturation, cartes business, encaissement et outils.
+                    </p>
+
+                    <div class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+                        Explorer
+                        <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+                    </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a href="#assurances"
+                    class="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                    <div
+                        class="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-gradient-to-br from-fuchsia-200 via-amber-200 to-rose-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <span
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-1 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            Sécurité
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                    </div>
+
+                    <h3 class="mt-4 text-lg font-extrabold text-gray-900">Assurances</h3>
+                    <p class="mt-1 text-sm text-gray-600">
+                        Santé, auto, habitation : comparez garanties, prix et options.
+                    </p>
+
+                    <div class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+                        Explorer
+                        <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+                    </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a href="#guides"
+                    class="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                    <div
+                        class="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-gradient-to-br from-violet-200 via-rose-200 to-amber-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <span
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                            <i class="fa-solid fa-book-open"></i>
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-1 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            Conseils
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </span>
+                    </div>
+
+                    <h3 class="mt-4 text-lg font-extrabold text-gray-900">Guides</h3>
+                    <p class="mt-1 text-sm text-gray-600">
+                        Articles et comparatifs pour choisir intelligemment.
+                    </p>
+
+                    <div class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+                        Lire
+                        <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Mini stats -->
+            <div
+                class="mt-10 grid gap-4 rounded-3xl border border-gray-200 bg-white/70 p-6 shadow-sm backdrop-blur sm:grid-cols-3">
+                <div class="flex items-center gap-4">
+                    <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Comparaisons simples</p>
+                        <p class="text-xs text-gray-600">Infos claires et utiles</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                        <i class="fa-solid fa-clock"></i>
+                    </span>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Gain de temps</p>
+                        <p class="text-xs text-gray-600">Choix plus rapide</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </span>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-900">Comparatif neutre</p>
+                        <p class="text-xs text-gray-600">Basé sur critères clés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- HOW IT WORKS SECTION -->
+    <section id="how-it-works" class="relative bg-gray-50 py-12 sm:py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                    Comment ça marche ?
+                </h2>
+                <p class="mt-2 mx-auto max-w-2xl text-gray-600">
+                    Comparez facilement les offres bancaires et assurances en trois étapes simples.
+                </p>
+            </div>
+
+            <div class="mt-10 grid gap-6 md:grid-cols-3">
+                <!-- Step 1 -->
+                <div
+                    class="relative rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white shadow">
+                        <i class="fa-solid fa-list-check text-xl"></i>
+                    </div>
+
+                    <h3 class="mt-5 text-lg font-extrabold text-gray-900">
+                        1. Choisissez vos critères
+                    </h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">
+                        Sélectionnez votre profil, vos besoins et votre budget pour affiner la comparaison.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div
+                    class="relative rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white shadow">
+                        <i class="fa-solid fa-chart-simple text-xl"></i>
+                    </div>
+
+                    <h3 class="mt-5 text-lg font-extrabold text-gray-900">
+                        2. Comparez les offres
+                    </h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">
+                        Visualisez rapidement les frais, avantages, cartes et services inclus.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div
+                    class="relative rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white shadow">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xl"></i>
+                    </div>
+
+                    <h3 class="mt-5 text-lg font-extrabold text-gray-900">
+                        3. Accédez à la meilleure offre
+                    </h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">
+                        Cliquez sur l’offre qui vous convient et finalisez directement chez le partenaire.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-10 flex justify-center">
+                <a href="#comparateur"
+                    class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 text-base font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Commencer la comparaison
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FEATURED OFFERS SECTION -->
+    <!-- FEATURED OFFERS SECTION -->
+    <section id="featured-offers" class="relative bg-white py-12 sm:py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                        Offres les plus comparées
+                    </h2>
+                    <p class="mt-2 max-w-2xl text-gray-600">
+                        Découvrez les banques et solutions financières les plus appréciées par nos utilisateurs.
+                    </p>
+                </div>
+
+                <a href="#comparateur"
+                    class="inline-flex items-center gap-2 self-start rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    Comparer maintenant
+                </a>
+            </div>
+
+            <!-- Cards -->
+            <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Card: Hello bank! -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/hello-bank.png" alt="Hello bank!"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">Hello bank!</p>
+                                <p class="text-xs text-gray-500">La banque en ligne qui innove</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">8.9 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Livraison de la carte à domicile
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Ouverture de compte 100% en ligne
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Offres Hello Prime à 1€/mois pendant 6 mois
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-bolt"></i> Ouverture rapide
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: BoursoBank -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-violet-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/boursobank.png" alt="BoursoBank"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">BoursoBank</p>
+                                <p class="text-xs text-gray-500">La banque la moins chère</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">8.8 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Jusqu’à 100€ offerts
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Assistance client en ligne et par téléphone
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Ouverture de compte simple et sécurisée
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-wallet"></i> Économies
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: Fortuneo -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-violet-200 via-rose-200 to-amber-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/fortuneo.png" alt="Fortuneo"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">Fortuneo</p>
+                                <p class="text-xs text-gray-500">Avantages carte Gold Mastercard</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">8.5 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Jusqu’à 150€ offerts
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Assurances à l’étranger
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Interface simple de gestion
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-plane"></i> Voyage
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: SG -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-fuchsia-200 via-amber-200 to-rose-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/sg.png" alt="SG" class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">SG</p>
+                                <p class="text-xs text-gray-500">La banque adaptée à vos besoins</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">8.4 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Jusqu’à 140€ offerts
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Sans condition de revenus
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Cashback jusqu’à 20%
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-percent"></i> Cashback
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: BNP Paribas -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-violet-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/bnp.png" alt="BNP Paribas"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">BNP Paribas</p>
+                                <p class="text-xs text-gray-500">L’agence bancaire en ligne</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">8.6 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Conseiller personnel dédié
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Accès à 2 000 agences en France
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            80€ offerts + 1 an gratuit
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-user-check"></i> Accompagnement
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: N26 -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-violet-200 via-rose-200 to-amber-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/n26.png" alt="N26" class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">N26</p>
+                                <p class="text-xs text-gray-500">La banque la plus accessible</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">8.7 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Ouverture en 8 minutes
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Sans condition de revenus
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Notifications en temps réel
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-mobile-screen"></i> Mobile-first
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: Monabanq -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/monabanq.png" alt="Monabanq"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">Monabanq</p>
+                                <p class="text-xs text-gray-500">Assurances et assistances incluses</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">9.6 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Jusqu’à 120€ offerts
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Visa Platinum / Premier sans condition de revenus
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Dépôt chèques et espèces via Crédit Mutuel / CIC
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-shield"></i> Protections
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: SHINE -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-violet-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/shine.png" alt="SHINE"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">SHINE</p>
+                                <p class="text-xs text-gray-500">Meilleure banque pro</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">8.0 / 10</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            50€ offerts + Hello Prime 1€/mois pendant 6 mois
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Élue « Service client 2024 »
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Dépôt espèces, encaissements, chèques, crédit
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-briefcase"></i> Business
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card: Crédit Agricole -->
+                <article
+                    class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div
+                        class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-violet-200 via-rose-200 to-amber-200 blur-2xl opacity-70">
+                    </div>
+
+                    <div class="flex items-start justify-between gap-4">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/credit-agricole.png" alt="Crédit Agricole"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">Crédit Agricole</p>
+                                <p class="text-xs text-gray-500">Ma Banque au Quotidien – Une banque humaine</p>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <p class="text-xs text-gray-500">Note</p>
+                            <p class="text-lg font-extrabold text-gray-900">—</p>
+                        </div>
+                    </div>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            5 offres bancaires adaptées à vos besoins
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Sans engagement ni condition de revenus
+                        </li>
+                        <li class="flex gap-2">
+                            <i class="fa-solid fa-check mt-0.5 text-gray-900"></i>
+                            Souscription en ligne ou en agence
+                        </li>
+                    </ul>
+
+                    <div class="mt-6 flex items-center justify-between gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                            <i class="fa-solid fa-people-group"></i> Réseau d’agences
+                        </span>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+                            Voir l’offre <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Bottom CTA -->
+            <div class="mt-10 flex justify-center">
+                <a href="#comparateur"
+                    class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-rose-500/20 transition hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    Voir toutes les banques
+                </a>
+            </div>
+
+            <!-- Note about logos -->
+            <p class="mt-4 text-center text-xs text-gray-500">
+                Remplacez les images par vos logos (ex: <span
+                    class="font-semibold">assets/banks/nom-du-logo.png</span>). Format recommandé : PNG/SVG.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section id="why-choose-us" class="relative bg-gray-50 py-12 sm:py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                    Pourquoi choisir Nuage Comparateur ?
+                </h2>
+                <p class="mt-2 mx-auto max-w-2xl text-gray-600">
+                    Une plateforme claire, neutre et conçue pour vous aider à faire le meilleur choix financier.
+                </p>
+            </div>
+
+            <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Benefit 1 -->
+                <div
+                    class="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                        <i class="fa-solid fa-scale-balanced text-xl"></i>
+                    </div>
+                    <h3 class="mt-5 text-lg font-extrabold text-gray-900">Comparatif neutre</h3>
+                    <p class="mt-2 text-sm text-gray-600">
+                        Classements basés sur des critères objectifs et transparents.
+                    </p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div
+                    class="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                        <i class="fa-solid fa-eye text-xl"></i>
+                    </div>
+                    <h3 class="mt-5 text-lg font-extrabold text-gray-900">100% transparent</h3>
+                    <p class="mt-2 text-sm text-gray-600">
+                        Aucun frais caché, informations claires et lisibles.
+                    </p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div
+                    class="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                        <i class="fa-solid fa-user-shield text-xl"></i>
+                    </div>
+                    <h3 class="mt-5 text-lg font-extrabold text-gray-900">Sécurisé</h3>
+                    <p class="mt-2 text-sm text-gray-600">
+                        Aucun compte requis, vos données restent privées.
+                    </p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div
+                    class="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+                        <i class="fa-solid fa-rocket text-xl"></i>
+                    </div>
+                    <h3 class="mt-5 text-lg font-extrabold text-gray-900">Rapide & simple</h3>
+                    <p class="mt-2 text-sm text-gray-600">
+                        Comparez et choisissez en quelques minutes seulement.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-12 grid gap-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm sm:grid-cols-3">
+                <div class="flex items-center gap-4">
+                    <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </span>
+                    <div>
+                        <p class="text-lg font-extrabold text-gray-900">50+</p>
+                        <p class="text-sm text-gray-600">Banques comparées</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                        <i class="fa-solid fa-users"></i>
+                    </span>
+                    <div>
+                        <p class="text-lg font-extrabold text-gray-900">100k+</p>
+                        <p class="text-sm text-gray-600">Utilisateurs</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <div>
+                        <p class="text-lg font-extrabold text-gray-900">4.8 / 5</p>
+                        <p class="text-sm text-gray-600">Satisfaction moyenne</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="relative bg-white py-12 sm:py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                    Ils nous font confiance
+                </h2>
+                <p class="mt-2 mx-auto max-w-2xl text-gray-600">
+                    Des milliers d’utilisateurs utilisent Nuage Comparateur pour faire le bon choix.
+                </p>
+            </div>
+
+            <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Testimonial 1 -->
+                <div
+                    class="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div class="flex items-center gap-4">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-900 text-white">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Thomas L.</p>
+                            <p class="text-xs text-gray-500">Compte personnel</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 flex items-center gap-1 text-amber-400">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                        Grâce à Nuage Comparateur, j’ai trouvé une banque sans frais en moins de 10 minutes.
+                        Le site est clair et très facile à utiliser.
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div
+                    class="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div class="flex items-center gap-4">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-900 text-white">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Sarah M.</p>
+                            <p class="text-xs text-gray-500">Entrepreneure</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 flex items-center gap-1 text-amber-400">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                        Idéal pour comparer les comptes pro. Les informations sont pertinentes
+                        et les offres bien expliquées.
+                    </p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div
+                    class="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+                    <div class="flex items-center gap-4">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-900 text-white">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Karim D.</p>
+                            <p class="text-xs text-gray-500">Assurance habitation</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 flex items-center gap-1 text-amber-400">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                        Très rassurant de pouvoir comparer les assurances facilement.
+                        J’ai économisé de l’argent sans effort.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FINAL CTA SECTION -->
+    <section id="final-cta" class="relative overflow-hidden bg-gray-900 py-14 sm:py-20">
+        <div class="absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-96 w-96 rounded-full bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 opacity-30 blur-3xl">
+            </div>
+            <div
+                class="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-gradient-to-tr from-amber-500 via-rose-600 to-violet-600 opacity-30 blur-3xl">
+            </div>
+        </div>
+
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid items-center gap-10 md:grid-cols-2">
+                <!-- Left -->
+                <div>
+                    <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                        Prêt à trouver l’offre faite pour vous ?
+                    </h2>
+                    <p class="mt-4 max-w-xl text-lg text-gray-300">
+                        Comparez gratuitement les meilleures banques et assurances.
+                        Simple, rapide et sans engagement.
+                    </p>
+
+                    <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+                        <a href="#comparateur"
+                            class="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-3 text-base font-semibold text-gray-900 shadow transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                            Lancer le comparateur
+                        </a>
+
+                        <a href="#contact"
+                            class="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-6 py-3 text-base font-semibold text-white backdrop-blur transition hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900">
+                            <i class="fa-solid fa-envelope"></i>
+                            Nous contacter
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right -->
+                <div class="relative rounded-3xl border border-white/10 bg-white/10 p-6 backdrop-blur sm:p-8">
+                    <div class="grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl bg-white/10 p-4 text-center">
+                            <i class="fa-solid fa-clock text-xl text-white"></i>
+                            <p class="mt-2 text-sm font-semibold text-white">Rapide</p>
+                            <p class="text-xs text-gray-300">En quelques minutes</p>
+                        </div>
+
+                        <div class="rounded-2xl bg-white/10 p-4 text-center">
+                            <i class="fa-solid fa-lock text-xl text-white"></i>
+                            <p class="mt-2 text-sm font-semibold text-white">Sécurisé</p>
+                            <p class="text-xs text-gray-300">Sans inscription</p>
+                        </div>
+
+                        <div class="rounded-2xl bg-white/10 p-4 text-center">
+                            <i class="fa-solid fa-thumbs-up text-xl text-white"></i>
+                            <p class="mt-2 text-sm font-semibold text-white">Gratuit</p>
+                            <p class="text-xs text-gray-300">Sans engagement</p>
+                        </div>
+                    </div>
+
+                    <p class="mt-6 text-center text-xs text-gray-400">
+                        Nuage Comparateur — votre guide pour des choix financiers éclairés.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="relative bg-gray-50 py-12 sm:py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col gap-3 text-center">
+                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                    Questions fréquentes
+                </h2>
+                <p class="mx-auto max-w-2xl text-gray-600">
+                    Tout ce qu’il faut savoir avant de comparer une banque ou une assurance.
+                </p>
+            </div>
+
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <!-- Left column -->
+                <div class="space-y-4">
+                    <details class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                            <span class="text-base font-semibold text-gray-900">
+                                Le comparateur est-il gratuit ?
+                            </span>
+                            <span
+                                class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-gray-200 bg-gray-50 text-gray-700 transition group-open:rotate-45">
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
+                        </summary>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Oui. L’accès aux comparatifs est gratuit et sans inscription. Vous pouvez comparer les
+                            offres et consulter les
+                            informations à tout moment.
+                        </p>
+                    </details>
+
+                    <details class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                            <span class="text-base font-semibold text-gray-900">
+                                Comment sont classées les offres ?
+                            </span>
+                            <span
+                                class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-gray-200 bg-gray-50 text-gray-700 transition group-open:rotate-45">
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
+                        </summary>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Les offres sont généralement comparées selon des critères clés : frais, cartes, services
+                            inclus, conditions,
+                            avantages, et pertinence selon le profil (perso/pro). Vous pouvez adapter ces critères.
+                        </p>
+                    </details>
+
+                    <details class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                            <span class="text-base font-semibold text-gray-900">
+                                Puis-je ouvrir un compte directement sur le site ?
+                            </span>
+                            <span
+                                class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-gray-200 bg-gray-50 text-gray-700 transition group-open:rotate-45">
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
+                        </summary>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Non. Nuage Comparateur est un site informatif. Lorsque vous choisissez une offre, vous êtes
+                            redirigé vers le site
+                            du partenaire pour finaliser votre demande.
+                        </p>
+                    </details>
+                </div>
+
+                <!-- Right column -->
+                <div class="space-y-4">
+                    <details class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                            <span class="text-base font-semibold text-gray-900">
+                                Mes données sont-elles stockées ?
+                            </span>
+                            <span
+                                class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-gray-200 bg-gray-50 text-gray-700 transition group-open:rotate-45">
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
+                        </summary>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Le site peut fonctionner sans inscription. Selon l’implémentation, certaines données de
+                            navigation peuvent être
+                            utilisées à des fins statistiques (ex : cookies). Consultez la politique de confidentialité.
+                        </p>
+                    </details>
+
+                    <details class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                            <span class="text-base font-semibold text-gray-900">
+                                Les offres sont-elles mises à jour régulièrement ?
+                            </span>
+                            <span
+                                class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-gray-200 bg-gray-50 text-gray-700 transition group-open:rotate-45">
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
+                        </summary>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Oui, les informations peuvent évoluer (tarifs, conditions, promotions). Il est recommandé de
+                            vérifier les détails
+                            finaux sur le site du partenaire avant de souscrire.
+                        </p>
+                    </details>
+
+                    <details class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                            <span class="text-base font-semibold text-gray-900">
+                                Comment vous contacter ?
+                            </span>
+                            <span
+                                class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-gray-200 bg-gray-50 text-gray-700 transition group-open:rotate-45">
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
+                        </summary>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Vous pouvez nous écrire via la section contact en bas de page. Nous répondons généralement
+                            sous 24 à 48 heures.
+                        </p>
+                    </details>
+                </div>
+            </div>
+
+            <div class="mt-10 flex justify-center">
+                <a href="#final-cta"
+                    class="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 text-base font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    Comparer maintenant
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white shadow">
+                            <i class="fa-solid fa-cloud"></i>
+                        </span>
+                        <div>
+                            <p class="text-base font-extrabold tracking-tight text-white">Nuage Comparateur</p>
+                            <p class="text-xs text-gray-400">Banques • Assurances • Pro</p>
+                        </div>
+                    </div>
+
+                    <p class="mt-4 text-sm leading-relaxed text-gray-300">
+                        Comparez simplement les meilleures offres bancaires et assurances. Des informations claires pour
+                        vous aider à
+                        choisir plus vite, en toute confiance.
+                    </p>
+
+                    <div class="mt-5 flex items-center gap-3">
+                        <a href="#" aria-label="Facebook"
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" aria-label="X"
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn"
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram"
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div>
+                    <p class="text-sm font-extrabold text-white">Navigation</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li>
+                            <a href="#categories" class="text-gray-300 transition hover:text-white">Catégories</a>
+                        </li>
+                        <li>
+                            <a href="#featured-offers" class="text-gray-300 transition hover:text-white">Offres
+                                comparées</a>
+                        </li>
+                        <li>
+                            <a href="#why-choose-us" class="text-gray-300 transition hover:text-white">Pourquoi nous</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials" class="text-gray-300 transition hover:text-white">Avis</a>
+                        </li>
+                        <li>
+                            <a href="#final-cta" class="text-gray-300 transition hover:text-white">Comparer</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Categories -->
+                <div>
+                    <p class="text-sm font-extrabold text-white">Catégories</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li>
+                            <a href="#banques" class="text-gray-300 transition hover:text-white">
+                                <i class="fa-solid fa-building-columns mr-2 text-white/80"></i>Banques
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#banques-pro" class="text-gray-300 transition hover:text-white">
+                                <i class="fa-solid fa-briefcase mr-2 text-white/80"></i>Banques Pro
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#assurances" class="text-gray-300 transition hover:text-white">
+                                <i class="fa-solid fa-shield-halved mr-2 text-white/80"></i>Assurances
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#guides" class="text-gray-300 transition hover:text-white">
+                                <i class="fa-solid fa-book-open mr-2 text-white/80"></i>Guides
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact / Legal -->
+                <div id="contact">
+                    <p class="text-sm font-extrabold text-white">Contact</p>
+
+                    <div class="mt-4 space-y-3 text-sm text-gray-300">
+                        <p class="flex items-start gap-3">
+                            <span
+                                class="mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white">
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                            <span>
+                                support@nuagecomparateur.fr
+                                <span class="block text-xs text-gray-400">Réponse sous 24–48h</span>
+                            </span>
+                        </p>
+
+                        <p class="flex items-start gap-3">
+                            <span
+                                class="mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            <span>
+                                France
+                                <span class="block text-xs text-gray-400">Service en ligne</span>
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="mt-6">
+                        <p class="text-sm font-extrabold text-white">Légal</p>
+                        <ul class="mt-3 space-y-2 text-sm">
+                            <li><a href="privacy-policy.html"
+                                    class="text-gray-300 transition hover:text-white">Politique de confidentialité</a>
+                            </li>
+                            <li><a href="mentions-legales.html"
+                                    class="text-gray-300 transition hover:text-white">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="border-t border-white/10 py-6">
+                <div
+                    class="flex flex-col gap-3 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
+                    <p class="text-xs text-gray-400">
+                        © <span id="year"></span> Nuage Comparateur. Tous droits réservés.
+                    </p>
+
+                    <p class="text-xs text-gray-500">
+                        *Comparateur informatif — redirection vers des partenaires, aucune opération bancaire sur le
+                        site.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Footer year
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+
+
+    <!-- Comparison Categories Section -->
+    <section class="relative md:py-20 py-10 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 data-aos="fade-up" class="text-3xl capitalize md:text-4xl font-semibold text-slate-900">
+                    Comparez ce qui compte vraiment
+                </h2>
+                <p data-aos="fade-up" class="mt-4 text-slate-600">
+                    Accédez rapidement aux meilleures offres financières, sélectionnées avec rigueur et transparence.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+                <a href="#" data-aos="fade-up" class="">
+                    <div
+                        class="group relative p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-xl transition px-5">
+
+
+                        <div
+                            class="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white mb-6">
+                            <i class="fa-solid fa-building-columns text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Banques
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Comptes, cartes et services bancaires pour particuliers.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" data-aos="fade-up" data-aos-delay="200" class="">
+                    <div
+                        class="group relative p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-xl transition px-5">
+                        <div
+                            class="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-indigo-600 to-blue-500 text-white mb-6">
+                            <i class="fa-solid fa-briefcase text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Pour les Pros
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Banques et solutions dédiées aux professionnels.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" data-aos="fade-up" data-aos-delay="300" class="">
+                    <div
+                        class="group relative p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-xl transition px-5">
+
+
+                        <div
+                            class="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-emerald-600 to-teal-500 text-white mb-6">
+                            <i class="fa-solid fa-shield-halved text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Assurances
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Comparez les meilleures protections adaptées à vos besoins.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" data-aos="fade-up" data-aos-delay="400" class="">
+                    <div
+                        class="group relative p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-xl transition px-5">
+
+
+                        <div
+                            class="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white mb-6">
+                            <i class="fa-solid fa-chart-line text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Services financiers
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Épargne, crédits et solutions intelligentes.
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Bank Offers Section -->
+    <section class="relative md:py-20 py-10 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 mb-16">
+                <div class="max-w-xl">
+                    <h2 data-aos="fade-up" class="text-3xl capitalize md:text-4xl font-semibold text-slate-900">
+                        Les offres bancaires les plus performantes
+                    </h2>
+                    <p data-aos="fade-up" class="mt-4 text-slate-600">
+                        Sélectionnées selon des critères stricts : frais, services, fiabilité et satisfaction client.
+                    </p>
+                </div>
+
+                <a data-aos="fade-up" href="/bank-pros.html"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
+                    Voir toutes les offres
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- Hello bank! -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/hello.avif" alt="Hello bank!"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 9.4 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Hello bank!</h3>
+                        <p class="text-sm text-slate-600 mb-4">La banque en ligne qui innove</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Livraison de la carte à domicile
+                            </li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Ouverture de compte 100% en ligne
+                            </li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Offres Hello Prime à 1€/mois
+                                pendant 6 mois</li>
+                        </ul>
+
+                        <a href="/hellobank.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BoursoBank -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/bourso.png" alt="BoursoBank"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.9 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">BoursoBank</h3>
+                        <p class="text-sm text-slate-600 mb-4">La banque la moins chère</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Jusqu’à 100€ offerts</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Assistance client en ligne et par
+                                téléphone</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Ouverture de compte simple et
+                                sécurisée</li>
+                        </ul>
+
+                        <a href="/boursobank.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Fortuneo -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/fortuneo.png" alt="Fortuneo"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.8 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Fortuneo</h3>
+                        <p class="text-sm text-slate-600 mb-4">Avantages carte Gold Mastercard</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Jusqu’à 150€ offerts</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Assurances à l’étranger</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Interface simple de gestion</li>
+                        </ul>
+
+                        <a href="/fortuneo.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SG -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/societeG.png" alt="SG"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.5 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">SG</h3>
+                        <p class="text-sm text-slate-600 mb-4">La banque adaptée à vos besoins</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Jusqu’à 140€ offerts</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Sans condition de revenus</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Cashback jusqu’à 20%</li>
+                        </ul>
+
+                        <a href="/sociétégénérale.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BNP Paribas -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/BNP-Paribas-Logo.png" alt="BNP Paribas"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.4 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">BNP Paribas</h3>
+                        <p class="text-sm text-slate-600 mb-4">L’agence bancaire en ligne</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Conseiller personnel dédié</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Accès à 2 000 agences en France
+                            </li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>80€ offerts + 1 an gratuit</li>
+                        </ul>
+
+                        <a href="/bnpparibas.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- N26 -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/n26.png" alt="N26" class="w-16 h-16 object-contain"
+                                        loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.6 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">N26</h3>
+                        <p class="text-sm text-slate-600 mb-4">La banque la plus accessible</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Ouverture en 8 minutes</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Sans condition de revenus</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Notifications en temps réel</li>
+                        </ul>
+
+                        <a href="/n26.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Monabanq -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/mona.png" alt="Monabanq"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.7 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-2">Monabanq</h3>
+                        <p class="text-sm text-slate-600 mb-4">Assurances et assistances incluses</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Jusqu’à 120€ offerts</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Visa Platinum / Premier sans
+                                condition de revenus</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Dépôt chèques et espèces via
+                                Crédit Mutuel / CIC</li>
+                        </ul>
+
+                        <a href="/monabanqpro.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SHINE -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/shine.png" alt="SHINE"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 9.6 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-2">SHINE</h3>
+                        <p class="text-sm text-slate-600 mb-4">Meilleure banque pro</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>50€ offerts + Hello Prime 1€/mois
+                                pendant 6 mois</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Élue « Service client 2024 »</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Dépôt espèces, encaissements,
+                                chèques, crédit</li>
+                        </ul>
+
+                        <a href="/shinepro.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Découvrir
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Crédit Agricole -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <!-- Replace blank.jpg with your real Crédit Agricole logo if you have it -->
+                                    <img src="/docs/assets/images/blank.jpg" alt="Crédit Agricole"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.0 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-2">Crédit Agricole</h3>
+                        <p class="text-sm text-slate-600 mb-4">Ma Banque au Quotidien – Une banque humaine</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>5 offres bancaires adaptées à vos
+                                besoins</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Sans engagement ni condition de
+                                revenus</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Souscription en ligne ou en
+                                agence</li>
+                        </ul>
+
+                        <a href="/créditagricole.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- How Opti’ Scan Works Section -->
+    <section class="relative md:py-20 py-10 bg-zinc-50">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center max-w-2xl mx-auto mb-20">
+                <h2 data-aos="fade-up" class="text-3xl md:text-4xl capitalize font-semibold text-slate-900">
+                    Comment fonctionne Opti’ Scan
+                </h2>
+                <p data-aos="fade-up" class="mt-4 text-slate-600">
+                    Une comparaison simple, transparente et pensée pour vous faire gagner du temps.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+                <div class="relative text-center px-8" data-aos="fade-up">
+                    <div
+                        class="mx-auto mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white shadow-lg">
+                        <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">
+                        Analyse intelligente
+                    </h3>
+                    <p class="text-slate-600 text-sm">
+                        Nous analysons en continu les offres bancaires selon des critères précis et objectifs.
+                    </p>
+                </div>
+
+                <div class="relative text-center px-8" data-aos="fade-up" data-aos-delay="200">
+                    <div
+                        class="mx-auto mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white shadow-lg">
+                        <i class="fa-solid fa-sliders text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">
+                        Comparaison claire
+                    </h3>
+                    <p class="text-slate-600 text-sm">
+                        Comparez facilement les frais, services, avantages et conditions en un seul endroit.
+                    </p>
+                </div>
+
+                <div class="relative text-center px-8" data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="mx-auto mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white shadow-lg">
+                        <i class="fa-solid fa-check-double text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">
+                        Choix éclairé
+                    </h3>
+                    <p class="text-slate-600 text-sm">
+                        Sélectionnez l’offre la plus adaptée à votre profil en toute confiance.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Trust & Transparency Section -->
+    <section class="relative md:py-20 py-10 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-16 gap-7 items-center">
+
+                <div>
+                    <h2 data-aos="fade-up"
+                        class="text-3xl capitalize md:leading-[1.4] md:text-4xl font-semibold text-slate-900">
+                        Une comparaison indépendante et transparente
+                    </h2>
+                    <p data-aos="fade-up" class="mt-6 text-slate-600 max-w-xl">
+                        Opti’ Scan est une plateforme indépendante. Nos classements sont basés sur une analyse
+                        rigoureuse des frais, services, conditions et retours utilisateurs.
+                    </p>
+
+                    <ul class="mt-8 space-y-4 text-slate-600">
+                        <li data-aos="fade-up" class="flex items-start gap-3">
+                            <i class="fa-solid fa-shield-halved text-emerald-500 mt-1"></i>
+                            <span>Données analysées selon des critères objectifs et vérifiables</span>
+                        </li>
+                        <li data-aos="fade-up" class="flex items-start gap-3">
+                            <i class="fa-solid fa-scale-balanced text-emerald-500 mt-1"></i>
+                            <span>Aucune influence commerciale sur nos classements</span>
+                        </li>
+                        <li data-aos="fade-up" class="flex items-start gap-3">
+                            <i class="fa-solid fa-eye text-emerald-500 mt-1"></i>
+                            <span>Méthodologie claire et accessible à tous</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                    <div data-aos="fade-up" class="p-8 rounded-2xl border border-slate-200 bg-slate-50">
+                        <i class="fa-solid fa-chart-simple text-2xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Analyse continue
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Les offres sont mises à jour régulièrement pour refléter le marché réel.
+                        </p>
+                    </div>
+
+                    <div data-aos="fade-up" class="p-8 rounded-2xl border border-slate-200 bg-slate-50">
+                        <i class="fa-solid fa-user-shield text-2xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Sécurité & fiabilité
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Vos données et votre confiance sont notre priorité absolue.
+                        </p>
+                    </div>
+
+                    <div data-aos="fade-up" class="p-8 rounded-2xl border border-slate-200 bg-slate-50">
+                        <i class="fa-solid fa-ranking-star text-2xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Classements clairs
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Notes compréhensibles basées sur des critères concrets.
+                        </p>
+                    </div>
+
+                    <div data-aos="fade-up" class="p-8 rounded-2xl border border-slate-200 bg-slate-50">
+                        <i class="fa-solid fa-handshake text-2xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-2">
+                            Transparence totale
+                        </h3>
+                        <p class="text-sm text-slate-600">
+                            Nous expliquons clairement comment et pourquoi chaque offre est classée.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="relative md:py-20 py-10 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center max-w-2xl mx-auto md:mb-20 mb-10">
+                <h2 data-aos="fade-up" class="text-3xl md:text-4xl capitalize font-semibold text-slate-900">
+                    Ils nous font confiance
+                </h2>
+                <p data-aos="fade-up" class="mt-4 text-slate-600">
+                    Des milliers d’utilisateurs utilisent Opti’ Scan pour faire les bons choix financiers.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                <div data-aos="fade-up"
+                    class="p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:shadow-lg transition">
+                    <div class="flex items-center gap-3 mb-4 text-amber-400">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6">
+                        Grâce à Opti’ Scan, j’ai trouvé une banque sans frais en quelques minutes.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 to-emerald-500 text-white">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-slate-900">Julien M.</p>
+                            <p class="text-xs text-slate-500">Client particulier</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up"
+                    class="p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:shadow-lg transition">
+                    <div class="flex items-center gap-3 mb-4 text-amber-400">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6">
+                        Comparaison très bien expliquée. Les critères sont clairs et les offres faciles à comprendre.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 to-emerald-500 text-white">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-slate-900">Sophie L.</p>
+                            <p class="text-xs text-slate-500">Entrepreneure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up"
+                    class="p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:shadow-lg transition">
+                    <div class="flex items-center gap-3 mb-4 text-amber-400">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6">
+                        Un comparateur sérieux et indépendant. Je recommande sans hésiter.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 to-emerald-500 text-white">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-slate-900">Thomas R.</p>
+                            <p class="text-xs text-slate-500">Freelance</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="relative md:pb-24 pt-10 bg-white" data-aos="zoom-in-up">
+        <div class="max-w-7xl mx-auto md:px-6">
+
+            <div
+                class="relative overflow-hidden md:rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white px-10 py-16 text-center">
+
+                <div class="absolute -top-24 -right-24 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
+                <div class="absolute -bottom-24 -left-24 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl"></div>
+
+                <h2 class="text-3xl md:text-4xl font-semibold text-slate-900 capitalize max-w-3xl mx-auto">
+                    Faites le bon choix bancaire dès aujourd’hui
+                </h2>
+
+                <p class="mt-6 text-slate-600 max-w-xl mx-auto">
+                    Comparez gratuitement les meilleures offres et trouvez la solution financière
+                    parfaitement adaptée à vos besoins.
+                </p>
+
+                <div class="mt-10 flex flex-wrap justify-center gap-4">
+                    <a href="/bank-pros.html"
+                        class="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-slate-900 text-white font-medium hover:scale-[1.02] transition">
+                        Comparer les offres
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="/contact.html"
+                        class="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-100 transition">
+                        Découvrir la méthode
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

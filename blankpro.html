@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+
+    <!-- BLANK (Crédit Agricole) – Retail Detail Page -->
+    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
+        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <nav class="flex items-center justify-between gap-6 mb-10">
+                <a href="banque-pros.html"
+                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Retour aux banques pro
+                </a>
+
+                <div class="flex items-center gap-2">
+                    <span
+                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                        <i class="fa-solid fa-briefcase text-emerald-600"></i> Banque Pro
+                    </span>
+                    <span
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
+                        <i class="fa-solid fa-headset"></i> Support téléphonique
+                    </span>
+                </div>
+            </nav>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-7 space-y-7">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-building-columns text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">BLANK (Crédit Agricole)</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
+                        Blank :
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
+                            le compte pro pour les indépendants, avec accompagnement
+                        </span>
+                    </h1>
+
+                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
+                        Les banques traditionnelles ont souvent du mal à proposer une expérience simple et abordable aux
+                        indépendants.
+                        Blank, lancée par le Crédit Agricole, combine un compte bancaire professionnel et des outils
+                        d’accompagnement
+                        pour la gestion administrative.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Voir les offres BLANK
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#resume"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
+                            Découvrir si c’est fait pour vous
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Compte pro + outils admin
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            1er mois offert (selon offre)
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Sans engagement
+                        </span>
+                    </div>
+                </div>
+
+                <aside class="lg:col-span-5 lg:sticky lg:top-24">
+                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-semibold text-slate-900">BLANK</p>
+                                    <p class="text-sm text-slate-600">Crédit Agricole</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                                <i class="fa-solid fa-star text-amber-500"></i>
+                                Sélection Opti’ Scan
+                            </div>
+                        </div>
+
+                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">À partir de</p>
+                                <p class="mt-1 text-lg font-semibold text-slate-900">6 € / mois</p>
+                                <p class="text-xs text-slate-500 mt-1">Formule Simple</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Positionnement</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Indépendants</p>
+                                <p class="text-xs text-slate-500 mt-1">Freelances / AE</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Paiements</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Carte Visa</p>
+                                <p class="text-xs text-slate-500 mt-1">Selon offre</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Limites</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">100 opérations</p>
+                                <p class="text-xs text-slate-500 mt-1">puis 1€ / opération</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Accéder aux offres BLANK
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <p class="mt-4 text-xs text-slate-500">
+                            Vérifiez toujours les conditions officielles avant souscription.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Résumé + Fonctionnalités -->
+    <section id="resume" class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-5">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Blank en résumé</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Une approche néobanque… avec un vrai accompagnement
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Blank reprend les codes des néobanques pro : services essentiels, absence de découvert et de
+                            chéquier,
+                            et parfois des limites sur les transactions. Son plus : des outils administratifs et un
+                            accompagnement
+                            pour simplifier la gestion au quotidien.
+                        </p>
+
+                        <div class="mt-6 space-y-3 text-sm text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Compte pro avec RIB, virements et prélèvements.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Carte Visa incluse (selon offre).</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Outils admin/compta : devis, factures, export comptable, catégorisation.</p>
+                            </div>
+                        </div>
+
+                        <a href="#tarifs"
+                            class="inline-flex items-center gap-2 mt-7 text-sm font-medium text-slate-900 hover:opacity-80 transition">
+                            Voir les tarifs
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <h3 class="text-xl font-semibold text-slate-900">
+                            Fonctionnalités principales
+                        </h3>
+
+                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-arrow-right-arrow-left text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Virements / prélèvements</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Gestion simple avec un quota mensuel pouvant s’appliquer selon la formule.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-file-invoice text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Devis & factures</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Création et export des documents pour simplifier la partie administrative.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-money-check-dollar text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Encaissement de chèques</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Possible avec des limitations (selon conditions et formule).
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-headset text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Support téléphonique</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Un accompagnement humain pour répondre aux questions importantes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
+                            <p class="text-sm font-semibold text-white/90">Limites à connaître</p>
+                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
+                                Pas de chéquier, pas de découvert autorisé. Certaines formules peuvent limiter le nombre
+                                d’opérations
+                                (ex : 100 virements/prélèvements par mois), puis facturer un coût par transaction
+                                au-delà.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifs -->
+    <section id="tarifs" class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-10">
+                <div class="max-w-3xl">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-euro-sign text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Les tarifs Blank</span>
+                    </div>
+
+                    <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
+                        Trois formules, selon votre rythme d’activité
+                    </h2>
+
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        Les offres sont généralement sans engagement. L’ouverture et la fermeture du compte peuvent être
+                        gratuites,
+                        et un mois d’essai peut être proposé (selon conditions).
+                    </p>
+                </div>
+
+                <a href="#offres"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                    Voir les offres BLANK
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
+                    <div class="flex items-center justify-between">
+                        <p class="font-semibold text-slate-900">Simple</p>
+                        <span class="text-xs px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700">
+                            Essentiel
+                        </span>
+                    </div>
+                    <p class="mt-3 text-3xl font-semibold text-slate-900">6€<span
+                            class="text-base font-medium text-slate-500">/mois</span></p>
+                    <p class="mt-3 text-sm text-slate-600">
+                        Pour démarrer : compte + carte Visa + opérations de base.
+                    </p>
+                    <div class="mt-6 space-y-2 text-sm text-slate-600">
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Compte pro + RIB</p>
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Carte Visa</p>
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Virements/prélèvements (quota)</p>
+                    </div>
+                </div>
+
+                <div
+                    class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm hover:shadow-xl transition">
+                    <div class="flex items-center justify-between">
+                        <p class="font-semibold text-slate-900">Confort</p>
+                        <span class="text-xs px-3 py-1.5 rounded-full bg-slate-900 text-white">
+                            Le plus choisi
+                        </span>
+                    </div>
+                    <p class="mt-3 text-3xl font-semibold text-slate-900">17€<span
+                            class="text-base font-medium text-slate-500">/mois</span></p>
+                    <p class="mt-3 text-sm text-slate-600">
+                        Plus d’opérations, encaissement de chèques, assurances de voyage (selon offre).
+                    </p>
+                    <div class="mt-6 space-y-2 text-sm text-slate-600">
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Encaissement chèques (limité)</p>
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Assurances & assistances (premium)</p>
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Protection carte (fraude)</p>
+                    </div>
+                </div>
+
+                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
+                    <div class="flex items-center justify-between">
+                        <p class="font-semibold text-slate-900">Complète</p>
+                        <span class="text-xs px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700">
+                            Avancée
+                        </span>
+                    </div>
+                    <p class="mt-3 text-3xl font-semibold text-slate-900">+<span
+                            class="text-base font-medium text-slate-500"> plafonds</span></p>
+                    <p class="mt-3 text-sm text-slate-600">
+                        Plafonds plus élevés + protections élargies et assistance (selon conditions).
+                    </p>
+                    <div class="mt-6 space-y-2 text-sm text-slate-600">
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Assistance juridique/comptable/fiscale
+                        </p>
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Garanties élargies (France & étranger)
+                        </p>
+                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Plafonds renforcés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fonctionnalités supplémentaires -->
+    <section class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-6">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-sparkles text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Fonctionnalités supplémentaires</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Des services inclus et des options selon vos besoins
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Blank enrichit progressivement ses offres avec des outils pratiques, et propose aussi des
+                            services optionnels
+                            pour aller plus loin (financement, accompagnement, encaissement).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
+                            <div
+                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                                <i class="fa-solid fa-link text-slate-900"></i>
+                            </div>
+                            <p class="mt-4 font-semibold text-slate-900">Agrégation bancaire</p>
+                            <p class="mt-2 text-sm text-slate-600">
+                                Connectez d’autres comptes pour une vue centralisée.
+                            </p>
+                        </div>
+
+                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
+                            <div
+                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                                <i class="fa-solid fa-receipt text-slate-900"></i>
+                            </div>
+                            <p class="mt-4 font-semibold text-slate-900">URSSAF (auto-entrepreneurs)</p>
+                            <p class="mt-2 text-sm text-slate-600">
+                                Outils pour suivre et simplifier certaines déclarations.
+                            </p>
+                        </div>
+
+                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
+                            <div
+                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                                <i class="fa-solid fa-file-signature text-slate-900"></i>
+                            </div>
+                            <p class="mt-4 font-semibold text-slate-900">Devis & factures</p>
+                            <p class="mt-2 text-sm text-slate-600">
+                                Édition rapide de documents professionnels.
+                            </p>
+                        </div>
+
+                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
+                            <div
+                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                                <i class="fa-solid fa-gears text-slate-900"></i>
+                            </div>
+                            <p class="mt-4 font-semibold text-slate-900">Services optionnels</p>
+                            <p class="mt-2 text-sm text-slate-600">
+                                Financement, expert-comptable, TPE, affacturage, création d’activité.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Ouverture de compte -->
+    <section class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-7">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-id-card text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Ouvrir un compte</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Comment ouvrir un compte Blank ?
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            L’ouverture est annoncée comme rapide et sans engagement. En général, vous aurez besoin d’un
+                            numéro SIRET,
+                            d’un numéro de téléphone français et d’une pièce d’identité. L’éligibilité dépend aussi de
+                            la forme juridique
+                            et du type d’activité.
+                        </p>
+
+                        <div class="mt-7 grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                                <p class="font-semibold text-slate-900">Formes acceptées (exemples)</p>
+                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+                                    EI, EIRL, auto-entrepreneurs, EURL, SARL, SASU, SAS, SCI (selon conditions).
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                                <p class="font-semibold text-slate-900">À noter</p>
+                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+                                    Blank n’est généralement pas pensé pour les associations. Certaines activités
+                                    peuvent être exclues
+                                    (ex : jeux d’argent, vente de tabac, etc.).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-8 md:p-10 text-white">
+                        <p class="text-sm font-semibold text-white/90">Conseil Opti’ Scan</p>
+                        <h3 class="mt-2 text-xl font-semibold">
+                            Vérifiez vos volumes d’opérations
+                        </h3>
+                        <p class="mt-4 text-sm text-white/80 leading-relaxed">
+                            Comme certaines formules peuvent inclure un quota de virements/prélèvements mensuels,
+                            estimez votre
+                            rythme d’activité pour éviter les surcoûts (ex : au-delà de 100 opérations, un coût par
+                            transaction
+                            peut s’appliquer).
+                        </p>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
+                            Voir les offres BLANK
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Offres / CTA -->
+    <section id="offres" class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
+                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+                    <div class="max-w-3xl">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
+                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Prêt à comparer Blank avec les autres banques pro ?
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Comparez les formules, les limites d’opérations et les services d’accompagnement pour
+                            choisir
+                            l’offre la plus adaptée à votre activité.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
+                        <a href="#"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
+                            Voir les offres BLANK
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="contact.html"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
+                            Demander un avis
+                            <i class="fa-solid fa-headset"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
+                    <span class="inline-flex items-center gap-2">
+                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
+                        Informations indicatives : consultez les conditions officielles de Blank pour les détails à
+                        jour.
+                    </span>
+                </div>
+            </div>
+
+            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
+                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                    Notre équipe de rédaction est composée de profils spécialisés dans le secteur financier.
+                    Notre objectif : vous aider à choisir le service le plus adapté à vos besoins, grâce à des
+                    comparaisons
+                    claires et des repères concrets.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

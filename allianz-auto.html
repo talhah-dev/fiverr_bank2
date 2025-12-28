@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- ALLIANZ AUTO – Retail Detail Page -->
+    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
+        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <nav class="flex items-center justify-between gap-6 mb-10">
+                <a href="assurances.html"
+                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Retour aux assurances
+                </a>
+
+                <div class="flex items-center gap-2">
+                    <span
+                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                        <i class="fa-solid fa-car text-emerald-600"></i> Auto
+                    </span>
+                    <span
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
+                        <i class="fa-solid fa-globe"></i> Leader mondial
+                    </span>
+                </div>
+            </nav>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-7 space-y-7">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-shield-halved text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Allianz Auto</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
+                        Allianz Auto :
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
+                            leader européen, protection premium sur la route
+                        </span>
+                    </h1>
+
+                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
+                        Allianz Auto est bien plus qu’une assurance voiture : c’est une approche globale de la
+                        protection,
+                        portée par l’un des leaders mondiaux de l’assurance. Des formules ajustables, une assistance
+                        dédiée
+                        et des options de personnalisation pour s’adapter à votre profil de conducteur.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Voir les Offres Allianz Auto
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#resume"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
+                            Découvrir si c’est fait pour vous
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Formules personnalisables
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Assistance 24h/24
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Réseau d’experts & partenaires
+                        </span>
+                    </div>
+                </div>
+
+                <aside class="lg:col-span-5 lg:sticky lg:top-24">
+                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
+                                    <i class="fa-solid fa-car-side"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-semibold text-slate-900">Assurance Auto</p>
+                                    <p class="text-sm text-slate-600">Allianz</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                                <i class="fa-solid fa-star text-amber-500"></i>
+                                Sélection Opti’ Scan
+                            </div>
+                        </div>
+
+                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Positionnement</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Premium</p>
+                                <p class="text-xs text-slate-500 mt-1">Qualité & fiabilité</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Assistance</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">24h/24</p>
+                                <p class="text-xs text-slate-500 mt-1">Soutien en cas d’urgence</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Personnalisation</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Options</p>
+                                <p class="text-xs text-slate-500 mt-1">Selon votre profil</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Réseau</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Étendu</p>
+                                <p class="text-xs text-slate-500 mt-1">Experts & partenaires</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Accéder aux offres Allianz Auto
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <p class="mt-4 text-xs text-slate-500">
+                            Informations indicatives : vérifiez garanties, exclusions, franchises et tarifs sur les
+                            conditions officielles.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Résumé -->
+    <section id="resume" class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-5">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Allianz Auto en résumé</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Une couverture qui vise la tranquillité d’esprit
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Allianz Auto propose une approche “sur mesure” : une base solide, puis des options pour
+                            adapter
+                            le contrat à votre usage réel (kilométrage, valeur du véhicule, niveau de protection,
+                            assistance).
+                            L’objectif : vous offrir un équilibre entre protection, service et réactivité.
+                        </p>
+
+                        <div class="mt-6 space-y-3 text-sm text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Large gamme de formules, de l’essentiel au très complet.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Assistance 24h/24 et accompagnement lors des étapes clés.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Réseau d’experts et partenaires pour accélérer la prise en charge.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <h3 class="text-xl font-semibold text-slate-900">
+                            Ce qui fait la différence : qualité, fiabilité, flexibilité
+                        </h3>
+
+                        <p class="mt-3 text-slate-600 leading-relaxed">
+                            L’intérêt d’une assurance auto “premium” se joue souvent sur les détails :
+                            niveau d’assistance, qualité du suivi, simplicité des démarches et cohérence des garanties.
+                            Allianz met en avant une protection complète et des options de personnalisation selon les
+                            besoins.
+                        </p>
+
+                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-shield text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Protection optimale</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Des garanties pensées pour couvrir les situations importantes.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-headset text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Assistance dédiée</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Un support disponible pour vous accompagner en cas d’imprévu.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-sliders text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Options sur mesure</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Ajustez la couverture selon votre profil et votre véhicule.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-network-wired text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Réseau étendu</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Des partenaires et experts pour une prise en charge efficace.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-7 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
+                            <p class="text-sm font-semibold text-white/90">Mini-checklist avant de choisir</p>
+                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
+                                Franchise • exclusions • assistance (0 km ou non) • garantie conducteur • véhicule de
+                                remplacement • plafond d’indemnisation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Besoin de la meilleure assurance -->
+    <section class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-6">
+                    <div
+                        class="rounded-[2.25rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
+                            <i class="fa-solid fa-crown text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Besoin de la meilleure assurance du marché
+                                ?</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Allianz Auto : un partenaire de confiance pour votre sérénité
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Si vous recherchez une assurance reconnue pour sa fiabilité et la qualité de son
+                            accompagnement,
+                            Allianz Auto se positionne comme une solution premium. De la protection essentielle aux
+                            formules
+                            plus complètes, l’objectif reste le même : une tranquillité d’esprit totale sur la route.
+                        </p>
+
+                        <div class="mt-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
+                                <p class="text-sm font-semibold text-slate-900">Qualité & fiabilité</p>
+                                <p class="mt-2 text-sm text-slate-600">Une réputation solide et un engagement client
+                                    fort.</p>
+                            </div>
+                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
+                                <p class="text-sm font-semibold text-slate-900">Solutions sur mesure</p>
+                                <p class="mt-2 text-sm text-slate-600">Des options pour ajuster précisément votre
+                                    couverture.</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Voir les Offres Allianz Auto
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-10 text-white">
+                        <p class="text-sm font-semibold text-white/90">Conseil Opti’ Scan</p>
+                        <h3 class="mt-2 text-xl font-semibold">
+                            Le bon contrat = le bon niveau de protection (pas juste le prix)
+                        </h3>
+                        <p class="mt-4 text-sm text-white/80 leading-relaxed">
+                            Comparez à garanties équivalentes : assistance, exclusions, franchise, indemnisation, et
+                            garantie conducteur.
+                            C’est souvent là que se joue la vraie valeur d’une assurance.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
+                            Demander un avis
+                            <i class="fa-solid fa-headset"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA + Editorial -->
+    <section id="offres" class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
+                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+                    <div class="max-w-3xl">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
+                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Allianz Auto : comparez et choisissez votre formule
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Sélectionnez une formule cohérente avec votre véhicule et votre usage, puis ajustez les
+                            options
+                            pour obtenir le bon équilibre entre protection, service et budget.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
+                        <a href="#"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
+                            Voir les Offres Allianz Auto
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="contact.html"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
+                            Demander un avis
+                            <i class="fa-solid fa-headset"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
+                    <span class="inline-flex items-center gap-2">
+                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
+                        Informations indicatives : consultez les conditions officielles Allianz Auto pour les détails à
+                        jour.
+                    </span>
+                </div>
+            </div>
+
+            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
+                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                    Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
+                    Notre objectif : faciliter le processus de choix du service financier qui répond le mieux à vos
+                    besoins.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

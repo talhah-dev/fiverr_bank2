@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- DIRECT ASSURANCE HABITATION – Retail Detail Page -->
+    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
+        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <nav class="flex items-center justify-between gap-6 mb-10">
+                <a href="assurances.html"
+                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Retour aux assurances
+                </a>
+
+                <div class="flex items-center gap-2">
+                    <span
+                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                        <i class="fa-solid fa-house text-emerald-600"></i> Habitation
+                    </span>
+                    <span
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
+                        <i class="fa-solid fa-bolt"></i> Devis rapide
+                    </span>
+                </div>
+            </nav>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-7 space-y-7">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-house-chimney-window text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Direct Assurance Habitation</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
+                        Direct Assurance Habitation :
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
+                            un tarif juste, une protection flexible
+                        </span>
+                    </h1>
+
+                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
+                        Direct Assurance Habitation propose une protection complète et accessible pour votre domicile,
+                        avec une souscription en ligne simple et rapide. L’offre met l’accent sur des garanties claires
+                        et personnalisables, pour que vous payiez pour l’essentiel — et uniquement ce qui vous est
+                        utile.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Voir les offres Direct Assurance
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#resume"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
+                            Découvrir si c’est fait pour vous
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            3 formules + packs d’options
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Devis rapide
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Conseiller dédié en cas de sinistre
+                        </span>
+                    </div>
+                </div>
+
+                <aside class="lg:col-span-5 lg:sticky lg:top-24">
+                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-semibold text-slate-900">Assurance Habitation</p>
+                                    <p class="text-sm text-slate-600">Direct Assurance</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                                <i class="fa-solid fa-star text-amber-500"></i>
+                                Sélection Opti’ Scan
+                            </div>
+                        </div>
+
+                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Formules</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">3 niveaux</p>
+                                <p class="text-xs text-slate-500 mt-1">+ 3 packs d’options</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Rapidité</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Devis 2 min</p>
+                                <p class="text-xs text-slate-500 mt-1">Couvert en ~1h</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Assistance</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Relogement</p>
+                                <p class="text-xs text-slate-500 mt-1">Sauvegarde des biens</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Réseau</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">800+ réparateurs</p>
+                                <p class="text-xs text-slate-500 mt-1">après sinistre</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Accéder aux offres Habitation
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <p class="mt-4 text-xs text-slate-500">
+                            Informations indicatives : vérifiez garanties, plafonds, franchises et exclusions sur les
+                            conditions officielles.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Résumé -->
+    <section id="resume" class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-5">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Direct Assurance Habitation en
+                                résumé</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Une protection complète, au bon prix
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            L’offre habitation Direct Assurance mise sur une couverture flexible et une souscription
+                            simple.
+                            Vous choisissez un niveau de protection clair, puis vous ajoutez uniquement les options
+                            utiles
+                            pour votre logement (valeur du mobilier, équipements, garanties renforcées…).
+                        </p>
+
+                        <div class="mt-6 space-y-3 text-sm text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>3 formules + packs d’options, faciles à comprendre.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Souscription rapide : devis en quelques minutes, couverture activée rapidement.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Accompagnement renforcé en cas de sinistre.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <h3 class="text-xl font-semibold text-slate-900">
+                            Les garanties qui comptent (vraiment)
+                        </h3>
+
+                        <p class="mt-3 text-slate-600 leading-relaxed">
+                            Une habitation, c’est souvent votre “base”. L’important est de sécuriser les gros risques
+                            (incendie, dégât des eaux) et d’ajuster les options selon votre quotidien : objets de
+                            valeur,
+                            équipements, dépendances, et niveau de franchise acceptable.
+                        </p>
+
+                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-droplet text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Dégâts des eaux</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Plafonds, franchise, recherche de fuite : vérifiez les détails.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-fire-flame-curved text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Incendie</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Vérifiez l’indemnisation (valeur d’usage / valeur à neuf).
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-user-shield text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Responsabilité civile</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Un “must-have” pour les dommages causés à autrui.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-lock text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Vol</p>
+                                <p class="mt-2 text-sm text-slate-600">
+                                    Conditions de sécurité, objets de valeur, limites.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-7 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
+                            <p class="text-sm font-semibold text-white/90">Mini-checklist</p>
+                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
+                                Plafonds • franchises • exclusions • objets de valeur • assistance • indemnisation (à
+                                neuf ou non).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Points positifs -->
+    <section class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-10">
+                <div class="max-w-3xl">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-sparkles text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Points positifs</span>
+                    </div>
+
+                    <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
+                        Un parcours simple, un accompagnement solide
+                    </h2>
+
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        L’offre met en avant la rapidité de souscription, plusieurs canaux de contact, et une
+                        organisation
+                        efficace en cas de sinistre (conseiller, relogement, réseau de réparateurs).
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-7 hover:shadow-xl transition">
+                    <div
+                        class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                        <i class="fa-solid fa-layer-group text-slate-900"></i>
+                    </div>
+                    <p class="mt-4 font-semibold text-slate-900">Formules claires</p>
+                    <p class="mt-2 text-sm text-slate-600">
+                        3 formules + 3 packs d’options simples et compréhensibles.
+                    </p>
+                </div>
+
+                <div
+                    class="rounded-[2.25rem] border border-slate-200 bg-white p-7 shadow-sm hover:shadow-xl transition">
+                    <div
+                        class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                        <i class="fa-solid fa-stopwatch text-slate-900"></i>
+                    </div>
+                    <p class="mt-4 font-semibold text-slate-900">Rapidité</p>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Devis annoncé en 2 minutes, couverture activée rapidement.
+                    </p>
+                </div>
+
+                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-7 hover:shadow-xl transition">
+                    <div
+                        class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                        <i class="fa-solid fa-comments text-slate-900"></i>
+                    </div>
+                    <p class="mt-4 font-semibold text-slate-900">Facilité de contact</p>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Téléphone, email, réseaux sociaux, Messenger, WhatsApp.
+                    </p>
+                </div>
+
+                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-7 hover:shadow-xl transition">
+                    <div
+                        class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                        <i class="fa-solid fa-user-tie text-slate-900"></i>
+                    </div>
+                    <p class="mt-4 font-semibold text-slate-900">Accompagnement</p>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Un conseiller dédié pour le suivi en cas de sinistre.
+                    </p>
+                </div>
+
+                <div
+                    class="rounded-[2.25rem] border border-slate-200 bg-white p-7 shadow-sm hover:shadow-xl transition">
+                    <div
+                        class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                        <i class="fa-solid fa-house-circle-check text-slate-900"></i>
+                    </div>
+                    <p class="mt-4 font-semibold text-slate-900">Assistance</p>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Relogement possible et sauvegarde de vos biens.
+                    </p>
+                </div>
+
+                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-7 hover:shadow-xl transition">
+                    <div
+                        class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                        <i class="fa-solid fa-screwdriver-wrench text-slate-900"></i>
+                    </div>
+                    <p class="mt-4 font-semibold text-slate-900">Réseau réparateurs</p>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Plus de 800 réparateurs agréés pour les travaux post-sinistre.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pourquoi passer par Direct Assurance Habitation -->
+    <section class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-6">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-piggy-bank text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Passer par Direct Assurance
+                                Habitation</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Une option économique, sans perdre en couverture
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Une assurance habitation bien construite doit protéger efficacement sans ajouter de coûts
+                            inutiles.
+                            L’intérêt de Direct Assurance, c’est de pouvoir choisir une base claire puis d’ajuster les
+                            options,
+                            afin d’obtenir un équilibre entre prix, garanties et assistance.
+                        </p>
+
+                        <div class="mt-7 space-y-3 text-sm text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Vous payez pour le nécessaire + les options réellement utiles.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Gain de temps : devis rapide, souscription annoncée en moins d’une heure.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Accompagnement et réseau de professionnels en cas de sinistre.</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Voir les offres Direct Assurance
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-8 md:p-10 text-white">
+                        <p class="text-sm font-semibold text-white/90">Conseil Opti’ Scan</p>
+                        <h3 class="mt-2 text-xl font-semibold">
+                            Pour un choix malin : comparez aussi les détails “invisibles”
+                        </h3>
+                        <p class="mt-4 text-sm text-white/80 leading-relaxed">
+                            Deux contrats peuvent sembler identiques, mais se différencier sur : la franchise,
+                            le plafond d’indemnisation, la valeur à neuf, la prise en charge recherche de fuite,
+                            ou les conditions vol. C’est souvent là que se joue la qualité réelle du contrat.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
+                            Demander un avis
+                            <i class="fa-solid fa-headset"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA + Editorial -->
+    <section id="offres" class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
+                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+                    <div class="max-w-3xl">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
+                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Direct Assurance Habitation : comparez, puis protégez votre foyer
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Comparez formules, options et franchises, puis choisissez une couverture cohérente avec
+                            votre logement, la valeur de vos biens et votre niveau de risque.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
+                        <a href="#"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
+                            Voir les offres Direct Assurance
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="contact.html"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
+                            Demander un avis
+                            <i class="fa-solid fa-headset"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
+                    <span class="inline-flex items-center gap-2">
+                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
+                        Informations indicatives : consultez les conditions officielles Direct Assurance Habitation pour
+                        les détails à jour.
+                    </span>
+                </div>
+            </div>
+
+            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
+                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                    Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
+                    Notre objectif : faciliter le processus de choix du service financier qui répond le mieux à vos
+                    besoins.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

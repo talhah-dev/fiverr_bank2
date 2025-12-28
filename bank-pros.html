@@ -1,0 +1,2314 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 shrink-0 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- BANK PRO HERO SECTION -->
+<section class="relative overflow-hidden bg-white">
+  <!-- Structured background (different from home & assurance) -->
+  <div class="pointer-events-none absolute inset-0">
+    <div class="absolute inset-y-0 right-0 w-1/2 bg-gray-50"></div>
+    <div class="absolute -top-32 -left-32 h-80 w-80 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-fuchsia-200 blur-3xl opacity-60"></div>
+  </div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="grid items-center gap-10 py-14 md:grid-cols-2 md:py-20">
+      <!-- LEFT: Content -->
+      <div>
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-3 rounded-2xl border border-gray-200 bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm">
+          <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+            <i class="fa-solid fa-briefcase"></i>
+          </span>
+          Banques professionnelles
+        </div>
+
+        <!-- Title -->
+        <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+          La banque pensée pour
+          <span class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+            les professionnels
+          </span>
+        </h1>
+
+        <p class="mt-4 max-w-xl text-lg leading-relaxed text-gray-600">
+          Comparez les meilleures banques pro pour freelances, indépendants, startups et PME.
+          Gagnez du temps, maîtrisez vos frais et choisissez des outils adaptés à votre activité.
+        </p>
+
+        <!-- CTA -->
+        <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+          <a
+            href="#bank-pro-comparator"
+            class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-6 py-3 text-base font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+          >
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            Comparer les banques pro
+          </a>
+
+          <a
+            href="#bank-pro-types"
+            class="inline-flex items-center justify-center gap-2 rounded-2xl border border-gray-200 bg-white px-6 py-3 text-base font-semibold text-gray-900 shadow-sm transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
+          >
+            <i class="fa-solid fa-layer-group"></i>
+            Voir les solutions
+          </a>
+        </div>
+
+        <!-- Key points -->
+        <div class="mt-8 grid gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
+            <div class="flex items-start gap-3">
+              <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-100 text-gray-900">
+                <i class="fa-solid fa-receipt"></i>
+              </span>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Facturation</p>
+                <p class="text-xs text-gray-600">Devis & factures intégrés</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
+            <div class="flex items-start gap-3">
+              <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-100 text-gray-900">
+                <i class="fa-solid fa-credit-card"></i>
+              </span>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Cartes pro</p>
+                <p class="text-xs text-gray-600">Gestion des dépenses</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
+            <div class="flex items-start gap-3">
+              <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-100 text-gray-900">
+                <i class="fa-solid fa-chart-line"></i>
+              </span>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Pilotage</p>
+                <p class="text-xs text-gray-600">Suivi temps réel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Business-focused visual (different layout) -->
+      <div class="relative">
+        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-xl">
+          <div class="flex items-center justify-between">
+            <p class="text-sm font-extrabold text-gray-900">Aperçu compte pro</p>
+            <span class="rounded-full bg-gray-900 px-3 py-1 text-xs font-semibold text-white">
+              Pro
+            </span>
+          </div>
+
+          <div class="mt-6 space-y-4">
+            <div class="flex items-center justify-between rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3">
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-building text-gray-700"></i>
+                <span class="text-sm font-semibold text-gray-900">Entreprise</span>
+              </div>
+              <span class="text-xs text-gray-600">Freelance / PME</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3">
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-euro-sign text-gray-700"></i>
+                <span class="text-sm font-semibold text-gray-900">Frais mensuels</span>
+              </div>
+              <span class="text-xs text-gray-600">0€ → 15€</span>
+            </div>
+
+            <div class="flex items-center justify-between rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3">
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-file-invoice text-gray-700"></i>
+                <span class="text-sm font-semibold text-gray-900">Outils</span>
+              </div>
+              <span class="text-xs text-gray-600">Factures • TVA • Export</span>
+            </div>
+          </div>
+
+          <a
+            href="#bank-pro-comparator"
+            class="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-rose-500/20 transition hover:opacity-95"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+            Voir les meilleures banques pro
+          </a>
+
+          <p class="mt-3 text-center text-xs text-gray-500">
+            *Comparatif informatif — souscription sur le site du partenaire.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BANK PRO TYPES SECTION -->
+<section id="bank-pro-types" class="relative bg-gray-50 py-12 sm:py-16">
+  <!-- subtle accents -->
+  <div class="pointer-events-none absolute inset-0">
+    <div class="absolute -top-28 right-10 h-72 w-72 rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-35"></div>
+  </div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+          Choisissez votre profil pro
+        </h2>
+        <p class="mt-2 max-w-2xl text-gray-600">
+          Des offres différentes selon votre activité : freelance, auto-entrepreneur, startup ou PME.
+        </p>
+      </div>
+
+      <a
+        href="#bank-pro-comparator"
+        class="inline-flex items-center gap-2 self-start rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+      >
+        <i class="fa-solid fa-bolt"></i>
+        Comparer maintenant
+      </a>
+    </div>
+
+    <div class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <!-- Freelance -->
+      <a
+        href="#freelance"
+        class="group rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+      >
+        <div class="flex items-start justify-between gap-4">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+            <i class="fa-solid fa-laptop-code"></i>
+          </span>
+
+          <span class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            Simple
+          </span>
+        </div>
+
+        <h3 class="mt-4 text-lg font-extrabold text-gray-900">Freelance</h3>
+        <p class="mt-2 text-sm leading-relaxed text-gray-600">
+          Une banque pro légère : carte, virements, IBAN, suivi des dépenses.
+        </p>
+
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">IBAN</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Carte</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Export</span>
+        </div>
+
+        <div class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+          Voir les offres
+          <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+        </div>
+      </a>
+
+      <!-- Auto-entrepreneur -->
+      <a
+        href="#auto-entrepreneur"
+        class="group rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+      >
+        <div class="flex items-start justify-between gap-4">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+            <i class="fa-solid fa-user-tie"></i>
+          </span>
+
+          <span class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            Micro
+          </span>
+        </div>
+
+        <h3 class="mt-4 text-lg font-extrabold text-gray-900">Auto-entrepreneur</h3>
+        <p class="mt-2 text-sm leading-relaxed text-gray-600">
+          Encaissements simplifiés, justificatifs, catégorisation et outils pratiques.
+        </p>
+
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Encaissements</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Justificatifs</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Catégories</span>
+        </div>
+
+        <div class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+          Voir les offres
+          <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+        </div>
+      </a>
+
+      <!-- Startup -->
+      <a
+        href="#startup"
+        class="group rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+      >
+        <div class="flex items-start justify-between gap-4">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+            <i class="fa-solid fa-rocket"></i>
+          </span>
+
+          <span class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            Équipe
+          </span>
+        </div>
+
+        <h3 class="mt-4 text-lg font-extrabold text-gray-900">Startup</h3>
+        <p class="mt-2 text-sm leading-relaxed text-gray-600">
+          Cartes multi-utilisateurs, limites, exports compta, gestion d’abonnements.
+        </p>
+
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Multi-cartes</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Limites</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Exports</span>
+        </div>
+
+        <div class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+          Voir les offres
+          <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+        </div>
+      </a>
+
+      <!-- PME -->
+      <a
+        href="#pme"
+        class="group rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+      >
+        <div class="flex items-start justify-between gap-4">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-900 text-white shadow">
+            <i class="fa-solid fa-building"></i>
+          </span>
+
+          <span class="inline-flex items-center gap-2 rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            Gestion
+          </span>
+        </div>
+
+        <h3 class="mt-4 text-lg font-extrabold text-gray-900">PME</h3>
+        <p class="mt-2 text-sm leading-relaxed text-gray-600">
+          Besoins avancés : équipe, comptabilité, encaissements, financement.
+        </p>
+
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Compta</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Équipe</span>
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">Financement</span>
+        </div>
+
+        <div class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gray-900">
+          Voir les offres
+          <i class="fa-solid fa-arrow-right transition group-hover:translate-x-0.5"></i>
+        </div>
+      </a>
+    </div>
+
+    <!-- Mini CTA banner -->
+    <div class="mt-10 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p class="text-sm font-semibold text-gray-700">Conseil</p>
+          <p class="mt-1 text-xl font-extrabold text-gray-900 sm:text-2xl">
+            Choisissez une banque pro selon votre activité, pas seulement le prix.
+          </p>
+          <p class="mt-2 max-w-2xl text-sm text-gray-600">
+            Comparez aussi : outils de facturation, encaissements, cartes supplémentaires, exports comptables et support.
+          </p>
+        </div>
+
+        <a
+          href="#bank-pro-comparator"
+          class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+        >
+          <i class="fa-solid fa-arrow-right"></i>
+          Lancer la comparaison
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BANK PRO TOP OFFERS SECTION -->
+<section id="bank-pro-top-offers" class="relative bg-white py-12 sm:py-16">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+          Banques pro les plus comparées
+        </h2>
+        <p class="mt-2 max-w-2xl text-gray-600">
+          Comparez les comptes professionnels selon vos besoins : frais, cartes, outils, accompagnement et services.
+        </p>
+      </div>
+
+      <a
+        href="#bank-pro-comparator"
+        class="inline-flex items-center gap-2 self-start rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+      >
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+        Comparer
+      </a>
+    </div>
+
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Hello Bank Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-fuchsia-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/hello-bank-pro.png" alt="Hello Bank Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Hello Bank Pro</p>
+              <p class="text-xs text-gray-500">Compte pro adossé à BNP Paribas</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">9.0 / 10</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Compte professionnel complet</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Carte Visa Business</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Réseau d’agences BNP</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-building-columns mr-1"></i> Réseau
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+
+      <!-- Blank Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/blank-pro.png" alt="Blank Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Blank Pro</p>
+              <p class="text-xs text-gray-500">Idéal pour indépendants & freelances</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">9.5 / 10</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Compte 100% en ligne</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Outils de facturation</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Support réactif</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-user mr-1"></i> Freelance
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+
+      <!-- Qonto Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-violet-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/qonto-pro.png" alt="Qonto Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Qonto Pro</p>
+              <p class="text-xs text-gray-500">Référence pour PME & startups</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">8.6 / 10</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Multi-comptes & cartes</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Gestion des équipes</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Intégrations comptables</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-rocket mr-1"></i> Startup
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+
+      <!-- Fiducial Banque Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-violet-200 via-rose-200 to-amber-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/fiducial-pro.png" alt="Fiducial Banque Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Fiducial Banque Pro</p>
+              <p class="text-xs text-gray-500">Banque dédiée aux professionnels</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">9.1 / 10</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>IBAN français</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Accompagnement comptable</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Solutions de paiement</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-file-invoice mr-1"></i> Comptabilité
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+
+      <!-- Shine Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-fuchsia-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/shine-pro.png" alt="Shine Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Shine Pro</p>
+              <p class="text-xs text-gray-500">Simple et pensé pour freelances</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">8.4 / 10</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Compte pro rapide</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Facturation intégrée</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Assurances incluses</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-briefcase mr-1"></i> Indépendant
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+
+      <!-- Memo Bank Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-violet-200 via-rose-200 to-amber-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/memo-bank-pro.png" alt="Memo Bank Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Memo Bank Pro</p>
+              <p class="text-xs text-gray-500">Banque pour PME ambitieuses</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">8.7 / 10</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>IBAN français</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Crédit professionnel</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Gestion avancée</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-chart-line mr-1"></i> PME
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+
+      <!-- Monabanq Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-amber-200 via-rose-200 to-fuchsia-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/monabanq-pro.png" alt="Monabanq Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Monabanq Pro</p>
+              <p class="text-xs text-gray-500">Banque accessible et humaine</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">9.0 / 10</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Service client reconnu</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Carte bancaire incluse</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Sans condition de revenus</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-handshake mr-1"></i> Accompagnement
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+
+      <!-- Finom Pro -->
+      <article class="group relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg sm:col-span-2 lg:col-span-1">
+        <div class="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-gradient-to-br from-violet-200 via-rose-200 to-amber-200 blur-2xl opacity-60"></div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <img src="assets/banks-pro/finom-pro.png" alt="Finom Pro" class="h-full w-full object-contain p-2" />
+            </div>
+            <div>
+              <p class="text-sm font-extrabold text-gray-900">Finom Pro</p>
+              <p class="text-xs text-gray-500">Compte pro moderne européen</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="text-xs text-gray-500">Note</p>
+            <p class="text-lg font-extrabold text-gray-900">—</p>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-sm text-gray-600">
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Cashback sur dépenses</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Facturation & devis</li>
+          <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-gray-900"></i>Interface intuitive</li>
+        </ul>
+        <div class="mt-6 flex items-center justify-between">
+          <span class="rounded-full bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+            <i class="fa-solid fa-globe mr-1"></i> Europe
+          </span>
+          <a href="#" class="rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+            Voir l’offre
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <div class="mt-10 flex justify-center">
+      <a
+        href="#bank-pro-comparator"
+        class="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-rose-500/20 transition hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+      >
+        <i class="fa-solid fa-arrow-right"></i>
+        Voir toutes les banques pro
+      </a>
+    </div>
+
+    <p class="mt-4 text-center text-xs text-gray-500">
+      Logos à remplacer par vos fichiers (ex : <span class="font-semibold">assets/banks-pro/logo.png</span>).
+    </p>
+  </div>
+</section>
+
+
+<!-- BANK PRO COMPARISON TABLE SECTION -->
+<section id="bank-pro-comparator" class="relative bg-gray-50 py-12 sm:py-16">
+  <!-- subtle background -->
+  <div class="pointer-events-none absolute inset-0">
+    <div class="absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-35"></div>
+  </div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+          Tableau comparatif — Banques pro
+        </h2>
+        <p class="mt-2 max-w-2xl text-gray-600">
+          Comparez rapidement les services essentiels : encaissements, chéquier, découvert autorisé et dépôt d’espèces.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-2 sm:flex-row sm:items-center">
+        <a
+          href="#bank-pro-top-offers"
+          class="inline-flex items-center justify-center gap-2 rounded-2xl border border-gray-200 bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm transition hover:bg-gray-50"
+        >
+          <i class="fa-solid fa-list"></i>
+          Voir les offres
+        </a>
+
+        <a
+          href="contact.html"
+          class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          Nous contacter
+        </a>
+      </div>
+    </div>
+
+    <!-- Table card -->
+    <div class="mt-8 overflow-hidden rounded-[2rem] border border-gray-200 bg-white shadow-xl">
+      <!-- Header row -->
+      <div class="hidden grid-cols-12 gap-0 bg-gray-900 px-6 py-4 text-xs font-semibold uppercase tracking-wide text-white/90 md:grid">
+        <div class="col-span-3">Banque</div>
+        <div class="col-span-3">Statuts juridiques</div>
+        <div class="col-span-2">Tarifs mensuels</div>
+        <div class="col-span-1 text-center">Encaisser chèques</div>
+        <div class="col-span-1 text-center">Chéquier</div>
+        <div class="col-span-1 text-center">Découvert</div>
+        <div class="col-span-1 text-center">Dépôt espèces</div>
+      </div>
+
+      <!-- Rows -->
+      <div class="divide-y divide-gray-200">
+        <!-- Row 1 -->
+        <div class="grid grid-cols-1 gap-4 px-6 py-6 md:grid-cols-12 md:items-center">
+          <!-- Bank -->
+          <div class="md:col-span-3">
+            <div class="flex items-center gap-3">
+              <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                <img src="assets/banks-pro/hello-bank-pro.png" alt="Hello Bank Pro" class="h-full w-full object-contain p-2" />
+              </div>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Hello Bank Pro</p>
+                <p class="text-xs text-gray-500">adossé à BNP Paribas</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Legal status -->
+          <div class="md:col-span-3">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Statuts juridiques</p>
+            <p class="text-sm text-gray-700">Auto-entrepreneurs, EI, sociétés</p>
+            <p class="mt-1 text-xs text-gray-500">Accès réseau d’agences</p>
+          </div>
+
+          <!-- Pricing -->
+          <div class="md:col-span-2">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Tarifs mensuels</p>
+            <p class="text-sm font-extrabold text-gray-900">10,90€ HT</p>
+            <p class="mt-1 text-xs text-gray-500">Selon formule</p>
+          </div>
+
+          <!-- Features -->
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Encaisser chèques</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Chéquier</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Découvert</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Dépôt espèces</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <!-- Row CTA -->
+          <div class="md:col-span-12 mt-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between md:mt-0">
+            <p class="text-xs text-gray-500">
+              Conseil : idéal si vous avez besoin d’un <span class="font-semibold">réseau d’agences</span> et de services classiques.
+            </p>
+            <a href="#" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+              Détails <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="grid grid-cols-1 gap-4 px-6 py-6 md:grid-cols-12 md:items-center">
+          <div class="md:col-span-3">
+            <div class="flex items-center gap-3">
+              <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                <img src="assets/banks-pro/qonto-pro.png" alt="Qonto Pro" class="h-full w-full object-contain p-2" />
+              </div>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Qonto Pro</p>
+                <p class="text-xs text-gray-500">PME & startups</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-3">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Statuts juridiques</p>
+            <p class="text-sm text-gray-700">Tous professionnels</p>
+            <p class="mt-1 text-xs text-gray-500">Gestion d’équipe + intégrations</p>
+          </div>
+
+          <div class="md:col-span-2">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Tarifs mensuels</p>
+            <p class="text-sm text-gray-700">Dès <span class="font-extrabold text-gray-900">9€</span></p>
+            <p class="mt-1 text-xs text-gray-500">Selon offre entreprise</p>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Encaisser chèques</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Chéquier</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Découvert</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Dépôt espèces</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-12 mt-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between md:mt-0">
+            <p class="text-xs text-gray-500">
+              Pour les équipes : <span class="font-semibold">multi-cartes</span>, rôles et exports compta.
+            </p>
+            <a href="#" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+              Détails <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="grid grid-cols-1 gap-4 px-6 py-6 md:grid-cols-12 md:items-center">
+          <div class="md:col-span-3">
+            <div class="flex items-center gap-3">
+              <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                <img src="assets/banks-pro/blank-pro.png" alt="Blank Pro" class="h-full w-full object-contain p-2" />
+              </div>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Blank Pro</p>
+                <p class="text-xs text-gray-500">Indépendants & freelances</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-3">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Statuts juridiques</p>
+            <p class="text-sm text-gray-700">Tous professionnels</p>
+            <p class="mt-1 text-xs text-gray-500">Facturation & suivi</p>
+          </div>
+
+          <div class="md:col-span-2">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Tarifs mensuels</p>
+            <p class="text-sm text-gray-700">Dès <span class="font-extrabold text-gray-900">6€</span>/mois</p>
+            <p class="mt-1 text-xs text-gray-500">Selon formule</p>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Encaisser chèques</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Chéquier</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Découvert</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Dépôt espèces</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-12 mt-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between md:mt-0">
+            <p class="text-xs text-gray-500">
+              Bon choix si vous cherchez une solution <span class="font-semibold">simple</span> + outils de facturation.
+            </p>
+            <a href="#" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+              Détails <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="grid grid-cols-1 gap-4 px-6 py-6 md:grid-cols-12 md:items-center">
+          <div class="md:col-span-3">
+            <div class="flex items-center gap-3">
+              <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                <img src="assets/banks-pro/memo-bank-pro.png" alt="Memo Bank Pro" class="h-full w-full object-contain p-2" />
+              </div>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Memo Bank Pro</p>
+                <p class="text-xs text-gray-500">PME ambitieuses</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-3">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Statuts juridiques</p>
+            <p class="text-sm text-gray-700">PME & entreprises</p>
+            <p class="mt-1 text-xs text-gray-500">Gestion avancée</p>
+          </div>
+
+          <div class="md:col-span-2">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Tarifs mensuels</p>
+            <p class="text-sm text-gray-700">Dès <span class="font-extrabold text-gray-900">49€</span> HT</p>
+            <p class="mt-1 text-xs text-gray-500">Selon offre</p>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Encaisser chèques</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Chéquier</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Découvert</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Dépôt espèces</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-12 mt-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between md:mt-0">
+            <p class="text-xs text-gray-500">
+              Plutôt adapté aux structures qui veulent des <span class="font-semibold">fonctionnalités avancées</span>.
+            </p>
+            <a href="#" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+              Détails <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="grid grid-cols-1 gap-4 px-6 py-6 md:grid-cols-12 md:items-center">
+          <div class="md:col-span-3">
+            <div class="flex items-center gap-3">
+              <div class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                <img src="assets/banks-pro/fiducial-pro.png" alt="Fiducial Banque Pro" class="h-full w-full object-contain p-2" />
+              </div>
+              <div>
+                <p class="text-sm font-extrabold text-gray-900">Fiducial Banque Pro</p>
+                <p class="text-xs text-gray-500">Accompagnement comptable</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-3">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Statuts juridiques</p>
+            <p class="text-sm text-gray-700">Tous professionnels</p>
+            <p class="mt-1 text-xs text-gray-500">CA selon conditions</p>
+          </div>
+
+          <div class="md:col-span-2">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Tarifs mensuels</p>
+            <p class="text-sm text-gray-700">Base <span class="font-extrabold text-gray-900">12€</span>/mois</p>
+            <p class="mt-1 text-xs text-gray-500">Plus / Excellence</p>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Encaisser chèques</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Chéquier</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Découvert</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-rose-50 px-3 py-2 text-rose-600 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-1 md:flex md:justify-center">
+            <p class="text-sm font-semibold text-gray-900 md:hidden">Dépôt espèces</p>
+            <span class="inline-flex items-center justify-center rounded-xl bg-emerald-50 px-3 py-2 text-emerald-700 md:bg-transparent md:px-0">
+              <i class="fa-solid fa-check text-lg"></i>
+            </span>
+          </div>
+
+          <div class="md:col-span-12 mt-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between md:mt-0">
+            <p class="text-xs text-gray-500">
+              Solution intéressante si vous voulez <span class="font-semibold">IBAN FR</span> + dépôt espèces selon offre.
+            </p>
+            <a href="#" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-gray-800">
+              Détails <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile note -->
+    <p class="mt-4 text-center text-xs text-gray-500">
+      Sur mobile, chaque ligne s’adapte en cartes pour une lecture simple.
+    </p>
+  </div>
+</section>
+
+
+    <!-- Banque Pros Hero Section -->
+    <section class="relative pt-28 pb-20 bg-white overflow-hidden">
+        <div class="absolute -top-24 -left-24 w-[420px] h-[420px] bg-blue-500/15 rounded-full blur-3xl"></div>
+        <div class="absolute top-24 -right-24 w-[420px] h-[420px] bg-emerald-500/15 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+
+                <div class="space-y-7">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 bg-white/70 backdrop-blur">
+                        <i class="fa-solid fa-briefcase text-slate-700"></i>
+                        <span class="text-sm text-slate-700 font-medium">banque-pros</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl xl:text-6xl font-semibold tracking-tight text-slate-900">
+                        Les banques en ligne pour les pros qui innovent
+                    </h1>
+
+                    <p class="text-lg text-slate-600 max-w-xl">
+                        Zéro frais de paiement dans le monde
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="/bank-pros.html"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Comparer les offres
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="/contact.html"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
+                            Voir la méthode
+                            <i class="fa-solid fa-circle-info"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-globe text-emerald-600"></i>
+                            Paiements internationaux
+                        </span>
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-receipt text-emerald-600"></i>
+                            Gestion pro simplifiée
+                        </span>
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-shield-check text-emerald-600"></i>
+                            Comparaison transparente
+                        </span>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="relative w-full max-w-xl ml-auto">
+
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-emerald-500/10 rounded-[2rem] blur-2xl">
+                        </div>
+
+                        <div
+                            class="relative rounded-[2rem] border border-slate-200 bg-white/70 backdrop-blur p-6 md:p-8 shadow-xl">
+                            <div class="flex items-center justify-between mb-6">
+                                <div class="flex items-center gap-3">
+                                    <div
+                                        class="h-12 w-12 shrink-0 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
+                                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-semibold text-slate-900">Sélection Pro</p>
+                                        <p class="text-sm text-slate-600">Innovantes & internationales</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
+                                    <i class="fa-solid fa-bolt"></i>
+                                    Top choix
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 gap-4">
+                                <div
+                                    class="rounded-2xl border border-slate-200 bg-white p-5 hover:shadow-lg transition">
+                                    <div class="flex items-center justify-between">
+                                        <p class="font-semibold text-slate-900">Banque Pro Innovante</p>
+                                        <span class="text-sm text-emerald-600 font-medium">
+                                            <i class="fa-solid fa-star"></i> 9.6
+                                        </span>
+                                    </div>
+                                    <div class="mt-3 flex flex-wrap gap-3 text-sm text-slate-600">
+                                        <span
+                                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200">
+                                            <i class="fa-solid fa-globe text-emerald-600"></i> Zéro frais à l’étranger
+                                        </span>
+                                        <span
+                                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200">
+                                            <i class="fa-solid fa-file-invoice text-emerald-600"></i> Facturation
+                                        </span>
+                                        <span
+                                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200">
+                                            <i class="fa-solid fa-headset text-emerald-600"></i> Support dédié
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="rounded-2xl border border-slate-200 bg-white p-5 hover:shadow-lg transition">
+                                    <div class="flex items-center justify-between">
+                                        <p class="font-semibold text-slate-900">Banque Pro Internationale</p>
+                                        <span class="text-sm text-emerald-600 font-medium">
+                                            <i class="fa-solid fa-star"></i> 9.3
+                                        </span>
+                                    </div>
+                                    <div class="mt-3 flex flex-wrap gap-3 text-sm text-slate-600">
+                                        <span
+                                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200">
+                                            <i class="fa-solid fa-coins text-emerald-600"></i> Frais réduits
+                                        </span>
+                                        <span
+                                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200">
+                                            <i class="fa-solid fa-credit-card text-emerald-600"></i> Cartes pro
+                                        </span>
+                                        <span
+                                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200">
+                                            <i class="fa-solid fa-chart-line text-emerald-600"></i> Suivi dépenses
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 flex flex-wrap items-center justify-between gap-4">
+                                <div class="text-sm text-slate-600">
+                                    <span class="font-medium text-slate-900">Objectif :</span> paiements pro partout,
+                                    sans frais inutiles.
+                                </div>
+                                <a href="#comparatifs"
+                                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-900 hover:opacity-80 transition">
+                                    Voir le comparatif
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="absolute -bottom-8 -left-8 hidden md:block">
+                            <div class="rounded-2xl border border-slate-200 bg-white shadow-lg px-5 py-4">
+                                <p class="text-xs text-slate-500">Focus</p>
+                                <p class="text-sm font-semibold text-slate-900 mt-1">Zéro frais de paiement</p>
+                                <p class="text-sm text-slate-600 mt-1 flex items-center gap-2">
+                                    <i class="fa-solid fa-globe text-emerald-600"></i>
+                                    Dans le monde entier
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why a Pro Online Bank Section -->
+    <section class="relative md:py-24 py-8 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
+
+                <div class="space-y-5">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 bg-slate-50">
+                        <i class="fa-solid fa-piggy-bank text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Pourquoi choisir une banque pro en ligne</span>
+                    </div>
+
+                    <h2 class="text-3xl md:text-4xl font-semibold text-slate-900">
+                        Faites des économies sans sacrifier la qualité
+                    </h2>
+
+                    <p class="text-slate-600 leading-relaxed max-w-xl">
+                        Ouvrir un compte pro en ligne permet souvent de réduire fortement les coûts de gestion au
+                        quotidien.
+                        Là où les banques traditionnelles appliquent des frais plus élevés, les banques pro digitales
+                        proposent
+                        des formules plus accessibles et plus simples à piloter.
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed max-w-xl">
+                        Ces solutions sont particulièrement adaptées aux indépendants, auto-entrepreneurs, artisans,
+                        freelances
+                        et petites structures (TPE) qui veulent une expérience rapide, moderne et rentable.
+                    </p>
+
+                    <div class="flex flex-wrap gap-3 pt-2">
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-sm text-slate-700">
+                            <i class="fa-solid fa-bolt text-emerald-600"></i> Ouverture rapide
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-sm text-slate-700">
+                            <i class="fa-solid fa-receipt text-emerald-600"></i> Suivi des dépenses
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-sm text-slate-700">
+                            <i class="fa-solid fa-globe text-emerald-600"></i> Paiements internationaux
+                        </span>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+                    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 hover:shadow-lg transition">
+                        <div
+                            class="h-12 w-12 shrink-0 rounded-2xl bg-white border border-slate-200 flex items-center justify-center mb-4">
+                            <i class="fa-solid fa-tag text-slate-900"></i>
+                        </div>
+                        <h3 class="font-semibold text-slate-900">Frais plus bas</h3>
+                        <p class="text-sm text-slate-600 mt-2">
+                            Des offres souvent bien plus abordables que les banques traditionnelles, avec une
+                            tarification plus claire.
+                        </p>
+                    </div>
+
+                    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 hover:shadow-lg transition">
+                        <div
+                            class="h-12 w-12 shrink-0 rounded-2xl bg-white border border-slate-200 flex items-center justify-center mb-4">
+                            <i class="fa-solid fa-mobile-screen-button text-slate-900"></i>
+                        </div>
+                        <h3 class="font-semibold text-slate-900">Gestion 100% en ligne</h3>
+                        <p class="text-sm text-slate-600 mt-2">
+                            Dashboard, cartes, virements et justificatifs : tout se gère rapidement depuis votre
+                            ordinateur ou mobile.
+                        </p>
+                    </div>
+
+                    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 hover:shadow-lg transition">
+                        <div
+                            class="h-12 w-12 shrink-0 rounded-2xl bg-white border border-slate-200 flex items-center justify-center mb-4">
+                            <i class="fa-solid fa-user-gear text-slate-900"></i>
+                        </div>
+                        <h3 class="font-semibold text-slate-900">Parfait pour petites structures</h3>
+                        <p class="text-sm text-slate-600 mt-2">
+                            Auto-entrepreneurs, artisans, freelances et TPE : des services pensés pour un quotidien
+                            simple et efficace.
+                        </p>
+                    </div>
+
+                    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 hover:shadow-lg transition">
+                        <div
+                            class="h-12 w-12 shrink-0 rounded-2xl bg-white border border-slate-200 flex items-center justify-center mb-4">
+                            <i class="fa-solid fa-globe text-slate-900"></i>
+                        </div>
+                        <h3 class="font-semibold text-slate-900">Activité internationale</h3>
+                        <p class="text-sm text-slate-600 mt-2">
+                            Des options intéressantes pour payer et encaisser à l’étranger, selon l’offre choisie.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="relative md:pb-20 py-10 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- Hello Bank Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/helloPoe.png" alt="Hello Bank Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 9.2 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Hello Bank Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Compte pro adossé à BNP Paribas</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Compte professionnel complet</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Carte Visa Business</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Réseau d’agences BNP</li>
+                        </ul>
+
+                        <a href="/hello-bank-pro.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blank Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/blank.png" alt="Blank Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 9.0 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Blank Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Idéal pour indépendants & freelances</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Compte 100% en ligne</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Outils de facturation</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Support réactif</li>
+                        </ul>
+
+                        <a href="/blankpro.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Qonto Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/qonto.jpg" alt="Qonto Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 9.5 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Qonto Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Référence pour PME & startups</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Multi-comptes & cartes</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Gestion des équipes</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Intégrations comptables</li>
+                        </ul>
+
+                        <a href="/qontopro.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Fiducial Banque Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/Fiduical.png" alt="Fiducial Banque Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.6 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Fiducial Banque Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Banque dédiée aux professionnels</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>IBAN français</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Accompagnement comptable</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Solutions de paiement</li>
+                        </ul>
+
+                        <a href="/banque-fiducial.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Shine Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/shine.png" alt="Shine Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 9.1 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Shine Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Simple et pensé pour freelances</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Compte pro rapide</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Facturation intégrée</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Assurances incluses</li>
+                        </ul>
+
+                        <a href="/shinepro.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Memo Bank Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/memo.png" alt="Memo Bank Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.4 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Memo Bank Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Banque pour PME ambitieuses</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>IBAN français</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Crédit professionnel</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Gestion avancée</li>
+                        </ul>
+
+                        <a href="/memobank.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Monabanq Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/mona.png" alt="Monabanq Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 8.7 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Monabanq Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Banque accessible et humaine</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Service client reconnu</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Carte bancaire incluse</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Sans condition de revenus</li>
+                        </ul>
+
+                        <a href="/monabanqpro.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Finom Pro -->
+                <div data-aos="fade-up">
+                    <div
+                        class="relative p-8 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-xl transition">
+                        <div class="flex items-start justify-between mb-6">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-20 h-20 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden">
+                                    <img src="/docs/assets/images/finom.jpg" alt="Finom Pro"
+                                        class="w-16 h-16 object-contain" loading="lazy">
+                                </div>
+                                <span class="text-sm font-medium text-emerald-600">
+                                    <i class="fa-solid fa-star"></i> 9.0 / 10
+                                </span>
+                            </div>
+                            <i class="fa-solid fa-building-columns text-slate-400"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-900 mb-1">Finom Pro</h3>
+                        <p class="text-sm text-slate-600 mb-4">Compte pro moderne européen</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Cashback sur dépenses</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Facturation & devis</li>
+                            <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i>Interface intuitive</li>
+                        </ul>
+
+                        <a href="/finom.html"
+                            class="inline-flex w-full justify-center py-3 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                            Voir l’avis
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Pro Online Banks Ranking Intro -->
+    <section class="relative md:py-24 py-8 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="max-w-3xl mb-14">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 mb-5">
+                    <i class="fa-solid fa-ranking-star text-emerald-600"></i>
+                    <span class="text-sm font-medium text-slate-700">
+                        Classement Opti’ Scan
+                    </span>
+                </div>
+
+                <h2 class="text-3xl md:text-4xl font-semibold text-slate-900">
+                    Banques en ligne pro : notre sélection des meilleures offres
+                </h2>
+
+                <p class="mt-5 text-slate-600 leading-relaxed">
+                    Pendant longtemps, les professionnels – entreprises, artisans, indépendants et auto-entrepreneurs –
+                    n’avaient pratiquement qu’une seule option : ouvrir un compte professionnel dans une banque
+                    traditionnelle,
+                    souvent coûteuse et peu flexible.
+                </p>
+
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    Aujourd’hui, les banques en ligne et les néobanques ont profondément transformé le paysage bancaire
+                    professionnel. Elles proposent désormais des comptes pro plus accessibles, avec une ouverture
+                    rapide,
+                    des outils digitaux performants et des tarifs généralement mieux adaptés aux petites structures.
+                </p>
+
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    Chez <strong class="text-slate-900">Opti’ Scan</strong>, nous avons analysé ces solutions afin de
+                    vous
+                    présenter un classement clair et objectif des banques pro en ligne les plus pertinentes, selon les
+                    besoins
+                    des auto-entrepreneurs, freelances, artisans et TPE.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 hover:shadow-lg transition">
+                    <div
+                        class="h-12 w-12 shrink-0 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-scale-balanced text-slate-900"></i>
+                    </div>
+                    <h3 class="font-semibold text-slate-900 mb-2">
+                        Comparaison objective
+                    </h3>
+                    <p class="text-sm text-slate-600">
+                        Nos classements reposent sur des critères concrets : frais, services inclus, conditions d’accès,
+                        outils de gestion et retours utilisateurs.
+                    </p>
+                </div>
+
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 hover:shadow-lg transition">
+                    <div
+                        class="h-12 w-12 shrink-0 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-user-tie text-slate-900"></i>
+                    </div>
+                    <h3 class="font-semibold text-slate-900 mb-2">
+                        Pensé pour les pros
+                    </h3>
+                    <p class="text-sm text-slate-600">
+                        Les offres sélectionnées sont adaptées aux besoins des professionnels : encaissements,
+                        cartes pro, facturation, suivi comptable et paiements à l’étranger.
+                    </p>
+                </div>
+
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 hover:shadow-lg transition">
+                    <div
+                        class="h-12 w-12 shrink-0 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-filter text-slate-900"></i>
+                    </div>
+                    <h3 class="font-semibold text-slate-900 mb-2">
+                        Sélection évolutive
+                    </h3>
+                    <p class="text-sm text-slate-600">
+                        Ce classement n’est pas exhaustif et évolue régulièrement afin de refléter
+                        les nouvelles offres et les changements du marché.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="mt-14 flex flex-wrap items-center gap-6">
+                <a href="/bank-pros.html"
+                    class="inline-flex items-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                    Voir le classement
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <p class="text-sm text-slate-500">
+                    Classement basé sur des critères transparents · Mis à jour régulièrement
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="comparatif-banque-pro" class="relative md:py-24 py-8 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="max-w-3xl mb-12">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                    <i class="fa-solid fa-table text-emerald-600"></i>
+                    <span class="text-sm font-medium text-slate-700">Tableau comparatif</span>
+                </div>
+                <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
+                    Banque en ligne pro : aperçu des offres et services
+                </h2>
+                <p class="mt-4 text-slate-600">
+                    Comparaison rapide des statuts acceptés, tarifs mensuels et services clés (chéquier, découvert,
+                    dépôt espèces).
+                </p>
+            </div>
+
+            <!-- Desktop / Tablet table -->
+            <div class="hidden lg:block rounded-3xl border border-slate-200 overflow-hidden bg-white shadow-sm">
+                <div class="overflow-x-auto">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-slate-900 text-white">
+                                <th class="px-6 py-4 text-left text-sm font-semibold">Banque</th>
+                                <th class="px-6 py-4 text-left text-sm font-semibold">Statuts juridiques</th>
+                                <th class="px-6 py-4 text-left text-sm font-semibold">Tarifs mensuels</th>
+                                <th class="px-6 py-4 text-center text-sm font-semibold">Encaisser chéquier</th>
+                                <th class="px-6 py-4 text-center text-sm font-semibold">Chéquier</th>
+                                <th class="px-6 py-4 text-center text-sm font-semibold">Découvert autorisé</th>
+                                <th class="px-6 py-4 text-center text-sm font-semibold">Dépôt espèces</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="divide-y divide-slate-200">
+
+                            <!-- Hello bank! Pro -->
+                            <tr class="bg-white">
+                                <td class="px-6 py-6 align-top">
+                                    <div class="font-semibold text-slate-900">Hello bank! Pro</div>
+                                    <div class="text-sm text-slate-500">par BNP Paribas</div>
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    Auto-entrepreneurs, entreprises individuelles
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    <div class="font-semibold text-slate-900">10,90€ HT</div>
+                                    <div class="text-sm text-slate-600 mt-1">Utilisation de guichets automatiques BNP
+                                        Paribas</div>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                </td>
+                            </tr>
+
+                            <!-- Qonto -->
+                            <tr class="bg-slate-50">
+                                <td class="px-6 py-6 align-top">
+                                    <div class="font-semibold text-slate-900">Qonto</div>
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    Tous professionnels
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    <div>Compte individuel : <span class="font-semibold text-slate-900">9€</span></div>
+                                    <div class="mt-1">Entreprises : <span class="font-semibold text-slate-900">de 29€ à
+                                            299€</span></div>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                            </tr>
+
+                            <!-- Blank -->
+                            <tr class="bg-white">
+                                <td class="px-6 py-6 align-top">
+                                    <div class="font-semibold text-slate-900">Blank</div>
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    Tous professionnels
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    <div>Simple : <span class="font-semibold text-slate-900">6€/mois</span></div>
+                                    <div class="mt-1">Confort : <span
+                                            class="font-semibold text-slate-900">17€/mois</span></div>
+                                    <div class="mt-1">Complète : <span
+                                            class="font-semibold text-slate-900">39€/mois</span></div>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                            </tr>
+
+                            <!-- Memo Bank -->
+                            <tr class="bg-slate-50">
+                                <td class="px-6 py-6 align-top">
+                                    <div class="font-semibold text-slate-900">Memo Bank</div>
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    TPE et PME dès 2 millions de chiffres d'affaires/an
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    <div>Basique : <span class="font-semibold text-slate-900">49€/mois HT</span></div>
+                                    <div class="mt-1">Plus : <span class="font-semibold text-slate-900">149€/mois
+                                            HT</span></div>
+                                    <div class="mt-1">Illimité : <span class="font-semibold text-slate-900">399€/mois
+                                            HT</span></div>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                            </tr>
+
+                            <!-- Fiducial Banque -->
+                            <tr class="bg-white">
+                                <td class="px-6 py-6 align-top">
+                                    <div class="font-semibold text-slate-900">Fiducial Banque</div>
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    Tous professionnels (CA inférieur à 2 millions d'euros/an)
+                                </td>
+                                <td class="px-6 py-6 align-top text-slate-700">
+                                    <div>Base : <span class="font-semibold text-slate-900">12€/mois</span></div>
+                                    <div class="mt-1">Plus : <span class="font-semibold text-slate-900">25€/mois</span>
+                                    </div>
+                                    <div class="mt-1">Excellence : <span
+                                            class="font-semibold text-slate-900">45€/mois</span></div>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <div class="flex flex-col items-center gap-1">
+                                        <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                        <span class="text-xs text-slate-500">Selon offre</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <i class="fa-solid fa-xmark text-rose-600 text-xl"></i>
+                                </td>
+                                <td class="px-6 py-6 text-center align-top">
+                                    <div class="flex flex-col items-center gap-1">
+                                        <i class="fa-solid fa-check text-emerald-600 text-xl"></i>
+                                        <span class="text-xs text-slate-500">Selon offre</span>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Mobile cards -->
+            <div class="lg:hidden space-y-5">
+                <div class="rounded-2xl border border-slate-200 p-6 bg-white shadow-sm">
+                    <div class="flex items-start justify-between gap-4">
+                        <div>
+                            <p class="font-semibold text-slate-900">Hello bank! Pro</p>
+                            <p class="text-sm text-slate-500">par BNP Paribas</p>
+                        </div>
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
+                            <i class="fa-solid fa-briefcase"></i> Pro
+                        </span>
+                    </div>
+
+                    <div class="mt-5 grid grid-cols-1 gap-4 text-sm">
+                        <div>
+                            <p class="text-slate-500">Statuts juridiques</p>
+                            <p class="text-slate-800 mt-1">Auto-entrepreneurs, entreprises individuelles</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-500">Tarifs mensuels</p>
+                            <p class="text-slate-800 mt-1"><span class="font-semibold text-slate-900">10,90€ HT</span>
+                            </p>
+                            <p class="text-slate-600 mt-1">Utilisation de guichets automatiques BNP Paribas</p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Encaisser chéquier</span>
+                                <i class="fa-solid fa-check text-emerald-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Chéquier</span>
+                                <i class="fa-solid fa-check text-emerald-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Découvert</span>
+                                <i class="fa-solid fa-check text-emerald-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Dépôt espèces</span>
+                                <i class="fa-solid fa-check text-emerald-600"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6 bg-white shadow-sm">
+                    <p class="font-semibold text-slate-900">Qonto</p>
+                    <div class="mt-5 grid grid-cols-1 gap-4 text-sm">
+                        <div>
+                            <p class="text-slate-500">Statuts juridiques</p>
+                            <p class="text-slate-800 mt-1">Tous professionnels</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-500">Tarifs mensuels</p>
+                            <p class="text-slate-800 mt-1">Compte individuel : <span
+                                    class="font-semibold text-slate-900">9€</span></p>
+                            <p class="text-slate-800 mt-1">Entreprises : <span class="font-semibold text-slate-900">de
+                                    29€ à 299€</span></p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Encaisser chéquier</span>
+                                <i class="fa-solid fa-check text-emerald-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Chéquier</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Découvert</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Dépôt espèces</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6 bg-white shadow-sm">
+                    <p class="font-semibold text-slate-900">Blank</p>
+                    <div class="mt-5 grid grid-cols-1 gap-4 text-sm">
+                        <div>
+                            <p class="text-slate-500">Statuts juridiques</p>
+                            <p class="text-slate-800 mt-1">Tous professionnels</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-500">Tarifs mensuels</p>
+                            <p class="text-slate-800 mt-1">Simple : <span
+                                    class="font-semibold text-slate-900">6€/mois</span></p>
+                            <p class="text-slate-800 mt-1">Confort : <span
+                                    class="font-semibold text-slate-900">17€/mois</span></p>
+                            <p class="text-slate-800 mt-1">Complète : <span
+                                    class="font-semibold text-slate-900">39€/mois</span></p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Encaisser chéquier</span>
+                                <i class="fa-solid fa-check text-emerald-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Chéquier</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Découvert</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Dépôt espèces</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6 bg-white shadow-sm">
+                    <p class="font-semibold text-slate-900">Memo Bank</p>
+                    <div class="mt-5 grid grid-cols-1 gap-4 text-sm">
+                        <div>
+                            <p class="text-slate-500">Statuts juridiques</p>
+                            <p class="text-slate-800 mt-1">TPE et PME dès 2 millions de chiffres d'affaires/an</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-500">Tarifs mensuels</p>
+                            <p class="text-slate-800 mt-1">Basique : <span class="font-semibold text-slate-900">49€/mois
+                                    HT</span></p>
+                            <p class="text-slate-800 mt-1">Plus : <span class="font-semibold text-slate-900">149€/mois
+                                    HT</span></p>
+                            <p class="text-slate-800 mt-1">Illimité : <span
+                                    class="font-semibold text-slate-900">399€/mois HT</span></p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Encaisser chéquier</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Chéquier</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Découvert</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Dépôt espèces</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6 bg-white shadow-sm">
+                    <p class="font-semibold text-slate-900">Fiducial Banque</p>
+                    <div class="mt-5 grid grid-cols-1 gap-4 text-sm">
+                        <div>
+                            <p class="text-slate-500">Statuts juridiques</p>
+                            <p class="text-slate-800 mt-1">Tous professionnels (CA inférieur à 2 millions d'euros/an)
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-slate-500">Tarifs mensuels</p>
+                            <p class="text-slate-800 mt-1">Base : <span
+                                    class="font-semibold text-slate-900">12€/mois</span></p>
+                            <p class="text-slate-800 mt-1">Plus : <span
+                                    class="font-semibold text-slate-900">25€/mois</span></p>
+                            <p class="text-slate-800 mt-1">Excellence : <span
+                                    class="font-semibold text-slate-900">45€/mois</span></p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Encaisser chéquier</span>
+                                <i class="fa-solid fa-check text-emerald-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Chéquier</span>
+                                <span class="flex items-center gap-2">
+                                    <i class="fa-solid fa-check text-emerald-600"></i>
+                                    <span class="text-xs text-slate-500">Selon offre</span>
+                                </span>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Découvert</span>
+                                <i class="fa-solid fa-xmark text-rose-600"></i>
+                            </div>
+                            <div class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-3">
+                                <span class="text-slate-700">Dépôt espèces</span>
+                                <span class="flex items-center gap-2">
+                                    <i class="fa-solid fa-check text-emerald-600"></i>
+                                    <span class="text-xs text-slate-500">Selon offre</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="mt-8 text-xs text-slate-500">
+                Données présentées à titre informatif, susceptibles d’évoluer selon les offres et conditions des
+                établissements.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- Legal Note / Pro Account Obligation -->
+    <section class="relative md:py-24 py-8 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+
+                <div class="space-y-5">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-circle-exclamation text-amber-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Point important</span>
+                    </div>
+
+                    <h2 class="text-3xl md:text-4xl font-semibold text-slate-900">
+                        Compte pro : ce qu’il faut savoir avant d’ouvrir
+                    </h2>
+
+                    <p class="text-slate-600 leading-relaxed max-w-xl">
+                        Pour la majorité des activités professionnelles, disposer d’un compte dédié est une étape
+                        essentielle pour
+                        séparer les dépenses personnelles et les flux liés à l’activité. Cela peut se faire via une
+                        banque pro en
+                        ligne ou un établissement traditionnel.
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed max-w-xl">
+                        Les auto-entrepreneurs peuvent parfois utiliser un second compte pour distinguer leur activité,
+                        mais dans la pratique, certaines banques limitent ou refusent l’ouverture d’un simple compte
+                        personnel
+                        destiné à un usage pro, afin d’orienter vers des offres professionnelles.
+                    </p>
+                </div>
+
+                <div class="space-y-6">
+
+                    <div
+                        class="rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-8 shadow-sm">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="h-12 w-12 shrink-0 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                <i class="fa-solid fa-briefcase text-slate-900"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">Séparer activité & personnel</h3>
+                                <p class="text-sm text-slate-600 mt-2">
+                                    Un compte dédié facilite le suivi comptable, la gestion des dépenses et la lecture
+                                    de votre trésorerie.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-8 shadow-sm">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="h-12 w-12 shrink-0 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                <i class="fa-solid fa-user-shield text-slate-900"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">Auto-entrepreneurs : attention aux conditions
+                                </h3>
+                                <p class="text-sm text-slate-600 mt-2">
+                                    Certaines banques appliquent des règles strictes sur l’usage d’un compte personnel
+                                    pour une activité
+                                    pro et privilégient des formules professionnelles (souvent plus chères).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-3xl border border-slate-200 bg-slate-900 p-8 text-white shadow-sm">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="h-12 w-12 shrink-0 rounded-2xl bg-white/10 border border-white/15 flex items-center justify-center">
+                                <i class="fa-solid fa-lightbulb text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Conseil Opti’ Scan</h3>
+                                <p class="text-sm text-white/80 mt-2">
+                                    Avant d’ouvrir, comparez : frais mensuels, dépôts (chèques/espèces), cartes,
+                                    paiements à l’étranger
+                                    et outils de gestion. Une offre adaptée vous fait gagner du temps et de l’argent.
+                                </p>
+                                <a href="#comparatif-banque-pro"
+                                    class="inline-flex items-center gap-2 mt-5 text-sm font-medium text-white hover:opacity-90 transition">
+                                    Voir le comparatif
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-xs text-slate-500">
+                        Informations générales à visée pédagogique. Les obligations et conditions peuvent varier selon
+                        votre activité
+                        et les politiques des établissements.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

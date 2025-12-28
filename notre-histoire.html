@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 shrink-0 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <!-- background accents -->
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-44 -right-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-70">
+            </div>
+            <div
+                class="absolute -bottom-52 -left-52 h-[34rem] w-[34rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-70">
+            </div>
+        </div>
+
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="mx-auto max-w-3xl text-center">
+                <div
+                    class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/80 px-3 py-1 text-sm text-gray-700 shadow-sm backdrop-blur">
+                    <span
+                        class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white">
+                        <i class="fa-solid fa-cloud"></i>
+                    </span>
+                    <span class="font-semibold">Nuage Comparateur</span>
+                    <span class="text-gray-400">•</span>
+                    <span class="text-gray-600">À propos</span>
+                </div>
+
+                <h1 class="mt-4 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    À propos de Nuage Comparateur
+                </h1>
+
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                    Nuage Comparateur vous aide à trouver l’offre bancaire ou assurance la plus adaptée, grâce à des
+                    comparatifs
+                    clairs, des sélections mises en avant et des contenus explicatifs pensés pour simplifier vos
+                    décisions.
+                </p>
+            </div>
+
+            <!-- Content blocks -->
+            <div class="mt-10 grid gap-6 lg:grid-cols-3">
+                <!-- Left: Narrative -->
+                <div class="lg:col-span-2 space-y-6">
+                    <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Notre mission
+                        </h2>
+                        <p class="mt-3 text-base leading-relaxed text-gray-600">
+                            Dans un univers digital riche et parfois confus, notre objectif est simple : vous faire
+                            gagner du temps et
+                            vous aider à comparer sans stress. Nous présentons les informations essentielles (frais,
+                            services, avantages,
+                            conditions) de manière lisible afin que vous puissiez faire un choix éclairé.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <div class="flex items-start gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-scale-balanced"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-extrabold text-gray-900">Clarté</p>
+                                        <p class="text-xs text-gray-600">Infos utiles, sans jargon</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <div class="flex items-start gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-extrabold text-gray-900">Confiance</p>
+                                        <p class="text-xs text-gray-600">Approche responsable</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <div class="flex items-start gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-bolt"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-extrabold text-gray-900">Efficacité</p>
+                                        <p class="text-xs text-gray-600">Comparer en minutes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Notre histoire
+                        </h2>
+                        <p class="mt-3 text-base leading-relaxed text-gray-600">
+                            Nuage Comparateur est né d’une idée simple : rendre les comparaisons financières plus
+                            accessibles.
+                            Avec le temps, nous avons structuré nos pages pour aller à l’essentiel et aider les
+                            internautes à repérer
+                            rapidement les options qui correspondent à leur profil, qu’il soit personnel ou
+                            professionnel.
+                        </p>
+                        <p class="mt-3 text-base leading-relaxed text-gray-600">
+                            Aujourd’hui, nous continuons à améliorer l’expérience, à enrichir les contenus et à rendre
+                            les comparatifs
+                            plus intuitifs, afin de vous accompagner dans vos décisions au quotidien.
+                        </p>
+                    </div>
+
+                    <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Notre méthodologie de sélection
+                        </h2>
+
+                        <div class="mt-6 space-y-4">
+                            <div class="flex gap-4 rounded-2xl border border-gray-200 bg-white p-5">
+                                <div
+                                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-extrabold text-gray-900">Recherche & synthèse</p>
+                                    <p class="mt-1 text-sm leading-relaxed text-gray-600">
+                                        Nous analysons les offres disponibles (tarifs, conditions, services) pour en
+                                        extraire l’essentiel et
+                                        présenter une lecture simple et comparative.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4 rounded-2xl border border-gray-200 bg-white p-5">
+                                <div
+                                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-extrabold text-gray-900">Analyse & critères</p>
+                                    <p class="mt-1 text-sm leading-relaxed text-gray-600">
+                                        Nous comparons selon des critères clés (frais, carte, avantages, accessibilité,
+                                        support) et mettons en
+                                        avant ce qui compte vraiment selon l’usage.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4 rounded-2xl border border-gray-200 bg-white p-5">
+                                <div
+                                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                    <i class="fa-solid fa-sliders"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-extrabold text-gray-900">Personnalisation</p>
+                                    <p class="mt-1 text-sm leading-relaxed text-gray-600">
+                                        L’objectif est d’aider chaque utilisateur à se rapprocher d’une offre adaptée :
+                                        particulier, pro,
+                                        mobilité internationale, budget, etc.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Des outils pour décider en confiance
+                        </h2>
+                        <p class="mt-3 text-base leading-relaxed text-gray-600">
+                            Nous développons des pages comparatives lisibles et des contenus analytiques pour rendre la
+                            décision plus
+                            simple. Notre conviction : une information claire et structurée est le meilleur levier pour
+                            choisir
+                            efficacement, sans perdre de temps.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right: Sidebar cards -->
+                <aside class="space-y-6">
+                    <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur">
+                        <h3 class="text-base font-extrabold text-gray-900">Notre engagement</h3>
+                        <ul class="mt-4 space-y-3 text-sm text-gray-600">
+                            <li class="flex gap-3">
+                                <span
+                                    class="mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                    <i class="fa-solid fa-eye"></i>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Transparence</p>
+                                    <p class="text-xs text-gray-600">Informations claires et vérifiables</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-3">
+                                <span
+                                    class="mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                    <i class="fa-solid fa-user-shield"></i>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Respect</p>
+                                    <p class="text-xs text-gray-600">Pas d’inscription obligatoire</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-3">
+                                <span
+                                    class="mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                    <i class="fa-solid fa-heart"></i>
+                                </span>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Utilisateur d’abord</p>
+                                    <p class="text-xs text-gray-600">Expérience simple et agréable</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur">
+                        <h3 class="text-base font-extrabold text-gray-900">Une équipe dédiée</h3>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Des profils complémentaires (contenu, produit, data, tech) travaillent ensemble pour
+                            structurer les
+                            comparaisons et améliorer l’expérience utilisateur.
+                        </p>
+
+                        <div class="mt-5 grid gap-3">
+                            <div
+                                class="flex items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-gray-800">
+                                        <i class="fa-solid fa-pen-nib"></i>
+                                    </span>
+                                    <p class="text-sm font-semibold text-gray-900">Contenu & éditorial</p>
+                                </div>
+                                <i class="fa-solid fa-check text-gray-900"></i>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-gray-800">
+                                        <i class="fa-solid fa-chart-pie"></i>
+                                    </span>
+                                    <p class="text-sm font-semibold text-gray-900">Analyse & données</p>
+                                </div>
+                                <i class="fa-solid fa-check text-gray-900"></i>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-gray-800">
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </span>
+                                    <p class="text-sm font-semibold text-gray-900">Produit & UX</p>
+                                </div>
+                                <i class="fa-solid fa-check text-gray-900"></i>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-between rounded-2xl border border-gray-200 bg-white px-4 py-3">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-100 text-gray-800">
+                                        <i class="fa-solid fa-code"></i>
+                                    </span>
+                                    <p class="text-sm font-semibold text-gray-900">Technologie</p>
+                                </div>
+                                <i class="fa-solid fa-check text-gray-900"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-3xl border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                        <h3 class="text-base font-extrabold text-white">Besoin d’aide ?</h3>
+                        <p class="mt-2 text-sm text-gray-300">
+                            Si vous avez une question sur une comparaison ou une offre, contactez-nous.
+                        </p>
+                        <a href="contact.html"
+                            class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-gray-900 shadow transition hover:bg-gray-100">
+                            <i class="fa-solid fa-envelope"></i>
+                            Nous contacter
+                        </a>
+                        <p class="mt-3 text-center text-xs text-gray-400">
+                            Réponse sous 24–48h ouvrées
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

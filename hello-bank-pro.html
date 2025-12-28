@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+
+    <!-- Hello Bank Pro (Hello Business) – Retail Detail Page -->
+    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
+        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <nav class="flex items-center justify-between gap-6 mb-10">
+                <a href="banque-pros.html"
+                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Retour aux banques pro
+                </a>
+
+                <div class="flex items-center gap-2">
+                    <span
+                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                        <i class="fa-solid fa-briefcase text-emerald-600"></i> Banque Pro
+                    </span>
+                    <span
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
+                        <i class="fa-solid fa-bolt"></i> Virements instantanés
+                    </span>
+                </div>
+            </nav>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-7 space-y-7">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-credit-card text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Hello Bank! Pro</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
+                        Hello Business :
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
+                            le compte pro pensé pour les auto-entrepreneurs
+                        </span>
+                    </h1>
+
+                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
+                        Le compte professionnel proposé par Hello Bank! pour les indépendants s’appelle <span
+                            class="font-medium text-slate-900">Hello Business</span>.
+                        Découvrez rapidement si cette offre correspond à votre activité, votre façon d’encaisser et vos
+                        besoins au quotidien.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Voir les offres Hello Bank! Pro
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#resume"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
+                            Lire le résumé
+                            <i class="fa-solid fa-book-open"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Ciblé auto-entrepreneurs & indépendants
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Réseau BNP Paribas (dépôts)
+                        </span>
+                        <span class="inline-flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            Carte Visa Business
+                        </span>
+                    </div>
+                </div>
+
+                <aside class="lg:col-span-5 lg:sticky lg:top-24">
+                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-semibold text-slate-900">Hello Business</p>
+                                    <p class="text-sm text-slate-600">Hello Bank! Pro</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                                <i class="fa-solid fa-star text-amber-500"></i>
+                                Sélection Opti’ Scan
+                            </div>
+                        </div>
+
+                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Tarif mensuel</p>
+                                <p class="mt-1 text-lg font-semibold text-slate-900">10,90 € HT</p>
+                                <p class="text-xs text-slate-500 mt-1">≈ 11,90 € TTC</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Pour qui ?</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Auto-entrepreneurs</p>
+                                <p class="text-xs text-slate-500 mt-1">Indépendants / EI</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Encaissements</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Chèques + espèces</p>
+                                <p class="text-xs text-slate-500 mt-1">Via BNP Paribas</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                                <p class="text-xs text-slate-500">Carte</p>
+                                <p class="mt-1 text-sm font-semibold text-slate-900">Visa Business</p>
+                                <p class="text-xs text-slate-500 mt-1">Garanties pro</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Accéder aux offres
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <p class="mt-4 text-xs text-slate-500">
+                            Les informations et tarifs peuvent évoluer selon l’offre et les conditions.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Résumé -->
+    <section id="resume" class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-5">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Hello Bank! Pro en résumé</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            L’essentiel à retenir
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Pour un auto-entrepreneur, disposer d’un compte dédié à l’activité est devenu
+                            incontournable.
+                            Les banques en ligne peuvent offrir un excellent rapport services/prix.
+                            Hello Business se positionne comme une solution complète, avec des fonctionnalités pro et
+                            des avantages
+                            rarement disponibles chez les comptes 100% digitaux.
+                        </p>
+
+                        <div class="mt-6 space-y-3 text-sm text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Virements et prélèvements illimités, gestion au quotidien simplifiée.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Accès aux distributeurs BNP Paribas : retrait + dépôts (chèques et espèces).</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Carte Visa Business avec garanties adaptées aux déplacements pro.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
+                        <h3 class="text-xl font-semibold text-slate-900">
+                            Pour quels profils ?
+                        </h3>
+                        <p class="mt-3 text-slate-600 leading-relaxed">
+                            Hello Business vise principalement les auto-entrepreneurs et travailleurs indépendants :
+                            commerçants, artisans, freelances, professions libérales. Les TPE/PME ne sont pas l’audience
+                            principale
+                            de cette offre à l’heure actuelle.
+                        </p>
+
+                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-5">
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-hammer text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Artisans</p>
+                                <p class="mt-2 text-sm text-slate-600">Encaissements variés, besoins concrets.</p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-laptop text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Freelances</p>
+                                <p class="mt-2 text-sm text-slate-600">Facturation, suivi, virements.</p>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                                <div
+                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <i class="fa-solid fa-stethoscope text-slate-900"></i>
+                                </div>
+                                <p class="mt-4 font-semibold text-slate-900">Prof. libérales</p>
+                                <p class="mt-2 text-sm text-slate-600">Gestion claire & sécurisée.</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center gap-2 mt-8 text-sm font-medium text-slate-900 hover:opacity-80 transition">
+                            Voir les offres
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantage BNP Paribas -->
+    <section class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+                <div class="lg:col-span-6">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-location-dot text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Atout clé</span>
+                    </div>
+
+                    <h2 class="mt-6 text-3xl md:text-4xl font-semibold text-slate-900">
+                        Accès aux distributeurs BNP Paribas : un vrai plus
+                    </h2>
+
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        L’un des grands avantages de Hello Business, c’est l’accès aux distributeurs BNP Paribas.
+                        Vous pouvez non seulement retirer, mais aussi déposer des chèques et de l’argent liquide.
+                        Pour les professionnels qui encaissent encore en espèces ou par chèque, cet aspect peut faire
+                        toute la différence.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 md:p-10">
+                        <p class="text-sm font-semibold text-slate-900">Pourquoi c’est important ?</p>
+
+                        <div class="mt-5 space-y-4 text-sm text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Dépôt de chèques sans envoi postal.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Dépôt d’espèces, rare chez de nombreuses offres pro 100% en ligne.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Plus de souplesse pour les activités de proximité.</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-7 rounded-2xl border border-slate-200 bg-white p-6">
+                            <p class="text-sm font-semibold text-slate-900">En bref</p>
+                            <p class="mt-2 text-sm text-slate-600">
+                                Si vous encaissez régulièrement en espèces ou chèques, Hello Business peut être plus
+                                pratique
+                                que d’autres alternatives purement digitales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Pro -->
+    <section class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-10">
+                <div class="max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
+                        <i class="fa-solid fa-briefcase text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Services pour les pros</span>
+                    </div>
+
+                    <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
+                        Les services qui complètent le compte
+                    </h2>
+
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        Au-delà des essentiels (compte, RIB, virements illimités, carte Visa Business),
+                        Hello Business propose des outils et services utiles pour gérer l’activité.
+                    </p>
+                </div>
+
+                <a href="#offres"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                    Voir les offres
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="rounded-3xl border border-slate-200 bg-white p-8 hover:shadow-xl transition">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                            <i class="fa-solid fa-file-invoice text-slate-900"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-900">Mon Business Assistant Start</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Un outil pour créer et gérer devis, factures et avoirs, avec une base clients,
+                                envoi par email et une synthèse mensuelle incluant le calcul de TVA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-3xl border border-slate-200 bg-white p-8 hover:shadow-xl transition">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                            <i class="fa-solid fa-mobile-screen-button text-slate-900"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-900">Encaissement avec Lyf Pro</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                En attendant un terminal dédié, possibilité d’encaisser avec un smartphone.
+                                Chaque transaction peut être facturée selon un pourcentage du montant.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-3xl border border-slate-200 bg-white p-8 hover:shadow-xl transition">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                            <i class="fa-solid fa-shield-halved text-slate-900"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-900">Assurances & assistances</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                La carte Visa Business peut inclure des garanties utiles en déplacements pro :
+                                assistance, protections voyage, indemnités selon conditions, location de véhicule.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-3xl border border-slate-200 bg-white p-8 hover:shadow-xl transition">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
+                            <i class="fa-solid fa-bolt text-slate-900"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-900">Virements instantanés</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Les virements instantanés deviennent un standard : l’objectif est de simplifier
+                                les paiements rapides, sans surcoût, quel que soit le type d’offre.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifs -->
+    <section class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-6">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                        <i class="fa-solid fa-euro-sign text-emerald-600"></i>
+                        <span class="text-sm font-medium text-slate-700">Tarifs</span>
+                    </div>
+
+                    <h2 class="mt-6 text-3xl md:text-4xl font-semibold text-slate-900">
+                        Un prix plus élevé, mais une offre très complète
+                    </h2>
+
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        Hello Business est proposé autour de 10,90 € HT/mois. Le tarif peut être légèrement supérieur à
+                        certaines alternatives d’entrée de gamme, mais il s’explique par l’ensemble des services inclus
+                        et l’accès aux dépôts (chèques/espèces) via BNP Paribas.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 md:p-10">
+                        <p class="text-sm font-semibold text-slate-900">Inclus (selon conditions)</p>
+                        <div class="mt-5 space-y-3 text-sm text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Paiements et retraits par carte : pas de commission en zone euro et hors zone euro.
+                                </p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Aucun frais de mouvement (selon offre).</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                                <p>Services pro (facturation, encaissement, garanties carte).</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Voir les offres Hello Bank! Pro
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Éligibilité -->
+    <section class="relative py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-7">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
+                            <i class="fa-solid fa-id-card text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Conditions d’éligibilité</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Qui peut ouvrir un compte Hello Business ?
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Le compte Hello Business est destiné aux personnes majeures résidant en France
+                            pouvant exercer une activité en tant qu’auto-entrepreneur ou entrepreneur individuel.
+                            L’ouverture se fait en ligne, avec signature électronique et dépôt de justificatifs.
+                        </p>
+
+                        <div class="mt-7 grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                                <p class="font-semibold text-slate-900">Pièces usuelles</p>
+                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
+                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Pièce d’identité</li>
+                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Justificatif de domicile
+                                    </li>
+                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Immatriculation / preuve
+                                        d’activité</li>
+                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>RIB UE à votre nom</li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
+                                <p class="font-semibold text-slate-900">Activation</p>
+                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+                                    Un premier virement d’activation peut être requis (montant variable selon
+                                    conditions),
+                                    afin de finaliser l’ouverture du compte.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5">
+                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-8 md:p-10 text-white">
+                        <p class="text-sm font-semibold text-white/90">Bon à savoir</p>
+                        <h3 class="mt-2 text-xl font-semibold">
+                            3 options pour un auto-entrepreneur
+                        </h3>
+
+                        <div class="mt-5 space-y-4 text-sm text-white/80">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-1 text-white mt-0.5"></i>
+                                <p>Compte professionnel classique : souvent plus cher, pensé pour structures plus
+                                    grandes.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-2 text-white mt-0.5"></i>
+                                <p>Compte dédié micro-entrepreneur : tarifs adaptés, fonctionnalités pro essentielles.
+                                </p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-3 text-white mt-0.5"></i>
+                                <p>Compte individuel dédié à l’activité : possible mais parfois difficile à obtenir en
+                                    pratique.</p>
+                            </div>
+                        </div>
+
+                        <a href="#offres"
+                            class="inline-flex items-center justify-center gap-2 mt-8 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
+                            Voir les offres Hello Bank! Pro
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Offres / CTA -->
+    <section id="offres" class="relative py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
+                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+                    <div class="max-w-3xl">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
+                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
+                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
+                        </div>
+
+                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
+                            Prêt à vérifier si Hello Business est fait pour vous ?
+                        </h2>
+
+                        <p class="mt-4 text-slate-600 leading-relaxed">
+                            Comparez les options, les services inclus et les conditions d’ouverture pour choisir le
+                            compte
+                            pro le plus adapté à votre activité.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
+                        <a href="#"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
+                            Voir les offres Hello Bank! Pro
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="contact.html"
+                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
+                            Demander un avis
+                            <i class="fa-solid fa-headset"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
+                    <span class="inline-flex items-center gap-2">
+                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
+                        Article informatif : vérifiez les conditions officielles avant souscription.
+                    </span>
+                </div>
+            </div>
+
+            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
+                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                    Notre équipe de rédaction est composée de profils spécialisés dans le secteur financier.
+                    Notre objectif : vous aider à choisir le service le plus adapté à vos besoins, grâce à des
+                    comparaisons
+                    claires et des repères concrets.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

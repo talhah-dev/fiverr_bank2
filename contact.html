@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 shrink-0 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+
+    <main class="relative overflow-hidden">
+        <!-- Background accents -->
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-44 -right-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-70">
+            </div>
+            <div
+                class="absolute -bottom-52 -left-52 h-[34rem] w-[34rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-70">
+            </div>
+        </div>
+
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <!-- Header / Intro -->
+            <section class="py-10 sm:py-14">
+                <a href="/"
+                    class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white/70 px-4 py-2 text-sm font-semibold text-gray-800 shadow-sm backdrop-blur transition hover:bg-white">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Retour à l’accueil
+                </a>
+
+                <div class="mt-8 grid gap-10 lg:grid-cols-2 lg:items-center">
+                    <div>
+                        <div
+                            class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/80 px-3 py-1 text-sm text-gray-700 shadow-sm backdrop-blur">
+                            <span
+                                class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white">
+                                <i class="fa-solid fa-cloud"></i>
+                            </span>
+                            <span class="font-semibold">Nuage Comparateur</span>
+                            <span class="text-gray-400">•</span>
+                            <span class="text-gray-600">Contact</span>
+                        </div>
+
+                        <h1 class="mt-4 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+                            Contactez-nous
+                        </h1>
+                        <p class="mt-4 max-w-xl text-lg leading-relaxed text-gray-600">
+                            Une question sur une comparaison, une suggestion, ou besoin d’aide ?
+                            Écrivez-nous — nous répondons généralement sous <span class="font-semibold text-gray-900">24
+                                à 48h</span>.
+                        </p>
+
+                        <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                                <div class="flex items-start gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-extrabold text-gray-900">Email</p>
+                                        <p class="text-xs text-gray-600">support@nuagecomparateur.fr</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                                <div class="flex items-start gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-extrabold text-gray-900">Délai</p>
+                                        <p class="text-xs text-gray-600">24–48h ouvrées</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                                <div class="flex items-start gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-extrabold text-gray-900">Confidentialité</p>
+                                        <p class="text-xs text-gray-600">Sans compte requis</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Premium highlight card -->
+                    <div class="relative">
+                        <div
+                            class="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-fuchsia-500/20 via-rose-500/20 to-amber-400/20 blur-2xl">
+                        </div>
+
+                        <div
+                            class="relative rounded-[2rem] border border-gray-200 bg-white/80 p-6 shadow-xl backdrop-blur sm:p-8">
+                            <div class="flex items-start justify-between gap-4">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-600 via-rose-600 to-amber-500 text-white shadow">
+                                        <i class="fa-solid fa-headset"></i>
+                                    </span>
+                                    <div>
+                                        <p class="text-sm font-extrabold text-gray-900">Support & Informations</p>
+                                        <p class="text-xs text-gray-500">Conseils et orientation</p>
+                                    </div>
+                                </div>
+
+                                <span
+                                    class="inline-flex items-center gap-2 rounded-full bg-gray-900 px-3 py-1 text-xs font-semibold text-white">
+                                    <i class="fa-solid fa-badge-check"></i>
+                                    Assistance
+                                </span>
+                            </div>
+
+                            <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                                <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                    <p class="text-sm font-extrabold text-gray-900">
+                                        <i class="fa-solid fa-circle-question mr-2 text-gray-700"></i>Questions
+                                        fréquentes
+                                    </p>
+                                    <p class="mt-2 text-sm text-gray-600">
+                                        Offres, conditions, redirections partenaires, fonctionnement du comparateur.
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                    <p class="text-sm font-extrabold text-gray-900">
+                                        <i class="fa-solid fa-flag mr-2 text-gray-700"></i>Signaler une info
+                                    </p>
+                                    <p class="mt-2 text-sm text-gray-600">
+                                        Une offre a changé ? Dites-nous, on met à jour.
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl border border-gray-200 bg-white p-4 sm:col-span-2">
+                                    <p class="text-sm font-extrabold text-gray-900">
+                                        <i class="fa-solid fa-lock mr-2 text-gray-700"></i>Important
+                                    </p>
+                                    <p class="mt-2 text-sm text-gray-600">
+                                        Nuage Comparateur est un site informatif. L’ouverture de compte se fait sur le
+                                        site du partenaire.
+                                        Ne partagez jamais vos identifiants bancaires.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Form + Info -->
+            <section class="pb-14 sm:pb-20">
+                <div class="grid gap-8 lg:grid-cols-3">
+                    <!-- Form -->
+                    <div class="lg:col-span-2">
+                        <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+                            <div class="flex items-start justify-between gap-4">
+                                <div>
+                                    <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">Envoyez un message</h2>
+                                    <p class="mt-1 text-sm text-gray-600">
+                                        Remplissez le formulaire — réponse sous 24–48h ouvrées.
+                                    </p>
+                                </div>
+                                <span
+                                    class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </span>
+                            </div>
+
+                            <form class="mt-6 grid gap-5 sm:grid-cols-2" onsubmit="return false;">
+                                <div class="sm:col-span-1">
+                                    <label class="text-sm font-semibold text-gray-900">Nom</label>
+                                    <div class="mt-2 relative">
+                                        <i
+                                            class="fa-solid fa-user absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                                        <input type="text" placeholder="Votre nom"
+                                            class="w-full rounded-2xl border border-gray-200 bg-white px-10 py-3 text-sm text-gray-900 shadow-sm outline-none transition focus:border-gray-900 focus:ring-2 focus:ring-gray-200" />
+                                    </div>
+                                </div>
+
+                                <div class="sm:col-span-1">
+                                    <label class="text-sm font-semibold text-gray-900">Email</label>
+                                    <div class="mt-2 relative">
+                                        <i
+                                            class="fa-solid fa-envelope absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                                        <input type="email" placeholder="vous@exemple.com"
+                                            class="w-full rounded-2xl border border-gray-200 bg-white px-10 py-3 text-sm text-gray-900 shadow-sm outline-none transition focus:border-gray-900 focus:ring-2 focus:ring-gray-200" />
+                                    </div>
+                                </div>
+
+                                <div class="sm:col-span-2">
+                                    <label class="text-sm font-semibold text-gray-900">Sujet</label>
+                                    <div class="mt-2 relative">
+                                        <i
+                                            class="fa-solid fa-tag absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                                        <select
+                                            class="w-full appearance-none rounded-2xl border border-gray-200 bg-white px-10 py-3 text-sm text-gray-900 shadow-sm outline-none transition focus:border-gray-900 focus:ring-2 focus:ring-gray-200">
+                                            <option>Question sur une offre</option>
+                                            <option>Problème de redirection / lien</option>
+                                            <option>Signaler une information à mettre à jour</option>
+                                            <option>Partenariat / publicité</option>
+                                            <option>Autre</option>
+                                        </select>
+                                        <i
+                                            class="fa-solid fa-chevron-down pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                                    </div>
+                                </div>
+
+                                <div class="sm:col-span-2">
+                                    <label class="text-sm font-semibold text-gray-900">Message</label>
+                                    <div class="mt-2 relative">
+                                        <i class="fa-solid fa-message absolute left-3 top-4 text-gray-400"></i>
+                                        <textarea rows="6" placeholder="Écrivez votre message ici…"
+                                            class="w-full rounded-2xl border border-gray-200 bg-white px-10 py-3 text-sm text-gray-900 shadow-sm outline-none transition focus:border-gray-900 focus:ring-2 focus:ring-gray-200"></textarea>
+                                    </div>
+                                    <p class="mt-2 text-xs text-gray-500">
+                                        *Ne partagez jamais vos identifiants, mots de passe ou informations sensibles.
+                                    </p>
+                                </div>
+
+                                <div
+                                    class="sm:col-span-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                                    <label class="inline-flex items-start gap-3 text-sm text-gray-600">
+                                        <input type="checkbox" class="mt-1 h-4 w-4 rounded border-gray-300" />
+                                        <span>
+                                            J’accepte d’être recontacté par email concernant ma demande.
+                                        </span>
+                                    </label>
+
+                                    <button type="button"
+                                        onclick="document.getElementById('contactToast').classList.remove('hidden')"
+                                        class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-rose-500/20 transition hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        Envoyer
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <aside class="space-y-6">
+                        <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur">
+                            <h3 class="text-base font-extrabold text-gray-900">Coordonnées</h3>
+
+                            <div class="mt-4 space-y-4 text-sm">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Email</p>
+                                        <p class="text-gray-600">support@nuagecomparateur.fr</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Horaires</p>
+                                        <p class="text-gray-600">Lun–Ven • 09:00–18:00</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Localisation</p>
+                                        <p class="text-gray-600">France • 100% en ligne</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur">
+                            <h3 class="text-base font-extrabold text-gray-900">Besoin d’une réponse rapide ?</h3>
+                            <p class="mt-2 text-sm text-gray-600">
+                                Lancez directement une comparaison pour trouver l’offre adaptée.
+                            </p>
+
+                            <a href="/#comparateur"
+                                class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow transition hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">
+                                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                Lancer le comparateur
+                            </a>
+
+                            <div class="mt-4 rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-900">
+                                    <i class="fa-solid fa-circle-info mr-2 text-gray-700"></i>Astuce
+                                </p>
+                                <p class="mt-1 text-sm text-gray-600">
+                                    Vérifiez toujours les conditions finales sur le site du partenaire avant de
+                                    souscrire.
+                                </p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </div>
+
+        <!-- Toast -->
+        <div id="contactToast"
+            class="hidden fixed bottom-6 left-1/2 z-50 w-[92%] max-w-lg -translate-x-1/2 rounded-2xl border border-gray-200 bg-white p-4 shadow-xl">
+            <div class="flex items-start justify-between gap-3">
+                <div class="flex gap-3">
+                    <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                    <div>
+                        <p class="text-sm font-extrabold text-gray-900">Message prêt à être envoyé</p>
+                        <p class="text-sm text-gray-600">
+                            Ceci est une page front-end. Branchez votre email/service pour l’envoi réel.
+                        </p>
+                    </div>
+                </div>
+                <button
+                    class="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-gray-200 bg-gray-50 text-gray-700 transition hover:bg-gray-100"
+                    onclick="document.getElementById('contactToast').classList.add('hidden')" aria-label="Fermer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

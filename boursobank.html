@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- BANK DETAIL PAGE SECTION (BOURSOBANK) -->
+    <section id="bank-detail-boursobank" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <!-- background accents -->
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
+
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <!-- Top header -->
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
+                    <div
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            BoursoBank
+                        </span>
+                    </div>
+
+                    <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque correspond à votre profil
+                    </h1>
+
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        BoursoBank est souvent citée pour ses tarifs serrés et son expérience digitale. Elle s’adresse à
+                        ceux qui veulent
+                        une gestion simple, des offres compétitives et des services utiles aussi bien pour les
+                        particuliers que pour les pros.
+                    </p>
+
+                    <!-- Quick highlights -->
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Positionnement</p>
+                            <p class="mt-1 text-sm font-extrabold text-gray-900">Économique • Digital</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Idéal pour</p>
+                            <p class="mt-1 text-sm font-extrabold text-gray-900">Indépendants • Pros</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-extrabold text-gray-900">Support • fluidité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side summary card -->
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="assets/banks/boursobank.png" alt="BoursoBank"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-extrabold text-gray-900">BoursoBank — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
+                            </div>
+                        </div>
+
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Une banque en ligne axée “prix + simplicité” : grille tarifaire lisible, fonctionnalités
+                            modernes et
+                            offres adaptées à plusieurs profils, y compris les indépendants.
+                        </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-extrabold text-gray-900">Banque en ligne</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Focus</p>
+                                <p class="mt-1 text-sm font-extrabold text-gray-900">Tarifs bas</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Comparez surtout : <span class="font-semibold">conditions d’accès</span>, <span
+                                    class="font-semibold">type de carte</span>
+                                et <span class="font-semibold">services pro</span> (encaissements, outils, etc.).
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- Pros / Cons -->
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-extrabold text-gray-900 sm:text-xl">Points forts</h2>
+                    </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Conditions d’ouverture généralement accessibles selon l’offre choisie.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Possibilité d’obtenir une carte avec avantages “premium” selon éligibilité.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Offres et services utiles pour indépendants et activités pro (selon formule).
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-extrabold text-gray-900 sm:text-xl">Points à améliorer</h2>
+                    </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Support parfois perfectible selon le canal et les périodes.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Expérience mobile globalement solide, mais quelques lenteurs peuvent apparaître.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Certaines fonctionnalités “pro” peuvent nécessiter une offre dédiée.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main content -->
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <!-- Left: content blocks -->
+                <div class="lg:col-span-8 space-y-6">
+                    <!-- Fees -->
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et transparence
+                            </h2>
+                            <span
+                                class="inline-flex items-center gap-2 rounded-full bg-gray-900 px-3 py-1 text-xs font-semibold text-white">
+                                <i class="fa-solid fa-receipt"></i>
+                                Tarifs
+                            </span>
+                        </div>
+
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            L’un des points forts de BoursoBank, c’est une approche “frais maîtrisés” : l’essentiel du
+                            quotidien est pensé
+                            pour être simple à comprendre et facile à comparer. Avant de choisir, regardez surtout les
+                            frais d’incidents,
+                            options premium, et les services spécifiques (pro, international, etc.).
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Quotidien</p>
+                                <p class="mt-1 text-sm font-extrabold text-gray-900">Opérations courantes</p>
+                                <p class="mt-2 text-xs text-gray-600">Virements, paiements, retraits</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">À surveiller</p>
+                                <p class="mt-1 text-sm font-extrabold text-gray-900">Incidents & options</p>
+                                <p class="mt-2 text-xs text-gray-600">Selon usage et formule</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Avantage</p>
+                                <p class="mt-1 text-sm font-extrabold text-gray-900">Lisibilité</p>
+                                <p class="mt-2 text-xs text-gray-600">Grille tarifaire comparable</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Bon à savoir</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Des primes de bienvenue peuvent exister selon les périodes et les offres — pensez à
+                                vérifier les conditions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card offers -->
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Offres de cartes bancaires
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Les cartes sont souvent proposées en plusieurs niveaux. Les offres d’entrée de gamme
+                            couvrent l’essentiel,
+                            tandis que les formules supérieures ajoutent des avantages (assurances, plafonds, services
+                            premium) selon
+                            l’éligibilité.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-credit-card mr-2"></i>Essentielle
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">Pour un usage simple au quotidien.</p>
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Paiements & virements
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Gestion depuis l’app
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-star mr-2"></i>Intermédiaire
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">Un meilleur confort et des options utiles.</p>
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds ajustés</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Services additionnels
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-crown mr-2"></i>Premium
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">Avantages renforcés pour profils éligibles.</p>
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Assurances &
+                                        assistance</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds élevés</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <p class="mt-5 text-xs text-gray-500">
+                            *Les conditions (revenus, usage, options) dépendent de la formule choisie.
+                        </p>
+                    </div>
+
+                    <!-- Account opening -->
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Ouvrir un compte : simple et rapide
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’ouverture se fait en ligne : formulaire, vérification d’identité, puis dépôt des
+                            justificatifs. Si vous
+                            changez de banque, certains services peuvent faciliter la migration (prélèvements, virements
+                            récurrents).
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">Documents souvent demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Pièce
+                                        d’identité</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-house mt-0.5 text-gray-900"></i>Justificatif de domicile
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-invoice mt-0.5 text-gray-900"></i>RIB (selon cas)
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-euro-sign mt-0.5 text-gray-900"></i>Justificatif de
+                                        revenus (selon offre)</li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Choisir
+                                        une formule</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Remplir
+                                        le formulaire</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Vérifier
+                                        l’identité</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Finaliser
+                                        et recevoir les accès</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Astuce</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Si vous avez déjà une banque, regardez si un service de “changement simplifié” est
+                                proposé pour automatiser
+                                une partie des démarches.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Mobile app -->
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Application : une expérience cohérente
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’application est conçue pour rester familière sur mobile et ordinateur : mêmes repères,
+                            mêmes outils, avec un
+                            focus sur le pilotage du budget et la visibilité des dépenses.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-chart-pie mr-2"></i>Suivi budget
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Catégories & analyses</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-arrows-rotate mr-2"></i>Transactions
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Virements & gestion</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-shield mr-2"></i>Sécurité
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Contrôle carte & alertes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Produits & services disponibles
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            BoursoBank met généralement à disposition des services au-delà du compte : solutions
+                            pratiques, offres dédiées
+                            aux pros, et options pour piloter ses finances.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-receipt mr-2"></i>Services utiles
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Outils digitaux, gestion des opérations et fonctionnalités pratiques.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-briefcase mr-2"></i>Offres pro
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Formules adaptées aux indépendants et auto-entrepreneurs (selon conditions).
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-shield-halved mr-2"></i>Assurances
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Couvertures et protections selon carte et options.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-chart-line mr-2"></i>Placement & trading
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Accès à des outils d’investissement selon l’offre disponible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conditions -->
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Conditions à connaître
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            BoursoBank est souvent appréciée pour sa flexibilité. Selon la formule, il peut ne pas y
+                            avoir de dépôt initial,
+                            et certaines offres peuvent être accessibles sans conditions de revenus.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-circle-arrow-down mr-2"></i>Dépôt initial
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Souvent non requis (selon offre)</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-euro-sign mr-2"></i>Revenus
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Variables selon carte</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900">
+                                    <i class="fa-solid fa-repeat mr-2"></i>Domiciliation
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Pas toujours nécessaire</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Customer service -->
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                            Service client
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’assistance est généralement disponible via téléphone et email, avec des plages horaires
+                            étendues.
+                            Certaines expériences peuvent être plus fluides qu’un chat temps réel, qui n’est pas
+                            toujours proposé.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900"><i
+                                        class="fa-solid fa-phone mr-2"></i>Téléphone</p>
+                                <p class="mt-2 text-xs text-gray-600">Horaires variables</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900"><i
+                                        class="fa-solid fa-envelope mr-2"></i>Email</p>
+                                <p class="mt-2 text-xs text-gray-600">Réponse selon délai</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-extrabold text-gray-900"><i
+                                        class="fa-solid fa-comments mr-2"></i>Chat</p>
+                                <p class="mt-2 text-xs text-gray-600">Pas toujours disponible</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: sticky meta -->
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-extrabold text-gray-900">Recommandé si…</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-euro-sign"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Vous voulez limiter les frais</p>
+                                        <p class="text-xs text-gray-500">Priorité au budget</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Vous êtes indépendant</p>
+                                        <p class="text-xs text-gray-500">Offres pro selon besoins</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-mobile-screen"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Vous aimez tout gérer en ligne</p>
+                                        <p class="text-xs text-gray-500">App + interface web</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-extrabold text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Ce contenu est informatif et sert à comparer. Les offres et conditions peuvent changer :
+                                vérifiez toujours
+                                les informations officielles avant de souscrire.
+                            </p>
+
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Rédacteurs spécialisés pour simplifier vos choix et rendre la comparaison plus
+                                    claire.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-extrabold text-gray-900">Contact (exemple)</h3>
+                            <p class="mt-2 text-sm text-gray-600">
+                                Adresse / informations de contact à renseigner ici si vous souhaitez les afficher.
+                            </p>
+                            <div class="mt-4 space-y-2 text-sm text-gray-700">
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-solid fa-location-dot text-gray-900"></i>
+                                    <span>Adresse de l’établissement</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-solid fa-phone text-gray-900"></i>
+                                    <span>Numéro de téléphone</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-solid fa-envelope text-gray-900"></i>
+                                    <span>Email de contact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>

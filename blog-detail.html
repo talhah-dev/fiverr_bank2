@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+
+    <meta name="description"
+        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://opti-scan.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opti’ Scan" />
+    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:description"
+        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
+    <meta property="og:url" content="https://opti-scan.fr/" />
+    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:description"
+        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
+    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+    <link rel="stylesheet" href="/docs/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Opti’ Scan",
+      "url": "https://opti-scan.fr/",
+      "inLanguage": "fr-FR",
+      "description": "Comparateur de banques, assurances et services financiers.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://opti-scan.fr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+
+
+<body class="">
+
+    <!-- ----------------------------components------------------------------ -->
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-50 h-12 w-12 rounded-2xl bg-slate-900 text-white shadow-lg opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:opacity-90">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.classList.remove("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.add("opacity-100", "translate-y-0");
+            } else {
+                backToTop.classList.add("opacity-0", "pointer-events-none", "translate-y-3");
+                backToTop.classList.remove("opacity-100", "translate-y-0");
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- ----------------------------components------------------------------ -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+
+    <!-- Blog Detail Page -->
+    <article class="relative pt-28 pb-24 bg-white overflow-hidden">
+        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <nav class="flex items-center justify-between gap-6 mb-10">
+                <a href="blog.html"
+                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Retour au blog
+                </a>
+
+                <div class="flex items-center gap-2">
+                    <button id="shareBtn"
+                        class="h-11 px-4 rounded-xl border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 transition">
+                        <i class="fa-solid fa-share-nodes mr-2"></i>Partager
+                    </button>
+                    <button id="copyLinkBtn"
+                        class="h-11 px-4 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
+                        <i class="fa-solid fa-link mr-2"></i>Copier le lien
+                    </button>
+                </div>
+            </nav>
+
+            <header class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-8">
+                    <div class="inline-flex flex-wrap items-center gap-2">
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                            <i class="fa-solid fa-building-columns text-emerald-600"></i> Banques
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                            <i class="fa-solid fa-clock text-emerald-600"></i> 6 min
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
+                            <i class="fa-solid fa-calendar text-emerald-600"></i> Mis à jour récemment
+                        </span>
+                    </div>
+
+                    <h1 class="mt-5 text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-slate-900">
+                        Banque en ligne : les critères essentiels pour choisir
+                    </h1>
+
+                    <p class="mt-5 text-lg text-slate-600 leading-relaxed">
+                        Frais, conditions, cartes, retraits à l’étranger, support, sécurité… voici une méthode simple
+                        pour comparer
+                        sans vous perdre, et choisir une offre vraiment adaptée à votre usage.
+                    </p>
+
+                    <div class="mt-8 flex items-center gap-4">
+                        <div class="h-11 w-11 rounded-2xl bg-slate-900 text-white flex items-center justify-center">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-slate-900">Opti’ Scan</p>
+                            <p class="text-sm text-slate-600">Équipe éditoriale · Comparatifs & guides</p>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="lg:col-span-4 lg:sticky lg:top-24">
+                    <div class="rounded-3xl border border-slate-200 bg-slate-50 p-7">
+                        <p class="text-sm font-semibold text-slate-900">Dans cet article</p>
+                        <div class="mt-4 space-y-3 text-sm">
+                            <a href="#section-1" class="block text-slate-700 hover:text-slate-900 transition">1.
+                                Comprendre les frais</a>
+                            <a href="#section-2" class="block text-slate-700 hover:text-slate-900 transition">2.
+                                Conditions & profils</a>
+                            <a href="#section-3" class="block text-slate-700 hover:text-slate-900 transition">3. Carte &
+                                paiements</a>
+                            <a href="#section-4" class="block text-slate-700 hover:text-slate-900 transition">4. App &
+                                expérience</a>
+                            <a href="#section-5" class="block text-slate-700 hover:text-slate-900 transition">5. Support
+                                & sécurité</a>
+                            <a href="#section-6" class="block text-slate-700 hover:text-slate-900 transition">6.
+                                Checklist finale</a>
+                        </div>
+
+                        <a href="#comparatifs"
+                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-5 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                            Comparer maintenant
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </aside>
+            </header>
+
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-8">
+
+                    <div
+                        class="rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
+                        <div class="flex items-start gap-5">
+                            <div
+                                class="h-12 w-12 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
+                                <i class="fa-solid fa-lightbulb text-slate-900"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-semibold text-slate-900">Résumé</p>
+                                <p class="mt-2 text-slate-600 leading-relaxed">
+                                    Une bonne banque en ligne se choisit d’abord sur les frais (compte, carte, retraits,
+                                    change),
+                                    puis sur l’adéquation à votre usage (voyage, pro, épargne). Enfin, l’app, le support
+                                    et la sécurité
+                                    font la différence au quotidien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prose max-w-none mt-10">
+                        <section id="section-1" class="scroll-mt-28">
+                            <h2 class="text-2xl font-semibold text-slate-900">1) Comprendre les frais (les vrais)</h2>
+                            <p class="text-slate-600 leading-relaxed mt-3">
+                                Ne vous limitez pas au “compte gratuit”. Regardez les frais qui reviennent vraiment :
+                                carte,
+                                retraits hors réseau, paiements en devise, commissions, frais d’inactivité, coût des
+                                options.
+                                Une offre peut sembler attractive mais devenir plus chère selon votre usage.
+                            </p>
+
+                            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-5">
+                                <div class="rounded-2xl border border-slate-200 bg-white p-6">
+                                    <p class="font-semibold text-slate-900">Carte</p>
+                                    <p class="text-sm text-slate-600 mt-2">Mensuel, premium, conditions de gratuité.</p>
+                                </div>
+                                <div class="rounded-2xl border border-slate-200 bg-white p-6">
+                                    <p class="font-semibold text-slate-900">Retraits</p>
+                                    <p class="text-sm text-slate-600 mt-2">Nombre inclus, frais hors zone, plafonds.</p>
+                                </div>
+                                <div class="rounded-2xl border border-slate-200 bg-white p-6">
+                                    <p class="font-semibold text-slate-900">Devises</p>
+                                    <p class="text-sm text-slate-600 mt-2">Taux, commissions, frais de change.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="section-2" class="scroll-mt-28 mt-10">
+                            <h2 class="text-2xl font-semibold text-slate-900">2) Conditions & profils</h2>
+                            <p class="text-slate-600 leading-relaxed mt-3">
+                                Certaines banques imposent un revenu minimum, un dépôt initial ou un usage mensuel de la
+                                carte.
+                                Vérifiez si vous cochez les critères, et ce qu’il se passe si vous ne les respectez pas.
+                            </p>
+                        </section>
+
+                        <section id="section-3" class="scroll-mt-28 mt-10">
+                            <h2 class="text-2xl font-semibold text-slate-900">3) Carte & paiements</h2>
+                            <p class="text-slate-600 leading-relaxed mt-3">
+                                Comparez le type de carte (débit, débit différé, virtuel), les garanties incluses
+                                (assurance voyage,
+                                assistance), et surtout les frais de paiement à l’étranger si vous voyagez.
+                            </p>
+
+                            <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-50 p-7">
+                                <p class="text-sm font-semibold text-slate-900">Astuce</p>
+                                <p class="text-sm text-slate-600 mt-2">
+                                    Si vous payez souvent hors zone euro, privilégiez une carte avec peu ou pas de frais
+                                    de change et
+                                    des plafonds cohérents avec vos dépenses.
+                                </p>
+                            </div>
+                        </section>
+
+                        <section id="section-4" class="scroll-mt-28 mt-10">
+                            <h2 class="text-2xl font-semibold text-slate-900">4) App & expérience</h2>
+                            <p class="text-slate-600 leading-relaxed mt-3">
+                                Une bonne app vous fait gagner du temps : catégories de dépenses, notifications, cartes
+                                virtuelles,
+                                gestion des plafonds, blocage/déblocage, export comptable.
+                            </p>
+                        </section>
+
+                        <section id="section-5" class="scroll-mt-28 mt-10">
+                            <h2 class="text-2xl font-semibold text-slate-900">5) Support & sécurité</h2>
+                            <p class="text-slate-600 leading-relaxed mt-3">
+                                En cas de souci, la réactivité du support est clé. Regardez les canaux disponibles
+                                (chat, téléphone,
+                                agence) et les options de sécurité (2FA, alertes, biométrie).
+                            </p>
+                        </section>
+
+                        <section id="section-6" class="scroll-mt-28 mt-10">
+                            <h2 class="text-2xl font-semibold text-slate-900">6) Checklist finale</h2>
+
+                            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <div class="rounded-3xl border border-slate-200 bg-white p-7">
+                                    <p class="font-semibold text-slate-900">Avant d’ouvrir</p>
+                                    <ul class="mt-4 space-y-3 text-sm text-slate-600">
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Frais carte /
+                                            retraits / devises</li>
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Conditions de
+                                            gratuité</li>
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Plafonds cohérents
+                                        </li>
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Qualité du support
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="rounded-3xl border border-slate-200 bg-white p-7">
+                                    <p class="font-semibold text-slate-900">Au quotidien</p>
+                                    <ul class="mt-4 space-y-3 text-sm text-slate-600">
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>App claire & rapide
+                                        </li>
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Alertes & sécurité
+                                        </li>
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Options utiles
+                                            (virtuelles, exports)</li>
+                                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Offre alignée à votre
+                                            usage</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="mt-12 rounded-3xl border border-slate-200 bg-slate-900 p-10 text-white">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                            <div>
+                                <p class="text-sm font-semibold text-white/90">Prêt à comparer ?</p>
+                                <p class="mt-2 text-white/80">
+                                    Utilisez Opti’ Scan pour trouver l’offre la plus adaptée à vos besoins.
+                                </p>
+                            </div>
+                            <a href="#comparatifs"
+                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
+                                Voir les comparatifs
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <aside class="lg:col-span-4 space-y-6 lg:sticky lg:top-24">
+
+                    <div class="rounded-3xl border border-slate-200 bg-white p-7">
+                        <p class="text-sm font-semibold text-slate-900">Articles recommandés</p>
+
+                        <div class="mt-4 space-y-4">
+                            <a href="#"
+                                class="block p-4 rounded-2xl bg-slate-50 border border-slate-200 hover:bg-white hover:shadow-md transition">
+                                <p class="text-sm font-semibold text-slate-900">Paiements à l’étranger : éviter les
+                                    frais</p>
+                                <p class="text-xs text-slate-500 mt-1">Banques · 5 min</p>
+                            </a>
+                            <a href="#"
+                                class="block p-4 rounded-2xl bg-slate-50 border border-slate-200 hover:bg-white hover:shadow-md transition">
+                                <p class="text-sm font-semibold text-slate-900">Banque pro : ce qu’il faut comparer</p>
+                                <p class="text-xs text-slate-500 mt-1">Banque Pro · 7 min</p>
+                            </a>
+                            <a href="#"
+                                class="block p-4 rounded-2xl bg-slate-50 border border-slate-200 hover:bg-white hover:shadow-md transition">
+                                <p class="text-sm font-semibold text-slate-900">Assurance habitation : garanties clés
+                                </p>
+                                <p class="text-xs text-slate-500 mt-1">Assurances · 5 min</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="rounded-3xl border border-slate-200 bg-slate-50 p-7">
+                        <p class="text-sm font-semibold text-slate-900">Recevoir nos meilleurs conseils</p>
+                        <p class="text-sm text-slate-600 mt-2">
+                            Une fois par semaine, des comparatifs et des astuces (pas de spam).
+                        </p>
+
+                        <div class="mt-4 space-y-3">
+                            <input type="email" placeholder="Votre email"
+                                class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2" />
+                            <button
+                                class="w-full h-12 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
+                                S’inscrire
+                            </button>
+                        </div>
+
+                        <p class="text-xs text-slate-500 mt-3">
+                            Vous pouvez vous désinscrire à tout moment.
+                        </p>
+                    </div>
+
+                </aside>
+            </div>
+
+        </div>
+    </article>
+
+    <script>
+        const shareBtn = document.getElementById("shareBtn");
+        const copyLinkBtn = document.getElementById("copyLinkBtn");
+
+        shareBtn.addEventListener("click", async () => {
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: document.title,
+                        url: window.location.href
+                    });
+                } catch (e) { }
+            } else {
+                copyLinkBtn.click();
+            }
+        });
+
+        copyLinkBtn.addEventListener("click", async () => {
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                copyLinkBtn.innerHTML = '<i class="fa-solid fa-check mr-2"></i>Lien copié';
+                setTimeout(() => {
+                    copyLinkBtn.innerHTML = '<i class="fa-solid fa-link mr-2"></i>Copier le lien';
+                }, 1200);
+            } catch (e) {
+                alert("Impossible de copier le lien.");
+            }
+        });
+    </script>
+
+
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+
+
+</body>
+
+
+</html>
