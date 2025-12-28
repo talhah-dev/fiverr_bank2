@@ -6,7 +6,7 @@ navbar.innerHTML = `
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center md:h-24 justify-between">
 
             <a href="/index.html" class="text-xl font-semibold text-slate-900">
-                <img src="/docs/assets/images/logo.png" class="h-10 md:h-14" alt="">
+                <img src="/docs/assets/images/logo.png" class="h-12 md:h-16" alt="">
             </a>
 
             <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-700">
@@ -14,16 +14,21 @@ navbar.innerHTML = `
                 <a href="/bank-pros.html" class="hover:text-slate-900">Banques Pro</a>
                 <a href="/assurances.html" class="hover:text-slate-900">Assurances</a>
                 <a href="/notre-histoire.html" class="hover:text-slate-900">Notre Histoire</a>
-                <a href="/contact.html" class="px-5 py-2 rounded-xl bg-slate-900 text-white hover:opacity-90 transition">
-                    Contact
-                </a>
             </nav>
 
-            <button id="menuBtn" class="lg:hidden text-slate-800 text-xl">
+            <div class="">
+               <a href="/contact.html" class="px-5 py-2 rounded-xl lg:block hidden bg-slate-900 text-white hover:opacity-90 transition">
+                    Contact
+                </a>
+            </div>
+
+
+            <button id="menuBtn" class="lg:hidden text-[#101828] text-xl">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
     </header>
+    <div class="h-14 md:h-20"></div>
 
     <div id="mobileMenu"
         class="fixed top-0 right-0 h-full w-0 bg-white overflow-hidden transition-all duration-300 ease-in-out z-50">
@@ -32,7 +37,7 @@ navbar.innerHTML = `
             <a href="/index.html" class="text-xl font-semibold text-slate-900">
                 <img src="/docs/assets/images/logo.png" class="h-10 md:h-14" alt="">
             </a>
-            <button id="closeBtn" class="text-xl text-slate-800">
+            <button id="closeBtn" class="text-xl text-[#101828]">
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>

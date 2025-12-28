@@ -31,7 +31,7 @@ loader.innerHTML = `
               <div class="absolute inset-0 rounded-[2rem] bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 opacity-20 blur-xl"></div>
 
               <div class="relative z-10 flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
-                <img src="/assets/images/logo.png" class="h-9 w-9 object-contain" alt="Nuage Comparateur" />
+                <img src="/docs/assets/images/logo.png" class="h-9 w-9 object-contain" alt="Nuage Comparateur" />
               </div>
 
               <div
