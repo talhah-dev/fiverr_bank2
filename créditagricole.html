@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,24 +52,34 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
-</head>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
 
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
+</head>
 
 
 <body class="">
@@ -109,518 +121,509 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
-    <!-- Crédit Agricole – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-blue-600/10 rounded-full blur-3xl"></div>
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
 
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banques.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques
-                </a>
-
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-leaf text-emerald-600"></i> Banque mutualiste
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-location-dot"></i> Proximité & réseau
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-star text-amber-500"></i>
-                        <span class="text-sm font-medium text-slate-700">Notre avis sur Crédit Agricole</span>
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-leaf"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            Crédit Agricole
+                        </span>
                     </div>
 
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        Crédit Agricole : la banque de proximité
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600">
-                            qui combine tradition et digital
-                        </span>
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
                     </h1>
 
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        Banque mutualiste historique, le Crédit Agricole s’est construit sur la proximité tout en
-                        développant une offre
-                        numérique solide. Comptes, cartes, épargne, crédits, assurances et services d’investissement :
-                        une gamme large
-                        pour s’adapter à différents profils.
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        Banque historique et très implantée en France, le Crédit Agricole combine un modèle mutualiste
+                        avec une
+                        présence boursière. L’enseigne a su moderniser ses services (web & mobile) tout en conservant
+                        une logique
+                        de proximité grâce à son réseau d’agences et de conseillers.
                     </p>
 
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Visiter le site
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrez si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Services personnalisables
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Assurances compétitives
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Produits d’investissement
-                        </span>
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Proximité • complet</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Assurance • placements</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Frais • épargne</p>
+                        </div>
                     </div>
                 </div>
 
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-emerald-600 to-blue-600 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-building-columns"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">Crédit Agricole</p>
-                                    <p class="text-sm text-slate-600">Banque de proximité + digital</p>
-                                </div>
-                            </div>
-
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-shield-halved text-emerald-600"></i>
-                                Groupe majeur
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/Credit.png" alt="Crédit Agricole"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">Crédit Agricole — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Positionnement</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Proximité</p>
-                                <p class="text-xs text-slate-500 mt-1">Réseau & accompagnement</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Points d’attention</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Frais</p>
-                                <p class="text-xs text-slate-500 mt-1">Hors zone euro + épargne</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Cartes</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Mastercard</p>
-                                <p class="text-xs text-slate-500 mt-1">Essentiel → Prestige</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">App</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Ma Banque</p>
-                                <p class="text-xs text-slate-500 mt-1">Budget, virement, opposition</p>
-                            </div>
-                        </div>
-
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Découvrir Crédit Agricole
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Le Crédit Agricole se distingue par une offre très large : compte courant, cartes, crédits,
+                            assurances, épargne et accès à des solutions d’investissement. C’est une banque souvent
+                            choisie pour
+                            son accompagnement et sa présence locale, mais il faut comparer les frais selon votre usage
+                            (notamment
+                            à l’international).
                         </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Banque traditionnelle</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Accès</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Agence & digital</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Avant de choisir, comparez les <span class="font-semibold">frais de carte</span>, les
+                                <span class="font-semibold">conditions</span> de l’offre et les coûts à l’international
+                                (<span class="font-semibold">retraits hors zone euro</span>).
+                            </p>
+                        </div>
                     </div>
                 </aside>
             </div>
-        </div>
-    </section>
 
-    <!-- Résumé + Pour / Contre -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Crédit Agricole en résumé</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une offre large : banque, assurance, crédit, épargne
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Le Crédit Agricole propose un éventail complet de services financiers, avec une forte
-                            présence en France et une
-                            approche “banque de proximité”. Son univers couvre les particuliers, pros, entreprises,
-                            associations et
-                            agriculteurs.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pour</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Personnalisation
-                                        des services</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Assurances
-                                        compétitives</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Services bourse
-                                        & placements</li>
-                                </ul>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Contre</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>Rendement
-                                        faible de l’épargne</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>Frais
-                                        élevés hors zone euro</li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
                     </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Offres modulables : services et options ajustables selon votre profil.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Assurances souvent bien positionnées et catalogue très complet.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Solutions d’investissement et bourse en ligne disponibles selon caisse régionale.
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">Présentation du Crédit Agricole</h3>
-
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            Surnommée “la banque verte”, l’institution a évolué d’une banque mutualiste vers un groupe
-                            de grande envergure,
-                            tout en conservant un modèle coopératif. Sa force : une présence locale et une gamme
-                            diversifiée
-                            (comptes, placements, crédits, assurances, investissements).
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-network-wired text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Réseau & proximité</p>
-                                <p class="mt-2 text-sm text-slate-600">Un accompagnement local selon les caisses
-                                    régionales.</p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-layer-group text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Offre complète</p>
-                                <p class="mt-2 text-sm text-slate-600">Banque + assurance + crédit + placements.</p>
-                            </div>
-                        </div>
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
                     </div>
 
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-                            <div>
-                                <div
-                                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                                    <i class="fa-solid fa-coins text-emerald-600"></i>
-                                    <span class="text-sm font-medium text-slate-700">Caractéristiques, frais et
-                                        coûts</span>
-                                </div>
-                                <h3 class="mt-5 text-xl font-semibold text-slate-900">Une gamme d’offres selon vos
-                                    besoins</h3>
-                                <p class="mt-2 text-slate-600">
-                                    Les formules vont d’une entrée de gamme (type Eko) à des offres plus premium. Les
-                                    services et tarifs varient
-                                    selon l’offre et la caisse régionale.
-                                </p>
-                            </div>
-
-                            <a href="#cta"
-                                class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                                Découvrir
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Essentiel</p>
-                                <p class="mt-2 text-sm text-slate-600">Usage quotidien, sans superflu.</p>
-                            </div>
-                            <div
-                                class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Premium</p>
-                                <p class="mt-2 text-sm text-slate-600">Plafonds ajustables + garanties.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Prestige</p>
-                                <p class="mt-2 text-sm text-slate-600">Confort haut de gamme & privilèges.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Rendement des livrets parfois peu attractif face à certaines alternatives.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Frais à l’étranger qui peuvent vite augmenter en cas de retraits hors zone euro.
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Ouverture + App + Produits + Cartes -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-user-pen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Comment ouvrir un compte</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Présentation du Crédit Agricole
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Ouverture en ligne, guidée étape par étape
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Surnommé “la banque verte”, le Crédit Agricole s’est construit sur un modèle mutualiste
+                            avant de
+                            devenir un groupe bancaire de dimension internationale. Sa force repose sur une présence
+                            locale
+                            importante en France, tout en proposant une gamme étendue de services : banque du quotidien,
+                            financement, assurance et placements.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Réseau</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Proximité</p>
+                                <p class="mt-2 text-xs text-gray-600">Agences & conseillers</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Offre</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Très large</p>
+                                <p class="mt-2 text-xs text-gray-600">Crédit, épargne, assurance</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Digital</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Modernisé</p>
+                                <p class="mt-2 text-xs text-gray-600">Web & mobile</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
+                        </div>
+
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Les tarifs varient selon la caisse régionale et l’offre choisie (entrée de gamme, pack
+                            bancaire,
+                            options premium). Pour bien comparer, regardez le coût du compte, le prix de la carte, les
+                            frais
+                            d’incidents et les frais liés aux opérations à l’étranger.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Compte</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Selon formule</p>
+                                <p class="mt-2 text-xs text-gray-600">Pack & options</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Frais</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">À comparer</p>
+                                <p class="mt-2 text-xs text-gray-600">Incidents & services</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">International</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">À surveiller</p>
+                                <p class="mt-2 text-xs text-gray-600">Retraits hors zone euro</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte
                         </h2>
-
-                        <div class="mt-5 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">1</span>
-                                <p>Choisir une offre (Eko → Prestige) depuis le site.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">2</span>
-                                <p>Remplir le formulaire et déposer les justificatifs.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">3</span>
-                                <p>Effectuer le premier versement puis activer le compte.</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-white p-6">
-                            <p class="text-sm font-semibold text-slate-900">Pièces généralement demandées</p>
-                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                                Pièce d’identité, justificatif de domicile et parfois justificatif de revenus (selon
-                                offre).
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-mobile-screen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Application mobile</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">Ma Banque : gestion autonome et sécurisée
-                        </h3>
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            L’application Ma Banque (iOS/Android) permet de consulter ses comptes, faire des virements,
-                            programmer des
-                            opérations, gérer sa carte (opposition, suivi), localiser agences/distributeurs, et accéder
-                            à des outils budget.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’ouverture peut se faire en ligne : vous consultez les offres, choisissez la formule,
+                            remplissez le
+                            formulaire, puis transmettez les justificatifs demandés. Un premier versement peut être
+                            requis selon
+                            l’offre. Après validation, vous recevez vos accès et vos moyens de paiement.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Comptes & virements</p>
-                                <p class="mt-2 text-sm text-slate-600">Suivi temps réel + programmations.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Sécurité</p>
-                                <p class="mt-2 text-sm text-slate-600">Opposition carte en quelques clics.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Budget</p>
-                                <p class="mt-2 text-sm text-slate-600">Outils de suivi & catégorisation.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-boxes-stacked text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Produits bancaires</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">Une gamme très complète</h3>
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            Épargne (livrets, PEL, assurance-vie), crédits (immo, conso, auto), solutions
-                            d’investissement en ligne, et un
-                            large choix d’assurances (auto, habitation, santé, etc.).
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Épargne & placements</p>
-                                <p class="mt-2 text-sm text-slate-600">Livrets, assurance-vie, bourse.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Crédits & assurances</p>
-                                <p class="mt-2 text-sm text-slate-600">Immo, conso, auto + protections.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-credit-card text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Cartes bancaires</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">Des cartes Mastercard avec sans contact
-                        </h3>
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            Plusieurs niveaux existent (Eko, Essentiel, Premium, Prestige) avec des plafonds et
-                            garanties variables selon
-                            l’offre.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-4 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Eko</p>
-                                <p class="mt-2 text-sm text-slate-600">Formule accessible.</p>
-                            </div>
-                            <div
-                                class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Essentiel</p>
-                                <p class="mt-2 text-sm text-slate-600">Mastercard standard.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Premium</p>
-                                <p class="mt-2 text-sm text-slate-600">Mastercard Gold.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Prestige</p>
-                                <p class="mt-2 text-sm text-slate-600">Mastercard Elite.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Service client + CTA -->
-    <section id="cta" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-headset text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Service client</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Assistance et accompagnement selon les canaux
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Le Crédit Agricole propose un accompagnement via différents canaux (conseiller, téléphone,
-                            etc.), avec une
-                            logique de proximité liée aux caisses régionales.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">À retenir</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents fréquemment demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Pièce
+                                        d’identité</li>
                                     <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Réseau &
-                                        proximité</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Offres
-                                        modulables</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>App complète
+                                            class="fa-solid fa-house mt-0.5 text-gray-900"></i>Justificatif de domicile
                                     </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-invoice mt-0.5 text-gray-900"></i>Justificatif de
+                                        revenus (selon offre)</li>
                                 </ul>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Point vigilance</p>
-                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                                    Vérifiez les frais (notamment hors zone euro) et comparez l’épargne selon vos
-                                    objectifs.
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Choisir
+                                        une offre</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Remplir
+                                        le formulaire</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Envoyer
+                                        les justificatifs</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Premier
+                                        versement & activation</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Note</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Les offres et tarifs peuvent varier selon votre caisse régionale. Pensez à vérifier les
+                                conditions
+                                exactes avant de finaliser.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Application mobile
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’application Ma Banque permet de consulter vos comptes, suivre vos opérations, effectuer
+                            des virements
+                            et sécuriser vos moyens de paiement. Elle intègre aussi des services utiles : contact avec
+                            un conseiller,
+                            localisation des agences/distributeurs et outils de budget.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-bell mr-2 text-gray-900"></i>Alertes
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Suivi en temps réel</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-sliders mr-2 text-gray-900"></i>Contrôle
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Carte & opérations</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-location-dot mr-2 text-gray-900"></i>Proximité
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Agences & DAB</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Produits bancaires
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Le Crédit Agricole propose des solutions pour la banque du quotidien et des besoins plus
+                            avancés :
+                            épargne, placements, crédits et assurances. Cette richesse d’offre est un point fort si vous
+                            voulez
+                            centraliser plusieurs services dans le même établissement.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-piggy-bank mr-2"></i>Épargne
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Livrets, PEL, assurance-vie, retraite et solutions de placement.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-house-chimney mr-2"></i>Crédits
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Prêts immo, conso, auto et financement de projets.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-shield-halved mr-2"></i>Assurances
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Habitation, auto, santé, prévoyance et autres protections.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-chart-line mr-2"></i>Investissement
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Accès à des services bourse et gestion de portefeuille selon offre.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Cartes bancaires
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Le Crédit Agricole propose différentes gammes de cartes, avec le sans contact en standard.
+                            Certaines
+                            formules ciblent les voyageurs, d’autres mettent l’accent sur des avantages premium
+                            (plafonds, assurances,
+                            services associés). Le bon choix dépend surtout de votre usage et de vos déplacements.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-credit-card mr-2"></i>Essentiel
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Carte standard pour les paiements du quotidien, avec plafonds adaptés.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-crown mr-2"></i>Premium / Prestige
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Plafonds plus élevés et garanties renforcées selon la formule.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-plane mr-2"></i>Voyage
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Avantages et frais réduits à l’étranger selon l’offre.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-seedling mr-2"></i>Offres responsables
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Certaines formules mettent en avant une dimension plus engagée.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Service client
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Le Crédit Agricole combine généralement assistance digitale et accompagnement en agence,
+                            avec un conseiller
+                            pouvant être joignable selon les canaux proposés par votre caisse. Les urgences liées à la
+                            carte (perte, vol)
+                            sont en principe prises en charge via des services dédiés.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-phone mr-2"></i>Téléphone</p>
+                                <p class="mt-2 text-xs text-gray-600">Selon caisse & horaires</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-building-columns mr-2"></i>Agence</p>
+                                <p class="mt-2 text-xs text-gray-600">Réseau de proximité</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-comment-dots mr-2"></i>Digital</p>
+                                <p class="mt-2 text-xs text-gray-600">Appli & espace client</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Besoin d’un conseiller</p>
+                                        <p class="text-xs text-gray-500">Accompagnement et suivi</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-list-check"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Offre complète</p>
+                                        <p class="text-xs text-gray-500">Banque + assurance + crédit</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Proximité</p>
+                                        <p class="text-xs text-gray-500">Agences et DAB</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
+                            </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Rédacteurs spécialisés en services financiers, avec un objectif : rendre la
+                                    comparaison plus simple.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Passer à l’action</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">
-                            Vous voulez comparer avec d’autres banques ?
-                        </h3>
-
-                        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                            Comparez les cartes, les frais à l’étranger, l’app et les services annexes (assurances,
-                            placements, crédits).
-                        </p>
-
-                        <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                            <a href="#"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                                Visiter le site
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a href="contact.html"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                                Nous contacter
-                                <i class="fa-solid fa-headset"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-white p-6">
-                            <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                                Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
-                                Notre objectif : faciliter le processus de choix du service financier qui répond le
-                                mieux à vos besoins.
-                            </p>
-                        </div>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel.
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
+
 
 
     <!-- Footer Section -->

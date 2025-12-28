@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,22 +52,33 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
 </head>
 
 
@@ -109,500 +122,435 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
 
-    <!-- SHINE – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
-
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banque-pros.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques pro
-                </a>
-
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-briefcase text-emerald-600"></i> Banque pro (en ligne)
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-circle-info"></i> Établissement de paiement
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-building-columns text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Shine</span>
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            Shine
+                        </span>
                     </div>
 
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        Shine :
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
-                            une offre pensée pour auto-entrepreneurs et entreprises
-                        </span>
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
                     </h1>
 
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        Shine propose un compte pro en ligne avec des services essentiels (RIB français, carte
-                        MasterCard,
-                        virements/prélèvements), et des outils utiles au quotidien : facturation, suivi, exports
-                        comptables,
-                        notifications d’échéances et options d’encaissement.
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        Shine est une solution en ligne pensée pour les auto-entrepreneurs et les petites structures qui
+                        veulent un
+                        compte pro simple, un RIB français et des outils pratiques pour suivre l’activité. L’offre se
+                        distingue aussi
+                        par des services “business” (facturation, exports, accompagnement) qui peuvent faire gagner du
+                        temps au
+                        quotidien.
                     </p>
 
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Voir les offres SHINE
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrir si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            À partir de 7,90€/mois
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Outils facturation & compta
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Terminal SumUp (option)
-                        </span>
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Auto-entrepreneurs • sociétés</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Facturation • assistance</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Limites • frais</p>
+                        </div>
                     </div>
                 </div>
 
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-sparkles"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">Compte pro Shine</p>
-                                    <p class="text-sm text-slate-600">Indés & entreprises</p>
-                                </div>
-                            </div>
-
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-star text-amber-500"></i>
-                                Sélection Opti’ Scan
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/shine.png" alt="Shine"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">Shine — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Prix d’entrée</p>
-                                <p class="mt-1 text-lg font-semibold text-slate-900">7,90€ / mois</p>
-                                <p class="text-xs text-slate-500 mt-1">Basic (indés)</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Nature</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Compte sans banque</p>
-                                <p class="text-xs text-slate-500 mt-1">Établissement de paiement</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Cartes</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">MasterCard</p>
-                                <p class="text-xs text-slate-500 mt-1">1 à plusieurs (selon offre)</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Limites</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Quotas transactions</p>
-                                <p class="text-xs text-slate-500 mt-1">sur certains plans</p>
-                            </div>
-                        </div>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Accéder aux offres SHINE
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Shine n’a pas de licence bancaire : certains services (chéquier/découvert) ne sont pas
-                            disponibles.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Shine propose un compte pro accessible avec des fonctionnalités utiles pour les
+                            indépendants. À noter :
+                            il s’agit d’un établissement de paiement, pas d’une banque “classique”, ce qui explique
+                            l’absence de
+                            certains services comme le découvert autorisé ou le chéquier, selon les conditions de
+                            l’offre.
                         </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Compte pro</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Dès</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">7,90€ / mois</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Comparez surtout le <span class="font-semibold">volume d’opérations inclus</span>, les
+                                <span class="font-semibold">frais au-delà des limites</span>, et si vous avez besoin de
+                                <span class="font-semibold">chèques</span> ou d’un <span
+                                    class="font-semibold">découvert</span>.
+                            </p>
+                        </div>
                     </div>
                 </aside>
             </div>
-        </div>
-    </section>
 
-    <!-- Résumé + Positionnement -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Shine en résumé</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une solution pro en ligne, orientée simplicité
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Shine vise les auto-entrepreneurs et entreprises : compte pro, outils de gestion,
-                            facturation,
-                            suivi des charges, exports, et options de paiement. Une bonne piste si vous cherchez une
-                            solution
-                            claire avec un “kit” d’outils intégrés.
-                        </p>
-
-                        <div class="mt-6 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>RIB français + carte MasterCard.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Facturation + suivi administratif.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Quotas possibles sur les transactions selon l’offre.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">
-                            Ce qu’il faut savoir : “compte sans banque”
-                        </h3>
-
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            Shine n’est pas une banque au sens strict (pas de licence bancaire). C’est un établissement
-                            de paiement,
-                            enregistré auprès de l’ACPR. Certains services bancaires classiques ne sont donc pas
-                            proposés, comme
-                            le chéquier ou le découvert autorisé.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-shield-halved text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Sécurisation des fonds</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Les dépôts sont conservés sur un compte séparé, pour garantir la restitution selon
-                                    conditions.
-                                </p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-ban text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Limites “banque”</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Pas de chéquier et pas de découvert autorisé.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="mt-7 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                            <p class="text-sm font-semibold text-white/90">Pour qui c’est idéal ?</p>
-                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                                Si vous cherchez un compte pro simple, des outils administratifs et une tarification
-                                claire,
-                                Shine peut être une option très pertinente, surtout en début d’activité.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Solo vs Société -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-10">
-                <div class="max-w-3xl">
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-layer-group text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Offres Shine</span>
-                    </div>
-
-                    <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
-                        Deux parcours : indépendants vs sociétés
-                    </h2>
-
-                    <p class="mt-4 text-slate-600 leading-relaxed">
-                        Les offres Basic/Plus ciblent surtout les indépendants et micro-entrepreneurs.
-                        Pour les sociétés, Shine propose des formules plus coûteuses, avec davantage de cartes et de
-                        transactions.
-                    </p>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
-                    <div class="flex items-center justify-between">
-                        <p class="text-sm font-semibold text-slate-900">Indépendants</p>
-                        <span class="text-xs px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700">
-                            Basic / Plus
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
                         </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
                     </div>
 
-                    <p class="mt-4 text-slate-600 text-sm leading-relaxed">
-                        1 carte, quotas de transactions, outils utiles pour suivre l’activité. Un bon point d’entrée
-                        pour les nouveaux indépendants.
-                    </p>
-
-                    <div class="mt-6 space-y-2 text-sm text-slate-600">
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>À partir de 7,90€/mois</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Facturation + exports comptables</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Assistance & garanties (Plus)</p>
-                    </div>
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Compte pro pensé pour indépendants et petites entreprises, avec RIB français et carte
+                            MasterCard.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Outils utiles : facturation, suivi des charges, rappels administratifs, export comptable.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Services complémentaires possibles : assurances, options de financement, solutions
+                            d’encaissement.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Formules “indépendants” et “sociétés” selon le besoin en cartes et en volume de
+                            transactions.
+                        </li>
+                    </ul>
                 </div>
 
-                <div
-                    class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm hover:shadow-xl transition">
-                    <div class="flex items-center justify-between">
-                        <p class="text-sm font-semibold text-slate-900">Sociétés</p>
-                        <span class="text-xs px-3 py-1.5 rounded-full bg-slate-900 text-white">
-                            Shine Pro
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
                         </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
                     </div>
 
-                    <p class="mt-4 text-slate-600 text-sm leading-relaxed">
-                        Conçu pour les structures avec associés : plusieurs cartes, volumes plus élevés, et options
-                        d’encaissement selon l’offre.
-                    </p>
-
-                    <div class="mt-6 space-y-2 text-sm text-slate-600">
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>À partir de 29€/mois</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>2 à 5 cartes bancaires</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Plus de transactions incluses</p>
-                    </div>
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Pas une banque au sens strict : certains services classiques peuvent manquer (découvert,
+                            chéquier).
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            De nombreux frais peuvent s’ajouter si vous dépassez les limites d’opérations incluses.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Certaines activités et structures ne sont pas acceptées : vérifiez l’éligibilité avant de
+                            créer le compte.
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Tarifs + frais (aperçu) -->
-    <section class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-euro-sign text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Tarification</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Un prix d’entrée bas, mais des frais possibles selon l’usage
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Shine démarre à 7,90€ par mois. Selon vos besoins (volume de transactions, retraits,
-                            paiements hors zone euro),
-                            des frais additionnels peuvent s’appliquer. L’important : estimer votre volume mensuel avant
-                            de choisir.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <p class="text-sm font-semibold text-slate-900">Exemples de frais possibles (selon conditions)
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Shine fonctionne par abonnement mensuel, avec un accès au compte dès une formule d’entrée de
+                            gamme.
+                            Les opérations (virements, prélèvements, retraits, paiements hors zone euro) peuvent être
+                            limitées selon
+                            l’offre, et des frais s’appliquent en cas de dépassement. Pour éviter les surprises, estimez
+                            votre volume
+                            d’opérations mensuel et comparez les plafonds inclus.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-dot text-emerald-600 mt-1"></i>
-                                <p>Transactions au-delà du quota : frais par opération.</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Abonnement</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Mensuel</p>
+                                <p class="mt-2 text-xs text-gray-600">Dès 7,90€</p>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-dot text-emerald-600 mt-1"></i>
-                                <p>Retraits : coût unitaire possible.</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Opérations</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Plafonnées</p>
+                                <p class="mt-2 text-xs text-gray-600">Frais au-delà</p>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-dot text-emerald-600 mt-1"></i>
-                                <p>Hors zone euro : frais fixes + pourcentage.</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">International</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">À surveiller</p>
+                                <p class="mt-2 text-xs text-gray-600">Hors zone euro</p>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-dot text-emerald-600 mt-1"></i>
-                                <p>Incidents : frais si virement/prélèvement refusé.</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-7 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                            <p class="text-sm font-semibold text-white/90">Conseil</p>
-                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                                Si vous effectuez beaucoup de virements, retraits ou paiements hors zone euro, comparez
-                                attentivement
-                                les limites et frais associés aux plans.
-                            </p>
                         </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- Ouvrir un compte -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-id-card text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Ouvrir un compte</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Comment ouvrir un compte chez Shine ?
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Deux offres pour les indépendants
                         </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            La souscription se fait en ligne. Les indépendants et sociétés peuvent être acceptés selon
-                            leur activité.
-                            Des justificatifs d’identité sont demandés, ainsi qu’un document prouvant l’existence de
-                            l’entreprise
-                            (statuts, extrait Kbis, etc.). Certains secteurs peuvent être exclus.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Pour les auto-entrepreneurs et freelances, Shine propose généralement une formule
+                            essentielle, et une
+                            version plus complète. La première vise les besoins simples (une carte, peu d’opérations).
+                            La seconde
+                            augmente les plafonds et peut ajouter des services utiles comme l’encaissement de chèques,
+                            un dépôt
+                            d’espèces ponctuel ou une assistance renforcée.
                         </p>
 
-                        <div class="mt-7 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">Documents courants</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Pièce d’identité
-                                        (dirigeant)</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Justifs bénéficiaires
-                                        effectifs</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Statuts / Kbis / preuve
-                                        d’existence</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Docs complémentaires
-                                        selon forme</li>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-rocket"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Basic</p>
+                                            <p class="text-xs text-gray-600">Pour démarrer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>RIB
+                                        + carte</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Fonctions essentielles
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Idéal activité légère
+                                    </li>
                                 </ul>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">À noter</p>
-                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                                    Shine n’accepte pas les associations, et certaines activités peuvent être refusées
-                                    (ex : tabac, secteurs sensibles, etc.).
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-crown"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Plus</p>
+                                            <p class="text-xs text-gray-600">Plus de services</p>
+                                        </div>
+                                    </div>
+                                    <span
+                                        class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm">
+                                        Mensuel
+                                    </span>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds plus élevés
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Encaissement/gestion
+                                        élargis</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Assistance renforcée
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Offres pour sociétés
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Pour les sociétés (associés, collaborateurs, TPE/PME), Shine propose une offre plus orientée
+                            “équipe”.
+                            L’objectif est de faciliter la gestion à plusieurs : davantage de cartes, plus de
+                            transactions incluses et
+                            des plafonds adaptés. C’est souvent le bon choix si vous devez gérer des dépenses partagées
+                            ou déléguer des
+                            achats.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-users mr-2"></i>Cartes
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Plusieurs utilisateurs</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-arrows-rotate mr-2"></i>Transactions
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Volumes plus élevés</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-briefcase mr-2"></i>Gestion
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Organisation à plusieurs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’ouverture se fait en ligne : vous choisissez le statut (indépendant ou société), puis vous
+                            transmettez
+                            les justificatifs demandés. Une pièce d’identité est requise, ainsi que des documents sur
+                            l’entreprise
+                            (statuts, Kbis ou preuve d’immatriculation) selon le cas. Certaines structures (comme les
+                            associations)
+                            et certains secteurs d’activité peuvent ne pas être acceptés.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents fréquemment demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Pièce
+                                        d’identité</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-lines mt-0.5 text-gray-900"></i>Kbis / statuts</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-users mt-0.5 text-gray-900"></i>Bénéficiaires effectifs
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Choisir
+                                        l’offre</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Remplir
+                                        le formulaire</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Importer
+                                        les pièces</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Accéder
+                                        au compte</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Bon à savoir</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Shine étant un établissement de paiement, les fonds des clients sont généralement
+                                cantonnés sur un
+                                compte séparé chez un partenaire bancaire, selon l’organisation choisie.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user-tie"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Auto-entrepreneurs</p>
+                                        <p class="text-xs text-gray-500">Essentiel pro</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-file-invoice"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Indépendants</p>
+                                        <p class="text-xs text-gray-500">Facturation & suivi</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-users"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Petites équipes</p>
+                                        <p class="text-xs text-gray-500">Cartes multiples</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
+                            </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Nous comparons les comptes pros en regardant l’abonnement, les limites d’opérations,
+                                    les frais
+                                    additionnels et l’utilité réelle des services annexes.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-8 md:p-10 text-white">
-                        <p class="text-sm font-semibold text-white/90">Conseil Opti’ Scan</p>
-                        <h3 class="mt-2 text-xl font-semibold">
-                            Anticipez vos besoins “banque classique”
-                        </h3>
-                        <p class="mt-4 text-sm text-white/80 leading-relaxed">
-                            Si vous avez besoin d’un chéquier ou d’un découvert autorisé, une banque traditionnelle ou
-                            une banque
-                            pro avec licence bancaire peut être plus adaptée. Sinon, Shine est très bien pour la gestion
-                            quotidienne.
-                        </p>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
-                            Voir les offres SHINE
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section id="offres" class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
-                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-                    <div class="max-w-3xl">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Shine : un compte pro simple, avec des outils utiles
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Comparez les plans selon votre statut (indépendant ou société), votre volume de transactions
-                            et vos besoins
-                            (cartes, encaissement, assistance). Ensuite, choisissez l’offre la plus cohérente.
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
-                        <a href="#"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                            Voir les offres SHINE
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="contact.html"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                            Demander un avis
-                            <i class="fa-solid fa-headset"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
-                    <span class="inline-flex items-center gap-2">
-                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
-                        Informations indicatives : consultez les conditions officielles Shine pour les détails à jour.
-                    </span>
-                </div>
-            </div>
-
-            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
-                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                    Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
-                    Notre objectif : faciliter le choix du service financier le plus adapté à vos besoins.
-                </p>
             </div>
         </div>
     </section>

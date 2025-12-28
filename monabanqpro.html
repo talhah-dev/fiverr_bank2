@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,22 +52,33 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
 </head>
 
 
@@ -109,454 +122,575 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
-    <!-- MONABANQ PRO – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
-
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banque-pros.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques pro
-                </a>
-
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-user-tie text-emerald-600"></i> Indépendants
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-euro-sign"></i> Dès 9€ / mois
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-building-columns text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">MonaBanq</span>
-                    </div>
-
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        MonaBanq :
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
-                            le compte dédié aux auto-entrepreneurs et indépendants
-                        </span>
-                    </h1>
-
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        Pour beaucoup d’indépendants, ouvrir un compte séparé “pro” peut devenir un vrai casse-tête.
-                        MonaBanq propose une option dédiée, accessible dès 9€ / mois, avec des services proches d’un
-                        compte
-                        particulier (carte, virements, prélèvements) et quelques avantages utiles au quotidien.
-                    </p>
-
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Voir les offres MonaBanq
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrir si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Compte séparé pour l’activité
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Dépôt chèques & espèces
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Découvert jusqu’à 600€ (indicatif)
-                        </span>
-                    </div>
-                </div>
-
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-wallet"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">Compte MonaBanq</p>
-                                    <p class="text-sm text-slate-600">Auto-entrepreneurs</p>
-                                </div>
-                            </div>
-
-                            <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-star text-amber-500"></i>
-                                Sélection Opti’ Scan
-                            </div>
-                        </div>
-
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Offre</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Pratiq Pro</p>
-                                <p class="text-xs text-slate-500 mt-1">dès 9€ / mois TTC</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Services</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Type “compte perso”</p>
-                                <p class="text-xs text-slate-500 mt-1">+ options pro</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Retraits</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Zone euro : gratuits</p>
-                                <p class="text-xs text-slate-500 mt-1">hors zone : frais %</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Plus</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Cartes au choix</p>
-                                <p class="text-xs text-slate-500 mt-1">selon besoins</p>
-                            </div>
-                        </div>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Accéder aux offres MonaBanq
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Les tarifs et options peuvent évoluer : vérifiez les conditions officielles avant
-                            souscription.
-                        </p>
-                    </div>
-                </aside>
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
             </div>
         </div>
-    </section>
 
-    <!-- Résumé + Contexte -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">MonaBanq en résumé</span>
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
+                    <div
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            Monabanq
+                        </span>
+                    </div>
+
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
+                    </h1>
+
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        Monabanq mise sur l’accessibilité : ses comptes s’adressent à un public large, sans exigence de
+                        revenus, avec
+                        des solutions utiles pour le quotidien et pour l’épargne. Adossée au groupe Crédit Mutuel
+                        Alliance Fédérale,
+                        elle permet aussi, selon les modalités, de déposer chèques et espèces via un réseau partenaire.
+                    </p>
+
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Accessible • tout public</p>
                         </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une alternative quand le “compte particulier” ne suffit plus
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            En théorie, un indépendant pourrait utiliser un compte classique. En pratique, certaines
-                            banques
-                            peuvent refuser ou fermer un compte si l’usage devient clairement professionnel. MonaBanq
-                            propose
-                            un compte dédié aux indépendants, avec un prix d’entrée raisonnable et des services
-                            familiers.
-                        </p>
-
-                        <div class="mt-6 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Compte dédié à l’activité pour un suivi plus clair.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Tarif mensuel “indépendants”, moins cher qu’un compte entreprise classique.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Accès à un découvert (selon conditions) et options cartes.</p>
-                            </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Service client • dépôts</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Forfait • délais</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">
-                            Le prix : 9€ / mois… et des frais “à la carte”
-                        </h3>
-
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            L’offre dédiée démarre à 9€ / mois. Certains frais annexes (ex. opérations à l’étranger)
-                            suivent une logique proche des comptes particuliers : retraits en zone euro souvent
-                            gratuits,
-                            puis frais en dehors de la zone euro (généralement un pourcentage).
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-credit-card text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Cartes bancaires</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Possibilité de choisir une carte plus premium selon vos besoins.
-                                </p>
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/mona.png" alt="Monabanq"
+                                    class="h-full w-full object-contain p-2" />
                             </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-plane text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Opérations à l’étranger</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Hors zone euro : frais possibles, souvent exprimés en %.
-                                </p>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">Monabanq — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-7 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                            <p class="text-sm font-semibold text-white/90">Point important</p>
-                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                                Si vous faites beaucoup d’opérations hors zone euro, comparez attentivement les frais.
-                                Pour un usage France/zone euro, l’offre peut être très compétitive.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Monabanq se démarque par une approche “ouverte à tous” : pas de conditions de revenus et une
+                            offre pensée
+                            pour des profils variés (salariés, intérimaires, étudiants, retraités, demandeurs d’emploi).
+                            Elle associe
+                            une gestion en ligne à des possibilités pratiques comme le dépôt de chèques, et met souvent
+                            en avant la
+                            qualité de son accompagnement client.
+                        </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Banque en ligne</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Accès</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Mobile & web</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Comparez le <span class="font-semibold">coût mensuel</span> de l’offre, les
+                                <span class="font-semibold">services inclus</span> (assurances, découvert) et les
+                                options utiles
+                                (dépôt chèques/espèces, carte premium).
                             </p>
                         </div>
                     </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Avantages & services -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-10">
-                <div class="max-w-3xl">
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-sparkles text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Avantages & services</span>
-                    </div>
-
-                    <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
-                        Le confort d’un compte “classique”, avec des options pro
-                    </h2>
-
-                    <p class="mt-4 text-slate-600 leading-relaxed">
-                        MonaBanq offre des fonctionnalités de compte courant (virements, prélèvements, carte, espace
-                        sécurisé),
-                        et ajoute des services intéressants pour les indépendants : dépôts, alertes, partenariats et
-                        parfois du crédit.
-                    </p>
-                </div>
+                </aside>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
-                    <div
-                        class="h-12 w-12 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                        <i class="fa-solid fa-money-check-dollar text-slate-900"></i>
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
                     </div>
-                    <h3 class="mt-4 text-lg font-semibold text-slate-900">Gestion simple</h3>
-                    <p class="mt-2 text-sm text-slate-600">
-                        Virements, prélèvements, carte bancaire, et suivi via espace en ligne.
-                    </p>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Service client très mis en avant, avec des canaux de contact pratiques selon les horaires.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Dépôt de chèques possible via des distributeurs partenaires (Crédit Mutuel / CIC selon
+                            modalités).
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Aucune condition de revenus et pas d’engagement long : l’accès reste simple pour beaucoup de
+                            profils.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Possibilité d’un découvert autorisé paramétré dès le démarrage, selon étude et conditions.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Catalogue complet : épargne, crédits, assurances et options selon l’offre choisie.
+                        </li>
+                    </ul>
                 </div>
 
-                <div
-                    class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm hover:shadow-xl transition">
-                    <div
-                        class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                        <i class="fa-solid fa-coins text-slate-900"></i>
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
                     </div>
-                    <h3 class="mt-4 text-lg font-semibold text-slate-900">Dépôts possibles</h3>
-                    <p class="mt-2 text-sm text-slate-600">
-                        Déposer chèques et espèces peut faire la différence pour certaines activités.
-                    </p>
-                </div>
 
-                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
-                    <div
-                        class="h-12 w-12 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                        <i class="fa-solid fa-shield-halved text-slate-900"></i>
-                    </div>
-                    <h3 class="mt-4 text-lg font-semibold text-slate-900">Options & accompagnement</h3>
-                    <p class="mt-2 text-sm text-slate-600">
-                        Alertes SMS, partenariats (paiement / facturation), et options premium selon carte.
-                    </p>
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Frais possibles sur certains incidents ou interventions : à vérifier dans la grille
+                            tarifaire.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Délais de traitement parfois variables sur certaines opérations, selon la nature de la
+                            transaction.
+                        </li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="mt-8 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                <p class="text-sm font-semibold text-white/90">Focus : cartes premium</p>
-                <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                    MonaBanq est souvent citée pour la disponibilité de cartes haut de gamme dans sa gamme,
-                    ce qui peut intéresser les indépendants qui voyagent ou veulent des garanties renforcées.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Éligibilité + ouverture -->
-    <section class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-user-check text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Éligibilité</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Pour qui ?
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Le compte est accessible aux indépendants : auto-entrepreneurs, professions libérales,
-                            entreprises individuelles, micro-entreprises. L’objectif : séparer activité pro et dépenses
-                            perso,
-                            pour une gestion plus propre.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Monabanq fonctionne sur un modèle de forfait : pas de formule totalement gratuite, mais
+                            plusieurs offres
+                            mensuelles à petit prix, avec des niveaux de services différents. L’intérêt du forfait est
+                            de savoir
+                            exactement ce qui est inclus (carte, opérations, assurances éventuelles) et de limiter les
+                            frais “surprise”.
+                            Prenez le temps de choisir la formule la plus adaptée à votre usage.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                <p>Auto-entrepreneur / micro</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Formules</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Mensuelles</p>
+                                <p class="mt-2 text-xs text-gray-600">Plusieurs niveaux</p>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                <p>Profession libérale</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Coût</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Prévisible</p>
+                                <p class="mt-2 text-xs text-gray-600">Pack “tout compris”</p>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                <p>Entreprise individuelle</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                <p>Personne physique</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">À surveiller</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Incidents</p>
+                                <p class="mt-2 text-xs text-gray-600">Frais d’intervention</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="lg:col-span-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-signature text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Ouverture en ligne</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Comment ouvrir un compte ?
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comparez les offres de cartes bancaires
                         </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            La souscription se fait en ligne : formulaire, justificatifs, signature électronique,
-                            puis un premier versement (souvent requis) pour finaliser l’ouverture.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Monabanq se distingue avec plusieurs types de comptes courants et des cartes associées, dont
+                            des cartes
+                            plus premium accessibles sans condition de revenus selon la formule. Les différences portent
+                            surtout sur
+                            les garanties, les plafonds et les services inclus. Le bon choix dépend de vos besoins
+                            (voyage, assurances,
+                            budget, retraits).
                         </p>
 
-                        <div class="mt-7 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">Documents (exemples)</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Pièce d’identité valide
-                                    </li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Justificatif domicile
-                                        &lt; 3 mois</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>RIB d’un compte existant
-                                        (FR)</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>SIREN / SIRET</li>
-                                </ul>
-                            </div>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-credit-card"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Carte Classic</p>
+                                            <p class="text-xs text-gray-600">L’essentiel au quotidien</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">Conditions courantes</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Résident fiscal FR</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Majeur, personne physique
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Paiements & retraits
                                     </li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>1er versement (indicatif)
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Gestion simple du
+                                        budget</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Selon formule choisie
                                     </li>
                                 </ul>
                             </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-crown"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Cartes Premium</p>
+                                            <p class="text-xs text-gray-600">Assurances & voyage</p>
+                                        </div>
+                                    </div>
+                                    <span
+                                        class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm">
+                                        Mensuel
+                                    </span>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Garanties renforcées
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds plus élevés
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Services additionnels
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
 
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Bon à savoir</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Certaines formules incluent des protections (moyens de paiement, achats en ligne,
+                                smartphone selon
+                                conditions). Vérifiez précisément ce qui est couvert et les limites.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section id="offres" class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
-                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-                    <div class="max-w-3xl">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            MonaBanq : une option pro accessible pour les indépendants
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte
                         </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Si vous cherchez un compte séparé pour votre activité, avec des services proches d’un compte
-                            classique
-                            et la possibilité de dépôts, MonaBanq peut être une piste solide à comparer.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            La souscription se fait en ligne pour un compte individuel ou joint. Vous remplissez le
+                            formulaire,
+                            transmettez vos justificatifs (identité, domicile et parfois revenus selon la formule), puis
+                            finalisez
+                            avec un premier versement. Une fois le dossier validé, vos fonds restent disponibles et vous
+                            recevez vos
+                            accès de gestion.
                         </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents fréquemment demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Pièce
+                                        d’identité</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-house mt-0.5 text-gray-900"></i>Justificatif de domicile
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-invoice mt-0.5 text-gray-900"></i>Revenus selon
+                                        offre</li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Choisir
+                                        une offre</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Remplir
+                                        le formulaire</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Envoyer
+                                        les justificatifs</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Effectuer
+                                        le premier versement</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Mobilité bancaire</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Un service de mobilité peut simplifier le changement de banque : mandat en ligne, puis
+                                transfert des
+                                prélèvements et virements réguliers vers le nouveau compte, selon votre situation.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
-                        <a href="#"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                            Voir les offres MonaBanq
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="contact.html"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                            Demander un avis
-                            <i class="fa-solid fa-headset"></i>
-                        </a>
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Application mobile
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Monabanq propose un espace client web et une application pour gérer les opérations courantes
+                            : virements,
+                            suivi du solde, gestion des cartes et accès aux produits. Un chat permet aussi de contacter
+                            un conseiller.
+                            Des fonctionnalités comme la géolocalisation de distributeurs partenaires, la validation
+                            mobile de
+                            certaines opérations et l’accès aux relevés électroniques facilitent la gestion au
+                            quotidien.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-bell mr-2 text-gray-900"></i>Suivi
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Solde & opérations</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-sliders mr-2 text-gray-900"></i>Gestion
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Cartes & sécurité</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-globe mr-2 text-gray-900"></i>Assistance
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Chat conseiller</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Produits bancaires disponibles
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Monabanq propose des produits bancaires classiques, avec une bonne place donnée à l’épargne,
+                            aux crédits
+                            et aux assurances. Selon l’ancienneté et la formule, certains financements (dont immobilier)
+                            peuvent être
+                            accessibles avec des conditions variables. Pour les indépendants, des offres dédiées
+                            existent aussi.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-piggy-bank mr-2"></i>Épargne
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Livrets et solutions d’épargne selon besoins.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-house-chimney mr-2"></i>Crédits
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Conso et solutions immo selon critères.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-shield-halved mr-2"></i>Assurances
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Protection du quotidien et des biens.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-briefcase mr-2"></i>Offres Pro
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Comptes dédiés auto-entrepreneurs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Option utile</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Certaines options peuvent aider à épargner automatiquement sur chaque paiement (selon
+                                modalités), ce
+                                qui convient bien aux personnes qui veulent “mettre de côté” sans y penser.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Conditions à connaître
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Monabanq est souvent appréciée pour son accessibilité : pas de condition de revenus, pas de
+                            domiciliation
+                            obligatoire, et une ouverture possible même si vous gardez votre ancienne banque. En
+                            contrepartie, un
+                            premier versement est généralement demandé pour finaliser le dossier. Les formules et cartes
+                            restent
+                            liées au forfait choisi.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-euro-sign mr-2"></i>Revenus
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Aucune condition</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-circle-arrow-down mr-2"></i>Dépôt initial
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Souvent requis</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-users mr-2"></i>Domiciliation
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Non obligatoire</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Service client
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Monabanq met fortement en avant l’accompagnement client, avec des conseillers joignables sur
+                            une large
+                            amplitude horaire via téléphone et chat. Des services complémentaires peuvent aussi être
+                            proposés (aide
+                            budgétaire, accompagnement sur certaines démarches), et des solutions d’accessibilité
+                            existent pour les
+                            personnes sourdes ou malentendantes selon les dispositifs.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-comment-dots mr-2"></i>Chat</p>
+                                <p class="mt-2 text-xs text-gray-600">Conseiller disponible</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-phone mr-2"></i>Téléphone</p>
+                                <p class="mt-2 text-xs text-gray-600">Horaires étendus</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-shield-halved mr-2"></i>Accompagnement</p>
+                                <p class="mt-2 text-xs text-gray-600">Budget & démarches</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
-                    <span class="inline-flex items-center gap-2">
-                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
-                        Informations indicatives : consultez les conditions officielles MonaBanq pour les détails à
-                        jour.
-                    </span>
-                </div>
-            </div>
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Profils sans conditions</p>
+                                        <p class="text-xs text-gray-500">Ouverture accessible</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-piggy-bank"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Épargnants</p>
+                                        <p class="text-xs text-gray-500">Outils et livrets</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Indépendants</p>
+                                        <p class="text-xs text-gray-500">Offres auto-entrepreneurs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
-                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                    Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
-                    Notre objectif : faciliter le choix du service financier le plus adapté à vos besoins.
-                </p>
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
+                            </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Nous comparons les banques en ligne en mettant l’accent sur l’essentiel : coût réel,
+                                    conditions
+                                    d’accès, dépôts, qualité du support et services utiles au quotidien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

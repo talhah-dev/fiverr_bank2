@@ -9,4 +9,4 @@ Disallow: /.git/
 # Disallow: /blog-detail
 
 # Sitemap
-Sitemap: https://www.opti-scan.fr/sitemap.xml
+Sitemap: https://www.nuagecomparateur.fr/sitemap.xml

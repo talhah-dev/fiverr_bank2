@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,22 +52,33 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
 </head>
 
 
@@ -111,536 +124,553 @@
 
 
 
-    <!-- BNP PARIBAS – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
 
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banques.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques
-                </a>
-
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-building-columns text-emerald-600"></i> Banque traditionnelle
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-wand-magic-sparkles text-white"></i> Offre flexible (agence / en ligne)
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-bolt text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Notre avis sur BNP Paribas</span>
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            BNP Paribas
+                        </span>
                     </div>
 
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        BNP Paribas :
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
-                            “la banque d’un monde qui change”, entre agence et digital
-                        </span>
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
                     </h1>
 
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        BNP Paribas propose une offre complète pour simplifier le quotidien, avec la possibilité de
-                        gérer son compte en
-                        agence ou entièrement en ligne. Son application mobile est reconnue pour son interface
-                        intuitive, et la banque
-                        met en avant un parcours d’ouverture rapide.
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        BNP Paribas est une banque française majeure, reconnue pour son réseau et sa palette de services
+                        très large.
+                        Elle propose une expérience modulable : gestion avec agence et conseiller, ou parcours davantage
+                        digital selon
+                        vos préférences. L’intérêt est de comparer les formules, car l’offre peut être complète, mais
+                        certains frais
+                        peuvent s’ajouter selon la carte et les services choisis.
                     </p>
 
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Visiter le site
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrez si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Ouverture en ligne rapide
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            App mobile très intuitive
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Choix carte via questionnaire
-                        </span>
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Réseau • multi-services</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Parcours • app</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Frais • carte</p>
+                        </div>
                     </div>
                 </div>
 
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-building-columns"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">BNP Paribas</p>
-                                    <p class="text-sm text-slate-600">Banque traditionnelle (agence / digital)</p>
-                                </div>
-                            </div>
-
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-star text-amber-500"></i>
-                                Avis Opti’ Scan
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/bnp.png" alt="BNP Paribas"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">BNP Paribas — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Cartes</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">4 cartes Visa</p>
-                                <p class="text-xs text-slate-500 mt-1">Débit immédiat / différé</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Frais</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Plus élevés</p>
-                                <p class="text-xs text-slate-500 mt-1">Comparaison recommandée</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Carte gratuite</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Non</p>
-                                <p class="text-xs text-slate-500 mt-1">Selon offre choisie</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Versement initial</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">300€ min.</p>
-                                <p class="text-xs text-slate-500 mt-1">Compte UE à votre nom</p>
-                            </div>
-                        </div>
-
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Découvrir BNP Paribas
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel BNP
-                            Paribas.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            BNP Paribas combine les atouts d’une banque traditionnelle (réseau, accompagnement) et des
+                            services en
+                            ligne bien développés. Selon votre besoin, vous pouvez privilégier la proximité en agence ou
+                            une gestion
+                            plus autonome. Le bon réflexe : comparer les tarifs et les options pour éviter les frais
+                            inutiles.
                         </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Banque traditionnelle</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Accès</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Agence & digital</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Avant de souscrire, comparez la <span class="font-semibold">carte</span>, les
+                                <span class="font-semibold">frais</span> (tenue de compte, options) et la
+                                <span class="font-semibold">gestion</span> (agence vs en ligne) selon votre usage.
+                            </p>
+                        </div>
                     </div>
                 </aside>
             </div>
-        </div>
-    </section>
 
-    <!-- Résumé + Pour / Contre -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">BNP Paribas en résumé</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une banque complète, orientée proximité et parcours digital
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            BNP Paribas propose une offre vaste (compte, cartes, crédits, épargne, assurances) avec une
-                            gestion possible
-                            en agence ou en ligne. La banque met en avant une ouverture simplifiée et une application
-                            très agréable à
-                            utiliser.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pour</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Questionnaire
-                                        pour choisir sa carte</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Ouverture de
-                                        compte rapide</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Application
-                                        mobile très intuitive</li>
-                                </ul>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Contre</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>Nombreux
-                                        frais possibles</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>Pas de
-                                        carte gratuite</li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
                     </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Un parcours d’aide à la sélection pour identifier la carte la plus adaptée à vos besoins.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Ouverture de compte assez rapide, avec une démarche en ligne simplifiée.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Application mobile bien pensée, pratique pour suivre et piloter ses opérations.
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">Caractéristiques, frais et coûts</h3>
-
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            BNP Paribas fonctionne avec des offres et services à la carte. Les conditions tarifaires
-                            varient selon la
-                            formule choisie et les options associées. Pour bien comparer, regardez le coût global :
-                            carte, pack, services
-                            et opérations courantes.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-receipt text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Frais à surveiller</p>
-                                <p class="mt-2 text-sm text-slate-600">Packs, options et opérations selon usage.</p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-layer-group text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Offre complète</p>
-                                <p class="mt-2 text-sm text-slate-600">Banque du quotidien + solutions long terme.</p>
-                            </div>
-                        </div>
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
                     </div>
 
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-                            <div>
-                                <div
-                                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                                    <i class="fa-solid fa-credit-card text-emerald-600"></i>
-                                    <span class="text-sm font-medium text-slate-700">Comparez les offres de
-                                        cartes</span>
-                                </div>
-                                <h3 class="mt-5 text-xl font-semibold text-slate-900">4 cartes Visa pour vos retraits &
-                                    paiements</h3>
-                                <p class="mt-2 text-slate-600">
-                                    Plafonds adaptables, choix du débit immédiat ou différé (sauf Visa Electron).
-                                </p>
-                                <p class="mt-3 text-sm text-slate-600">
-                                    BNP Paribas propose aussi un questionnaire pour recommander la carte la plus adaptée
-                                    à votre profil.
-                                </p>
-                            </div>
-
-                            <a href="#cta"
-                                class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                                Découvrir
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-4 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Visa Electron</p>
-                                <p class="mt-2 text-sm text-slate-600">Option simple, débit adapté.</p>
-                            </div>
-                            <div
-                                class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Visa Classic</p>
-                                <p class="mt-2 text-sm text-slate-600">Le quotidien, polyvalent.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Visa Premier</p>
-                                <p class="mt-2 text-sm text-slate-600">Plus d’avantages & confort.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Visa Infinite</p>
-                                <p class="mt-2 text-sm text-slate-600">Services premium.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Une grille tarifaire pouvant être dense, avec des frais selon les opérations et les options.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Les cartes ne sont généralement pas gratuites : un coût peut s’ajouter selon la formule.
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Ouverture + App + Produits + Conditions + Service Client -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-user-pen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Comment ouvrir un compte</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une ouverture en ligne en quelques clics
-                        </h2>
-
-                        <div class="mt-5 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">1</span>
-                                <p>Remplir un court formulaire en ligne.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">2</span>
-                                <p>Télécharger les justificatifs (identité + domicile).</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">3</span>
-                                <p>Effectuer le versement initial.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">4</span>
-                                <p>Finaliser : vous devenez client BNP Paribas.</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-white p-6">
-                            <p class="text-sm font-semibold text-slate-900">Conditions d’éligibilité (en ligne)</p>
-                            <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                <li class="flex gap-2"><i
-                                        class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Majeur (personne
-                                    physique) ou entrepreneur individuel</li>
-                                <li class="flex gap-2"><i
-                                        class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Résident fiscal
-                                    français ou nationalité française</li>
-                                <li class="flex gap-2"><i
-                                        class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Ouverture en tant
-                                    que particulier (individuel/joint)</li>
-                                <li class="flex gap-2"><i
-                                        class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Ne pas déjà avoir
-                                    de compte BNP Paribas (y compris Hello bank!)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-mobile-screen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Application mobile</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">Gérez vos comptes partout, simplement</h3>
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            L’application BNP Paribas permet de consulter vos comptes, préparer vos opérations, réaliser
-                            des virements,
-                            ajouter des bénéficiaires, éditer un RIB et payer avec votre mobile. De nouvelles
-                            fonctionnalités sont
-                            ajoutées régulièrement pour optimiser votre gestion.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Les tarifs BNP Paribas dépendent fortement de la formule et des options choisies (carte,
+                            services, gestion
+                            en agence). Pour bien comparer, regardez les frais de tenue de compte, le coût de la carte,
+                            les frais à
+                            l’international et les opérations “hors pack”. Une lecture attentive de la brochure
+                            tarifaire reste le
+                            meilleur moyen d’éviter les surprises.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Virements</p>
-                                <p class="mt-2 text-sm text-slate-600">Rapides et pratiques.</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Formules</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Variables</p>
+                                <p class="mt-2 text-xs text-gray-600">Pack & options</p>
                             </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">RIB</p>
-                                <p class="mt-2 text-sm text-slate-600">Édition en quelques secondes.</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Frais</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">À comparer</p>
+                                <p class="mt-2 text-xs text-gray-600">Selon services</p>
                             </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Paiement mobile</p>
-                                <p class="mt-2 text-sm text-slate-600">Plus simple au quotidien.</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Transparence</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Brochure</p>
+                                <p class="mt-2 text-xs text-gray-600">Détails officiels</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comparez les offres de cartes bancaires
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            BNP Paribas propose plusieurs cartes Visa, avec des différences sur les plafonds, les
+                            assurances et les
+                            services. Les plafonds sont souvent personnalisables selon votre profil, et vous pouvez
+                            généralement
+                            choisir entre débit immédiat ou différé (selon la carte). Pour vous guider, la banque met
+                            aussi à
+                            disposition un parcours de questions pour recommander une carte cohérente avec vos
+                            habitudes.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-credit-card"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Carte Standard</p>
+                                            <p class="text-xs text-gray-600">Pour le quotidien</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Paiements & retraits
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Débit immédiat
+                                        possible</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds ajustables
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-crown"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Cartes Premium</p>
+                                            <p class="text-xs text-gray-600">Plafonds & garanties</p>
+                                        </div>
+                                    </div>
+                                    <span
+                                        class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm">
+                                        Selon carte
+                                    </span>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Assurances renforcées
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds plus élevés
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Services additionnels
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                            <p class="text-sm font-semibold text-slate-900">À noter</p>
-                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                                L’app est reconnue pour son interface intuitive et son design agréable, avec une
-                                reconnaissance historique
-                                via un label d’excellence d’applications mobiles selon votes utilisateurs (2018).
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Si vous hésitez, utilisez le questionnaire d’orientation pour choisir la carte la plus
+                                adaptée à vos
+                                <span class="font-semibold">habitudes</span> (voyages, plafonds, assurances).
                             </p>
                         </div>
                     </div>
 
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-layer-group text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Produits & conditions</span>
-                        </div>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Produits bancaires</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Crédits (conso,
-                                        immobilier, regroupement…)</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Épargne
-                                        (livrets, épargne logement, assurance vie)</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Assurances
-                                        (auto, habitation, santé, prévoyance…)</li>
-                                </ul>
-                                <p class="mt-3 text-sm text-slate-600">
-                                    Des offres flash à durée limitée peuvent être proposées selon périodes.
-                                </p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Conditions bancaires</p>
-                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                                    BNP Paribas ne requiert pas de condition de revenu pour l’ouverture en ligne, mais
-                                    un dépôt initial
-                                    d’au moins <span class="font-semibold text-slate-900">300€</span> est nécessaire
-                                    depuis un compte à votre
-                                    nom (France ou Union européenne).
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                            <p class="text-sm font-semibold text-white/90">Service client</p>
-                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                                Support accessible via plusieurs canaux : téléphone, e-mail, chat et réseaux sociaux
-                                (SAV Facebook,
-                                Messenger, Twitter), pour choisir la méthode la plus pratique.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Avantage + CTA + Editorial -->
-    <section id="cta" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-award text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Avantages BNP Paribas</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Le meilleur des deux mondes : agence + digital
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte
                         </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            BNP Paribas combine la proximité d’une banque traditionnelle (accompagnement, réseau) et la
-                            simplicité des
-                            usages modernes (ouverture en ligne, application mobile performante). Cela en fait une
-                            solution complète pour
-                            ceux qui veulent garder de la flexibilité.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’ouverture peut se faire en ligne en quelques minutes : vous complétez le formulaire,
+                            transmettez vos
+                            pièces justificatives (identité, domicile), puis réalisez le premier versement demandé.
+                            Certaines règles
+                            d’éligibilité peuvent s’appliquer (profil, résidence fiscale, absence de compte existant),
+                            donc vérifiez
+                            bien les conditions avant de démarrer.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-store text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Proximité</p>
-                                <p class="mt-2 text-sm text-slate-600">Gestion en agence possible selon préférence.</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents fréquemment demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Pièce
+                                        d’identité</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-house mt-0.5 text-gray-900"></i>Justificatif de domicile
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-invoice mt-0.5 text-gray-900"></i>Informations
+                                        complémentaires selon profil</li>
+                                </ul>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-sparkles text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Expérience digitale</p>
-                                <p class="mt-2 text-sm text-slate-600">Parcours en ligne fluide + app intuitive.</p>
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Remplir
+                                        le formulaire</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Déposer
+                                        les justificatifs</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Effectuer
+                                        le premier versement</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Recevoir
+                                        la validation</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Note</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Le premier versement est généralement requis pour activer le compte, et doit provenir
+                                d’un compte à
+                                votre nom ouvert en France ou dans l’Union européenne.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Application mobile
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’application BNP Paribas permet de gérer ses comptes partout : consultation, virements,
+                            ajout de
+                            bénéficiaires, édition d’un RIB, suivi des opérations à venir et paiements mobiles. La
+                            banque enrichit
+                            régulièrement l’app avec de nouvelles fonctions pour améliorer la gestion du budget et des
+                            transactions.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-bell mr-2 text-gray-900"></i>Suivi
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Comptes & opérations</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-sliders mr-2 text-gray-900"></i>Gestion
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Virements & bénéficiaires</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-globe mr-2 text-gray-900"></i>Paiement
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Mobile & en ligne</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Produits bancaires disponibles
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            En ouvrant un compte BNP Paribas, vous accédez à de nombreux produits : crédits, épargne,
+                            assurance et
+                            solutions de prévoyance. Des offres ponctuelles peuvent exister selon les périodes, mais
+                            l’essentiel est de
+                            comparer les conditions et le coût global.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-house-chimney mr-2"></i>Crédits
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Conso, immo, regroupement selon dossier.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-piggy-bank mr-2"></i>Épargne
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Livrets, épargne logement, assurance-vie.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-shield-halved mr-2"></i>Assurances
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Auto, habitation, santé, prévoyance.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-chart-line mr-2"></i>Offres ponctuelles
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Promotions et conditions spéciales selon périodes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Conditions à connaître
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Il n’y a pas toujours de condition de revenus pour ouvrir un compte en ligne, mais un dépôt
+                            initial est
+                            généralement demandé. Ce premier versement doit souvent venir d’un compte à votre nom situé
+                            en France ou
+                            dans l’Union européenne. Selon le parcours, des critères d’éligibilité peuvent aussi
+                            s’appliquer (profil,
+                            résidence fiscale, absence de compte existant).
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-euro-sign mr-2"></i>Revenus
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Pas toujours exigés</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-circle-arrow-down mr-2"></i>Dépôt initial
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Souvent requis</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-users mr-2"></i>Éligibilité
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Selon profil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Service client
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            BNP Paribas propose plusieurs canaux de contact : téléphone, email, chat et parfois réseaux
+                            sociaux selon
+                            les dispositifs disponibles. Cette diversité peut être un vrai plus pour obtenir une réponse
+                            via le canal
+                            le plus pratique pour vous, notamment en cas de besoin rapide.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-phone mr-2"></i>Téléphone</p>
+                                <p class="mt-2 text-xs text-gray-600">Conseillers disponibles</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-envelope mr-2"></i>Email</p>
+                                <p class="mt-2 text-xs text-gray-600">Réponse sous délai</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-comment-dots mr-2"></i>Chat</p>
+                                <p class="mt-2 text-xs text-gray-600">Pratique et rapide</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Passer à l’action</span>
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Profils généralistes</p>
+                                        <p class="text-xs text-gray-500">Réseau + services complets</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-laptop"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Autonomes</p>
+                                        <p class="text-xs text-gray-500">Ouverture et gestion en ligne</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Besoin de proximité</p>
+                                        <p class="text-xs text-gray-500">Agence + accompagnement</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">
-                            Envie de comparer BNP Paribas à d’autres banques ?
-                        </h3>
-
-                        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                            Comparez surtout le coût total (carte + options + opérations), le dépôt initial, et
-                            l’intérêt d’une gestion
-                            hybride (agence / en ligne) selon votre profil.
-                        </p>
-
-                        <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                            <a href="#"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                                Visiter le site
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a href="contact.html"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                                Demander un avis
-                                <i class="fa-solid fa-headset"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-white p-6">
-                            <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                                Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
-                                Notre objectif : faciliter le processus de choix du service financier qui répond le
-                                mieux à vos besoins.
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
                             </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Nous vous aidons à comparer les offres bancaires en mettant l’accent sur l’essentiel
+                                    : coûts,
+                                    conditions d’accès et qualité des services au quotidien.
+                                </p>
+                            </div>
                         </div>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel BNP
-                            Paribas.
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
 
     <!-- Footer Section -->

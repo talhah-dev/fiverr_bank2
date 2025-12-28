@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,22 +52,33 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
 </head>
 
 
@@ -109,525 +122,561 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
-    <!-- SOCIÉTÉ GÉNÉRALE (SG) – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
 
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banques.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques
-                </a>
-
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-landmark text-emerald-600"></i> Banque traditionnelle
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-shield text-white"></i> Offre Sobrio
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-bolt text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Notre avis sur Société Générale</span>
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            Société Générale
+                        </span>
                     </div>
 
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        Société Générale :
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
-                            une grande banque classique avec une expérience de plus en plus digitale
-                        </span>
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
                     </h1>
 
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        SG fait partie des banques françaises historiques et accompagne des millions de clients. Elle
-                        propose une offre
-                        de services large et flexible, avec des avantages ciblés (jeunes, agents du service public) et
-                        une application
-                        mobile complète pour gérer son quotidien.
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        Société Générale (SG) est l’une des grandes banques historiques en France, avec un réseau solide
+                        et une offre
+                        large qui couvre le quotidien, l’épargne, l’assurance et les crédits. Elle vise des profils
+                        variés, et met en
+                        avant des avantages ciblés pour certains publics, notamment les jeunes et une partie des agents
+                        du secteur
+                        public selon les formules.
                     </p>
 
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Visiter le site
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrez si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Plafonds élevés selon profil
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Tarifs préférentiels -25 ans / service public
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Sobrio + assurance du quotidien
-                        </span>
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Classique • réseau</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Plafonds • services</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Tarifs • contact</p>
+                        </div>
                     </div>
                 </div>
 
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-landmark"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">Société Générale</p>
-                                    <p class="text-sm text-slate-600">Banque traditionnelle</p>
-                                </div>
-                            </div>
-
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-star text-amber-500"></i>
-                                Avis Opti’ Scan
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/societeG.png" alt="Société Générale"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">Société Générale — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Offre</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Sobrio</p>
-                                <p class="text-xs text-slate-500 mt-1">Compte + carte + conseiller</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Carte</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Aucune gratuite</p>
-                                <p class="text-xs text-slate-500 mt-1">Choix selon formule</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Avantages</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Jeunes / Fonctionnaires</p>
-                                <p class="text-xs text-slate-500 mt-1">Tarifs préférentiels</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Support</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Large amplitude</p>
-                                <p class="text-xs text-slate-500 mt-1">Assistance 24/7 (urgence)</p>
-                            </div>
-                        </div>
-
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Découvrir SG
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            SG combine les codes d’une banque traditionnelle et des usages plus modernes, avec une gamme
+                            de services
+                            complète et un accompagnement par conseiller. Selon l’offre choisie, vous accédez à un
+                            compte, une carte,
+                            un suivi et des protections au quotidien, avec des options qui peuvent intéresser des
+                            profils jeunes ou
+                            certains statuts.
                         </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Banque traditionnelle</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Accès</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Agence & digital</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Comparez le <span class="font-semibold">forfait</span>, la <span
+                                    class="font-semibold">carte</span> et
+                                les <span class="font-semibold">assurances incluses</span>, puis vérifiez la qualité
+                                d’accès au
+                                <span class="font-semibold">service client</span> selon votre besoin.
+                            </p>
+                        </div>
                     </div>
                 </aside>
             </div>
-        </div>
-    </section>
 
-    <!-- Résumé + Pour / Contre -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Société Générale en résumé</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une banque historique, modernisée par le digital
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            SG propose des services complets et un accompagnement via conseiller, tout en adoptant des
-                            usages modernes
-                            (ouverture partiellement à distance, outils mobiles pratiques). Elle se démarque aussi par
-                            des tarifs
-                            ciblés pour certains publics.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pour</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Plafonds de
-                                        paiement/retrait élevés</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Tarifs
-                                        préférentiels -25 ans / service public</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>App mobile
-                                        riche en fonctionnalités</li>
-                                </ul>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Contre</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>Aucune
-                                        carte fournie gratuitement</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>Service
-                                        client parfois difficile à joindre</li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
                     </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Plafonds de paiement et de retrait pouvant être plus élevés selon la carte et votre dossier.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Tarifs préférentiels possibles pour les moins de 25 ans et certains profils du service
+                            public.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Application mobile riche en fonctionnalités, avec des outils pratiques de suivi et de
+                            gestion.
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">Caractéristiques, frais et coûts</h3>
-
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            L’offre bancaire SG est souvent présentée via le pack <span
-                                class="font-semibold text-slate-900">Sobrio</span> :
-                            compte + carte au choix + conseiller + assurance du quotidien (perte/vol clés, papiers,
-                            moyens de paiement)
-                            et une extension de garantie constructeur pour des appareils domestiques neufs.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-user-tie text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Conseiller dédié</p>
-                                <p class="mt-2 text-sm text-slate-600">Accompagnement pour vos opérations bancaires.</p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-shield text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Assurance du quotidien</p>
-                                <p class="mt-2 text-sm text-slate-600">Vol/perte : clés, papiers, moyens de paiement.
-                                </p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-screwdriver-wrench text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Extension garantie</p>
-                                <p class="mt-2 text-sm text-slate-600">Jusqu’à 2 ans pour appareils achetés neufs (selon
-                                    conditions).</p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-id-card text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Cartes au choix</p>
-                                <p class="mt-2 text-sm text-slate-600">Visa Classique / Premier / Infinite.</p>
-                            </div>
-                        </div>
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
                     </div>
 
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-                            <div>
-                                <div
-                                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                                    <i class="fa-solid fa-credit-card text-emerald-600"></i>
-                                    <span class="text-sm font-medium text-slate-700">Comparez les offres de
-                                        cartes</span>
-                                </div>
-                                <h3 class="mt-5 text-xl font-semibold text-slate-900">3 cartes Visa, selon vos besoins
-                                </h3>
-                                <p class="mt-2 text-slate-600">
-                                    SG propose le choix entre Visa Classique, Visa Premier et Visa Infinite.
-                                </p>
-                                <p class="mt-3 text-sm text-slate-600">
-                                    Si vous avez moins de 25 ans ou travaillez dans le service public, des tarifs
-                                    préférentiels peuvent s’appliquer.
-                                </p>
-                            </div>
-
-                            <a href="#cta"
-                                class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                                Découvrir
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Visa Classique</p>
-                                <p class="mt-2 text-sm text-slate-600">Le choix simple pour le quotidien.</p>
-                            </div>
-                            <div
-                                class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Visa Premier</p>
-                                <p class="mt-2 text-sm text-slate-600">Plus d’avantages, plus de confort.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Visa Infinite</p>
-                                <p class="mt-2 text-sm text-slate-600">Haut de gamme, services premium.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Les cartes sont généralement associées à un forfait, avec un coût mensuel selon l’offre
+                            retenue.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Joindre l’assistance peut parfois être moins simple en période d’affluence ou selon le
+                            canal.
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Ouverture + App + Produits + Conditions + Service Client -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-user-pen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Comment ouvrir un compte</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une ouverture en 4 étapes, avec visio
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            SG propose un forfait bancaire souvent présenté comme une formule “tout-en-un”, qui regroupe
+                            un compte,
+                            une carte au choix, l’accès à un conseiller et des protections du quotidien. Certaines
+                            offres incluent aussi
+                            des garanties complémentaires, comme une couverture en cas de perte/vol de moyens de
+                            paiement ou des
+                            extensions de garantie sur des achats éligibles. L’important est de comparer le prix du
+                            forfait, ce qu’il
+                            inclut réellement et les options utiles pour votre profil.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Forfait</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Sobrio</p>
+                                <p class="mt-2 text-xs text-gray-600">Compte, carte, suivi</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Assurance</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Incluse</p>
+                                <p class="mt-2 text-xs text-gray-600">Protection du quotidien</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Options</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">À comparer</p>
+                                <p class="mt-2 text-xs text-gray-600">Selon carte et besoins</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comparez les offres de cartes bancaires
                         </h2>
-
-                        <div class="mt-5 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">1</span>
-                                <p>Remplir le formulaire en ligne (moins de 20 minutes).</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">2</span>
-                                <p>Déposer les justificatifs en ligne (dont 2 pièces d’identité + domicile).</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">3</span>
-                                <p>Signer le contrat en ligne.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">4</span>
-                                <p>Réaliser un bref entretien vidéo avec un conseiller.</p>
-                            </div>
-                        </div>
-
-                        <p class="mt-6 text-sm text-slate-600">
-                            Cette étape visio renforce la proximité, tout en gardant une expérience moderne.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-mobile-screen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Application mobile</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">Une app complète pour piloter votre compte
-                        </h3>
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            L’application SG (Android/iPhone) permet de suivre vos comptes, d’ajuster ponctuellement le
-                            plafond de votre carte,
-                            de gérer prélèvements et virements programmés et de visualiser des opérations à venir. Elle
-                            intègre aussi Paylib,
-                            des transferts d’argent par SMS et des outils budgétaires pour suivre votre mois.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            SG propose plusieurs niveaux de cartes Visa, du format “classique” à des gammes plus
+                            premium. Les écarts se
+                            jouent souvent sur les plafonds, les assurances et les services associés. Pour bien choisir,
+                            regardez vos
+                            habitudes (voyages, dépenses, retraits) et le coût du forfait.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Plafonds</p>
-                                <p class="mt-2 text-sm text-slate-600">Ajustement ponctuel.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Paylib</p>
-                                <p class="mt-2 text-sm text-slate-600">Paiement en ligne simplifié.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Budget</p>
-                                <p class="mt-2 text-sm text-slate-600">Vision claire du mois.</p>
-                            </div>
-                        </div>
-                    </div>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-credit-card"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Visa Classique</p>
+                                            <p class="text-xs text-gray-600">L’essentiel au quotidien</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-layer-group text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Produits & conditions</span>
-                        </div>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Produits bancaires</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
                                     <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Épargne &
-                                        placements</li>
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Paiements & retraits
+                                    </li>
                                     <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Crédits conso &
-                                        immobilier</li>
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Gestion depuis l’app
+                                    </li>
                                     <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Assurances
-                                        (auto, habitation, santé…)</li>
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds ajustables
+                                    </li>
                                 </ul>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Conditions bancaires</p>
-                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                                    SG ne demande pas de condition de revenus pour ouvrir un compte. Vos revenus seront
-                                    surtout pris en compte
-                                    pour définir les plafonds de retrait et de paiement. Les justificatifs incluent
-                                    généralement deux pièces
-                                    d’identité et un justificatif de domicile.
-                                </p>
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-crown"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Visa Premier /
+                                                Infinite</p>
+                                            <p class="text-xs text-gray-600">Plafonds & services premium</p>
+                                        </div>
+                                    </div>
+                                    <span
+                                        class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm">
+                                        Selon offre
+                                    </span>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Assurances renforcées
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds plus élevés
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Services additionnels
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                            <p class="text-sm font-semibold text-white/90">Service client</p>
-                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                                Conseillers joignables par téléphone du lundi au vendredi (8h–20h) et le samedi
-                                (8h–19h). Assistance 24h/24
-                                en cas de perte/vol des moyens de paiement ou de sinistre.
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Info</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Des conditions préférentielles peuvent exister pour les <span
+                                    class="font-semibold">moins de 25 ans</span> ou
+                                certains profils du <span class="font-semibold">service public</span>, selon les
+                                périodes et les offres.
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Avantage + CTA + Editorial -->
-    <section id="cta" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-award text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Avantage face aux banques 100% en
-                                ligne</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une banque classique, avec une expérience moderne
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte
                         </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            SG se différencie par un modèle “hybride” : la présence d’un conseiller, des parcours
-                            digitaux (ouverture en visio),
-                            et un pack comme Sobrio qui intègre une assurance du quotidien. Cela donne une expérience
-                            plus “humaine” que certaines
-                            banques en ligne, tout en conservant des fonctionnalités modernes.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’ouverture peut se faire en ligne en quelques étapes : formulaire, dépôt des justificatifs,
+                            signature
+                            électronique, puis validation d’identité. Selon le parcours, un échange à distance avec un
+                            conseiller peut
+                            être proposé pour finaliser la mise en service.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-video text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Visio-conseiller</p>
-                                <p class="mt-2 text-sm text-slate-600">Proximité, sans perdre le confort du digital.</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents fréquemment demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Deux
+                                        pièces d’identité</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-house mt-0.5 text-gray-900"></i>Justificatif de domicile
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-invoice mt-0.5 text-gray-900"></i>Pièces
+                                        complémentaires selon profil</li>
+                                </ul>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-shield-halved text-slate-900"></i>
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Remplir
+                                        la demande</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Déposer
+                                        les justificatifs</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Signer
+                                        en ligne</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Valider
+                                        l’identité</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Note</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Aucune condition de revenus n’est généralement exigée, mais vos revenus peuvent
+                                influencer les
+                                <span class="font-semibold">plafonds</span> de paiement et de retrait.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Application mobile
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’application SG (iOS et Android) permet de piloter ses comptes au quotidien : consultation,
+                            suivi des
+                            opérations à venir, gestion des virements et prélèvements, et contrôle de la carte. Vous
+                            pouvez aussi
+                            consulter la capacité de paiement, ajuster ponctuellement certains plafonds selon les
+                            règles, et accéder à
+                            des fonctionnalités pratiques comme le paiement mobile et des outils de budget.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-bell mr-2 text-gray-900"></i>Suivi
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Opérations à venir</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-sliders mr-2 text-gray-900"></i>Contrôle
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Plafonds & carte</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-globe mr-2 text-gray-900"></i>Paiement
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Mobile & en ligne</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Produits bancaires disponibles
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            En tant que banque traditionnelle, SG propose une gamme complète de solutions financières,
+                            du compte
+                            courant aux placements, en passant par les crédits et les assurances. Les conditions et
+                            tarifs varient
+                            selon l’offre et votre situation.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-piggy-bank mr-2"></i>Épargne & placements
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Livrets, épargne logement, assurance-vie et investissement.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-house-chimney mr-2"></i>Prêts
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Crédit conso et financement immobilier selon dossier.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-shield-halved mr-2"></i>Assurances
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Auto, habitation, santé et protections du quotidien.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-chart-line mr-2"></i>Investissement
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Solutions boursières et supports de placement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Conditions à connaître
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            SG n’impose généralement pas de condition de revenus à l’ouverture. En revanche, les
+                            informations liées à
+                            votre situation peuvent être prises en compte pour définir certains paramètres comme les
+                            plafonds de
+                            paiement et de retrait. Le dossier demande aussi des justificatifs plus complets, notamment
+                            deux pièces
+                            d’identité et un justificatif de domicile.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-euro-sign mr-2"></i>Revenus
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Pas de condition</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-circle-arrow-down mr-2"></i>Justificatifs
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Dossier plus complet</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-users mr-2"></i>Plafonds
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Selon profil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Service client
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Vous disposez d’un accompagnement par conseiller, avec un service téléphonique sur des
+                            horaires étendus en
+                            semaine et le samedi. En cas d’urgence (perte/vol des moyens de paiement, sinistre), une
+                            assistance
+                            spécifique peut être joignable 24h/24 selon les dispositifs prévus par la banque.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-phone mr-2"></i>Téléphone</p>
+                                <p class="mt-2 text-xs text-gray-600">Semaine + samedi</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-comment-dots mr-2"></i>Conseiller</p>
+                                <p class="mt-2 text-xs text-gray-600">Suivi dédié</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-shield-halved mr-2"></i>Urgence</p>
+                                <p class="mt-2 text-xs text-gray-600">Assistance 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Profils généralistes</p>
+                                        <p class="text-xs text-gray-500">Compte + services complets</p>
+                                    </div>
                                 </div>
-                                <p class="mt-4 font-semibold text-slate-900">Assurance incluse</p>
-                                <p class="mt-2 text-sm text-slate-600">Sobrio ajoute une protection utile au quotidien.
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Jeunes</p>
+                                        <p class="text-xs text-gray-500">Tarifs possibles selon offre</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Fonctionnaires</p>
+                                        <p class="text-xs text-gray-500">Avantages possibles</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
+                            </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Nous analysons les offres bancaires pour mettre en avant les points importants :
+                                    coûts, conditions
+                                    d’accès, services et accompagnement, afin de vous aider à faire le bon choix.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Passer à l’action</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">
-                            Vous comparez SG à une banque en ligne ?
-                        </h3>
-
-                        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                            Regardez surtout le coût total du pack, les avantages liés à votre profil
-                            (jeunes/fonctionnaires),
-                            et le niveau d’accompagnement (conseiller + assistance).
-                        </p>
-
-                        <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                            <a href="#"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                                Visiter le site
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a href="contact.html"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                                Demander un avis
-                                <i class="fa-solid fa-headset"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-white p-6">
-                            <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                                Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
-                                Notre objectif : faciliter le processus de choix du service financier qui répond le
-                                mieux à vos besoins.
-                            </p>
-                        </div>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel SG.
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
+
 
 
     <!-- Footer Section -->

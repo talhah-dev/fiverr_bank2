@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,24 +52,34 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
-</head>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
 
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
+</head>
 
 
 <body class="">
@@ -109,523 +121,448 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
-    <!-- FINOM – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
 
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banque-pros.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques pro
-                </a>
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
 
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-globe text-emerald-600"></i> Fintech (EU)
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-percent"></i> Cashback
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-building-columns text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">FINOM</span>
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            Finom
+                        </span>
                     </div>
 
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        Finom :
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
-                            un compte pro en ligne venu des Pays-Bas
-                        </span>
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
                     </h1>
 
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        Finom fait partie des fintechs spécialisées dans les comptes pro en ligne. Comme d’autres
-                        acteurs du marché,
-                        elle vise à simplifier la gestion quotidienne (tableau de bord, sous-comptes, facturation) et
-                        propose
-                        un programme de cashback. En revanche, l’offre reste orientée “gestion” plutôt que services
-                        bancaires complets.
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        Finom est une fintech d’origine néerlandaise qui propose un compte professionnel en ligne, pensé
+                        pour les
+                        indépendants comme pour les sociétés. Dans un marché déjà très concurrentiel, l’idée est simple
+                        : offrir un
+                        compte facile à utiliser, des cartes Business et des outils de gestion (facturation,
+                        sous-comptes, suivi des
+                        dépenses) pour gagner du temps au quotidien.
                     </p>
 
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Voir les offres FINOM
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrir si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Sous-comptes (“portefeuilles”) + RIB
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Facturation + rappels
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Cashback (selon offre)
-                        </span>
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Indépendants • sociétés</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Factures • cashback</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Chèques • espèces</p>
+                        </div>
                     </div>
                 </div>
 
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-bolt"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">Compte pro Finom</p>
-                                    <p class="text-sm text-slate-600">Indés & sociétés</p>
-                                </div>
-                            </div>
-
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-star text-amber-500"></i>
-                                Sélection Opti’ Scan
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/finom.webp" alt="Finom"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">Finom — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Prix d’entrée</p>
-                                <p class="mt-1 text-lg font-semibold text-slate-900">7€ / mois</p>
-                                <p class="text-xs text-slate-500 mt-1">Solo (payant)</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Cartes</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Business MasterCard</p>
-                                <p class="text-xs text-slate-500 mt-1">selon offre</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Limites</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Pas de chèques/espèces</p>
-                                <p class="text-xs text-slate-500 mt-1">pas de découvert</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Plus</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Cashback</p>
-                                <p class="text-xs text-slate-500 mt-1">plafond mensuel</p>
-                            </div>
-                        </div>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Accéder aux offres FINOM
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Info indicative : vérifiez les tarifs et fonctionnalités officielles avant souscription.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Finom propose une approche “tout-en-un” pour la gestion du compte pro : cartes, virements,
+                            tableaux de
+                            bord, sous-comptes et facturation. En revanche, ce n’est pas l’option la plus adaptée si
+                            vous avez besoin
+                            d’encaisser des chèques, de déposer du cash ou d’obtenir un découvert et des crédits.
                         </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Compte pro en ligne</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Bonus</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Cashback</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Avant de choisir, comparez le <span class="font-semibold">nombre de cartes</span>, les
+                                <span class="font-semibold">virements inclus</span> et l’intérêt réel des
+                                <span class="font-semibold">outils de facturation</span> pour votre activité.
+                            </p>
+                        </div>
                     </div>
                 </aside>
             </div>
-        </div>
-    </section>
 
-    <!-- Résumé + limites -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Finom en résumé</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
+                    </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Offres variées pour freelances, auto-entrepreneurs et sociétés, avec montée en gamme selon
+                            besoins.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Outils intégrés : facturation, rappels de paiement, sous-comptes, agrégation bancaire.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Programme de cashback sur les paiements par carte, selon formule.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Possibilité d’accepter les entreprises en création et de gérer un dépôt de capital (selon
+                            conditions).
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
+                    </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Pas de chéquier, pas d’encaissement de chèques et pas de dépôts d’espèces.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Pas de découvert autorisé ni de solutions d’épargne et de crédit “classiques”.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            L’offre gratuite a évolué : certaines formules d’entrée sont désormais payantes.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une approche “fintech outils” avant tout
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Finom est pensée pour simplifier le pilotage : sous-comptes, catégorisation, facturation,
-                            accès comptable,
-                            agrégation bancaire… L’idée : gagner du temps au quotidien.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Finom fonctionne par abonnement, avec un choix entre paiement mensuel ou annuel (souvent
+                            plus avantageux
+                            sur l’année). Plus vous montez en gamme, plus vous obtenez de cartes, des plafonds plus
+                            confortables, un
+                            volume de virements plus élevé et davantage de services inclus.
                         </p>
 
-                        <div class="mt-6 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Offres pour indépendants et sociétés, avec niveaux de services.</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Paiement</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Mensuel ou annuel</p>
+                                <p class="mt-2 text-xs text-gray-600">Réduction possible</p>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Paiement mensuel ou annuel (annuel souvent moins cher).</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Cartes</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Business</p>
+                                <p class="mt-2 text-xs text-gray-600">1 à plusieurs</p>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Cashback sur paiements carte (plafond selon plan).</p>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Virements</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Selon formule</p>
+                                <p class="mt-2 text-xs text-gray-600">Plafonds variables</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">
-                            Ce que Finom ne propose pas (à anticiper)
-                        </h3>
-
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            Finom ne vise pas à remplacer une banque traditionnelle sur tous les aspects. Certains
-                            services
-                            peuvent manquer selon votre activité : encaissement chèques/espèces, chéquier, découvert
-                            autorisé,
-                            épargne ou crédit.
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Les offres Finom
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Finom propose plusieurs formules : certaines orientées “solo” pour les indépendants,
+                            d’autres plus
+                            adaptées aux équipes. L’écart de prix se ressent rapidement, car les offres supérieures
+                            ajoutent des
+                            cartes, augmentent les limites et donnent accès à plus de fonctionnalités.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-ban text-slate-900"></i>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-user"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Solo / Start</p>
+                                            <p class="text-xs text-gray-600">Pour indépendants</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p class="mt-4 font-semibold text-slate-900">Pas de chèques / espèces</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Pas d’encaissement, pas de dépôt d’espèces.
-                                </p>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Compte + carte</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Outils de gestion</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Cashback plafonné</li>
+                                </ul>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-hand-holding-dollar text-slate-900"></i>
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-users"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Premium / Corporate
+                                            </p>
+                                            <p class="text-xs text-gray-600">Pour équipes</p>
+                                        </div>
+                                    </div>
+                                    <span
+                                        class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm">
+                                        Mensuel
+                                    </span>
                                 </div>
-                                <p class="mt-4 font-semibold text-slate-900">Pas de découvert / crédit</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Si vous avez besoin de financement, comparez avec une banque licenciée.
-                                </p>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plusieurs cartes</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Limites plus hautes
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Virements étendus</li>
+                                </ul>
                             </div>
                         </div>
 
-                        <div class="mt-7 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                            <p class="text-sm font-semibold text-white/90">Pour qui c’est idéal ?</p>
-                            <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                                Pour les entrepreneurs qui veulent une gestion rapide, des outils modernes et une vision
-                                claire
-                                des dépenses — sans dépendre de services bancaires “classiques” (chèques, espèces,
-                                crédit).
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">À surveiller</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Les offres et tarifs peuvent évoluer. Vérifiez aussi le détail des plafonds (cartes,
+                                virements,
+                                retraits) et ce qui est facturé en supplément.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Fonctionnalités et outils de gestion
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Finom met l’accent sur la “gestion” plus que sur des produits bancaires traditionnels. Vous
+                            disposez d’un
+                            tableau de bord pour suivre les dépenses, d’outils pour classer les transactions et
+                            d’options utiles pour
+                            collaborer avec un comptable. Selon la formule, vous pouvez aussi créer des sous-comptes
+                            avec RIB
+                            distincts, pratiques pour séparer des projets ou des budgets.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-chart-pie mr-2"></i>Tableau de bord
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Suivi et classement</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-folder-open mr-2"></i>Sous-comptes
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">“Portefeuilles” dédiés</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-file-invoice mr-2"></i>Facturation
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Rappels de paiement</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Cashback</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Un programme de cashback est proposé : un pourcentage des paiements par carte peut être
+                                reversé,
+                                avec un plafond mensuel qui dépend de la formule.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte chez Finom
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            La souscription se fait en ligne. Vous renseignez vos informations personnelles et celles de
+                            votre
+                            entreprise, puis vous transmettez les justificatifs demandés. Les entreprises en création
+                            peuvent aussi
+                            être acceptées, avec la possibilité de gérer un dépôt de capital selon les conditions de
+                            l’offre.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents généralement demandés
+                                </p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Pièce
+                                        d’identité</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-house mt-0.5 text-gray-900"></i>Justificatif de domicile
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-lines mt-0.5 text-gray-900"></i>Justificatifs
+                                        entreprise</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-clipboard-check mt-0.5 text-gray-900"></i>Documents selon
+                                        statut</li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Choisir
+                                        l’offre</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Renseigner
+                                        vos infos</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Importer
+                                        les justificatifs</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Recevoir
+                                        la validation</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Important</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Finom ne propose pas le dépôt d’espèces, l’encaissement de chèques ni le découvert
+                                autorisé : si ces
+                                points sont essentiels pour votre activité, il faudra envisager une alternative.
                             </p>
                         </div>
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- Offres -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-10">
-                <div class="max-w-3xl">
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-layer-group text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Les offres Finom</span>
-                    </div>
-
-                    <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
-                        Du solo au corporate
-                    </h2>
-
-                    <p class="mt-4 text-slate-600 leading-relaxed">
-                        Finom propose des formules évolutives. Plus la formule est élevée, plus vous obtenez de cartes,
-                        de virements, de plafonds et de fonctionnalités. Certains plans peuvent être plus avantageux en
-                        paiement annuel.
-                    </p>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
-                    <div class="flex items-center justify-between">
-                        <p class="text-sm font-semibold text-slate-900">Solo</p>
-                        <span class="text-xs px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700">
-                            7€ / mois
-                        </span>
-                    </div>
-                    <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-                        Plan d’entrée pour indépendants : essentiel pour payer, suivre et classer.
-                    </p>
-                    <div class="mt-6 space-y-2 text-sm text-slate-600">
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Compte pro + carte business</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Tableau de bord & catégories</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Cashback plafonné</p>
-                    </div>
-                </div>
-
-                <div
-                    class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm hover:shadow-xl transition">
-                    <div class="flex items-center justify-between">
-                        <p class="text-sm font-semibold text-slate-900">Start / Premium</p>
-                        <span class="text-xs px-3 py-1.5 rounded-full bg-slate-900 text-white">
-                            + cartes / + virements
-                        </span>
-                    </div>
-                    <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-                        Pour structures qui grandissent : davantage de cartes, plafonds plus élevés, et souvent des
-                        retraits inclus.
-                    </p>
-                    <div class="mt-6 space-y-2 text-sm text-slate-600">
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>2 cartes possibles (selon plan)</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Plus de virements inclus</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Retraits gratuits limités</p>
-                    </div>
-                </div>
-
-                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
-                    <div class="flex items-center justify-between">
-                        <p class="text-sm font-semibold text-slate-900">Corporate</p>
-                        <span class="text-xs px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700">
-                            ~149€ / mois
-                        </span>
-                    </div>
-                    <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-                        Pour équipes : beaucoup de cartes et opérations, logique “grande entreprise”.
-                    </p>
-                    <div class="mt-6 space-y-2 text-sm text-slate-600">
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Jusqu’à 20 cartes</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Virements très élevés / illimités</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Cashback plafond supérieur</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Fonctionnalités -->
-    <section class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-gears text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Fonctionnalités</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Des outils modernes pour piloter l’activité
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Finom se différencie par une expérience orientée productivité : accès comptable, agrégation,
-                            sous-comptes dédiés, facturation liée aux transactions, et rappels de paiement.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-6">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-user-lock text-slate-900"></i>
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Freelances</p>
+                                        <p class="text-xs text-gray-500">Outils de gestion</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-building"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Sociétés</p>
+                                        <p class="text-xs text-gray-500">Cartes et sous-comptes</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-receipt"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Profils “digital”</p>
+                                        <p class="text-xs text-gray-500">Facturation & suivi</p>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="mt-4 font-semibold text-slate-900">Accès comptable</p>
-                            <p class="mt-2 text-sm text-slate-600">Donner un accès dédié au comptable.</p>
                         </div>
 
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-link text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">Agrégation bancaire</p>
-                            <p class="mt-2 text-sm text-slate-600">Connecter d’autres comptes et centraliser.</p>
-                        </div>
-
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-folder-open text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">Sous-comptes</p>
-                            <p class="mt-2 text-sm text-slate-600">Créer des “portefeuilles” avec RIB distinct.</p>
-                        </div>
-
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-file-invoice-dollar text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">Facturation</p>
-                            <p class="mt-2 text-sm text-slate-600">Factures + rappels, liées aux transactions.</p>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                        <p class="text-sm font-semibold text-white/90">Cashback</p>
-                        <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                            Un % de vos paiements carte peut être reversé, avec un plafond mensuel qui dépend du plan
-                            choisi.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Souscription -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-id-card text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Souscrire</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Comment ouvrir un compte Finom ?
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            L’ouverture se fait en ligne : vous renseignez vos informations personnelles et celles de
-                            l’entreprise,
-                            puis vous téléchargez les justificatifs nécessaires. Les entreprises en création peuvent
-                            aussi être admises,
-                            notamment pour déposer le capital social (délai annoncé rapide).
-                        </p>
-
-                        <div class="mt-7 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">Documents courants</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Pièce d’identité</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Justificatif de domicile
-                                    </li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Infos & documents
-                                        entreprise</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Avis / justificatif de
-                                        situation</li>
-                                </ul>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">À anticiper</p>
-                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                                    Si votre activité dépend des chèques, espèces ou d’un découvert, comparez aussi avec
-                                    une banque
-                                    pro licenciée.
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
+                            </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Nous comparons les comptes pros selon les plafonds, les cartes incluses, les outils
+                                    de gestion et
+                                    les frais liés aux opérations.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-8 md:p-10 text-white">
-                        <p class="text-sm font-semibold text-white/90">Conseil Opti’ Scan</p>
-                        <h3 class="mt-2 text-xl font-semibold">
-                            Vérifiez vos “must-have” avant de choisir
-                        </h3>
-                        <p class="mt-4 text-sm text-white/80 leading-relaxed">
-                            Finom est excellent pour piloter et automatiser la gestion. Si votre activité exige
-                            encaissement chèques/espèces,
-                            crédit ou découvert, vous aurez peut-être besoin d’une autre solution ou d’un compte
-                            complémentaire.
-                        </p>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
-                            Voir les offres FINOM
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-    <!-- CTA -->
-    <section id="offres" class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
-                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-                    <div class="max-w-3xl">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Finom : une fintech pro orientée outils & productivité
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Comparez les plans selon votre statut, vos besoins en cartes, votre volume de virements et
-                            l’intérêt
-                            du cashback. Choisissez ensuite l’offre la plus cohérente pour votre activité.
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
-                        <a href="#"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                            Voir les offres FINOM
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="contact.html"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                            Demander un avis
-                            <i class="fa-solid fa-headset"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
-                    <span class="inline-flex items-center gap-2">
-                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
-                        Informations indicatives : consultez les conditions officielles Finom pour les détails à jour.
-                    </span>
-                </div>
-            </div>
-
-            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
-                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                    Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
-                    Notre objectif : faciliter le choix du service financier le plus adapté à vos besoins.
-                </p>
-            </div>
-        </div>
-    </section>
 
 
 

@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,22 +52,33 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
 </head>
 
 
@@ -109,691 +122,512 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
-    <!-- Qonto – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
 
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banque-pros.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques pro
-                </a>
-
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-briefcase text-emerald-600"></i> Banque Pro
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-users"></i> 1 à 150 employés
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-building-columns text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Qonto</span>
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            Qonto
+                        </span>
                     </div>
 
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        Qonto :
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">
-                            le compte pro qui simplifie vraiment la gestion
-                        </span>
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
                     </h1>
 
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        Les indépendants et petites structures trouvent souvent les comptes bancaires traditionnels trop
-                        coûteux
-                        et peu adaptés. Qonto s’est imposé comme une alternative moderne : un compte pro clair, des
-                        cartes,
-                        des limites d’opérations selon l’offre, et des outils pensés pour gagner du temps.
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        Qonto s’adresse aux indépendants et aux entreprises qui veulent un compte professionnel plus
+                        simple que les
+                        offres classiques des banques traditionnelles. L’idée : un abonnement clair, une gestion en
+                        ligne, et des
+                        outils pratiques pour suivre les dépenses, centraliser les justificatifs et faciliter la
+                        comptabilité.
                     </p>
 
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Voir les offres Qonto
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrir si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Offres Solo & Équipe
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            30 à 500 virements / mois
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
-                            Outils compta & justificatifs
-                        </span>
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Freelances • sociétés</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Outils • multi-utilisateurs</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Coût • virements</p>
+                        </div>
                     </div>
                 </div>
 
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-500 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-layer-group"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">Compte pro Qonto</p>
-                                    <p class="text-sm text-slate-600">Pour indépendants & équipes</p>
-                                </div>
-                            </div>
-
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-star text-amber-500"></i>
-                                Sélection Opti’ Scan
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/qonto.jpg" alt="Qonto"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">Qonto — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Cibles</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Freelances → PME</p>
-                                <p class="text-xs text-slate-500 mt-1">1 à 150 employés</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Opérations</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">30 → 500 / mois</p>
-                                <p class="text-xs text-slate-500 mt-1">Selon offre</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Cartes</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">MasterCard</p>
-                                <p class="text-xs text-slate-500 mt-1">One / Plus / X</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Gestion</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Compta simplifiée</p>
-                                <p class="text-xs text-slate-500 mt-1">TVA & exports</p>
-                            </div>
-                        </div>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Accéder aux offres Qonto
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Les informations peuvent évoluer selon l’offre et les conditions.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Qonto propose plusieurs formules selon la taille de l’organisation : offres “Solo” pour
+                            indépendants et
+                            micro-entrepreneurs, et offres “Équipe” pour les sociétés avec plusieurs associés ou
+                            collaborateurs.
+                            Les services de base restent proches d’une formule à l’autre, mais les plafonds, le nombre
+                            d’utilisateurs
+                            et les options évoluent.
                         </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Compte pro</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Cible</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">1 à 150+ collaborateurs</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Choisissez selon le <span class="font-semibold">volume de virements</span>, le
+                                <span class="font-semibold">nombre d’utilisateurs</span> et le besoin en
+                                <span class="font-semibold">cartes</span> (une ou plusieurs, gammes différentes).
+                            </p>
+                        </div>
                     </div>
                 </aside>
             </div>
-        </div>
-    </section>
 
-    <!-- Résumé -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Qonto en résumé</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une alternative moderne aux comptes pro classiques
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Qonto répond aux besoins des freelances, indépendants et petites équipes : prix plus
-                            lisibles,
-                            outils de gestion et carte(s) pour payer, centraliser et suivre les dépenses.
-                            L’idée : limiter les frictions et gagner du temps sur l’administratif.
-                        </p>
-
-                        <div class="mt-6 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Offres adaptées au nombre d’utilisateurs et aux volumes d’opérations.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Fonctions utiles pour la compta : justificatifs, catégories, exports.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Deux familles d’offres : Solo (indépendants) et Équipe (sociétés).</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">
-                            Ce qui fait varier les offres Qonto
-                        </h3>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-users text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Utilisateurs</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Le nombre de personnes pouvant accéder au compte et gérer l’activité.
-                                </p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-credit-card text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Cartes</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Selon l’offre : une ou plusieurs cartes, avec options Plus / X.
-                                </p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-arrow-right-arrow-left text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Virements</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Des quotas différents (ex : 30 à 500/mois) selon le plan choisi.
-                                </p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-gears text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Fonctions avancées</p>
-                                <p class="mt-2 text-sm text-slate-600">
-                                    Exports comptables, TVA, intégrations, limites plus élevées, etc.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Offres Solo / Équipe -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-10">
-                <div class="max-w-3xl">
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-table-list text-emerald-600"></i>
-                        <span class="text-sm font-medium text-slate-700">Les offres Qonto</span>
-                    </div>
-
-                    <h2 class="mt-5 text-3xl md:text-4xl font-semibold text-slate-900">
-                        Deux gammes : Solo et Équipe
-                    </h2>
-
-                    <p class="mt-4 text-slate-600 leading-relaxed">
-                        Qonto distingue les besoins des indépendants (Solo) de ceux des sociétés et équipes (Équipe).
-                        Les services de base restent similaires, mais les limites, les utilisateurs et les cartes
-                        évoluent.
-                    </p>
-                </div>
-
-                <a href="#offres"
-                    class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                    Voir les offres Qonto
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 hover:shadow-xl transition">
-                    <div class="flex items-center justify-between">
-                        <p class="text-sm font-semibold text-slate-900">Pour freelances & indépendants</p>
-                        <span class="text-xs px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700">
-                            Offres Solo
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
                         </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
                     </div>
 
-                    <p class="mt-4 text-slate-600 text-sm leading-relaxed">
-                        Idéal si vous n’avez pas besoin de gérer des salaires ou plusieurs utilisateurs.
-                        Attention : certaines offres peuvent inclure un quota réduit de virements (ex : 20).
-                    </p>
-
-                    <div class="mt-6 space-y-2 text-sm text-slate-600">
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Gestion simple des paiements</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Cartes selon besoin</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Fonctions de compta</p>
-                    </div>
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Offres modulables selon la taille : indépendant, équipe, TPE/PME.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Outils de gestion : scan des justificatifs, catégorisation des dépenses, TVA et exports
+                            comptables.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Possibilité d’ajouter des utilisateurs et des cartes selon les besoins de l’entreprise.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Pack création d’entreprise avec dépôt de capital possible pour certaines formes juridiques.
+                        </li>
+                    </ul>
                 </div>
 
-                <div
-                    class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm hover:shadow-xl transition">
-                    <div class="flex items-center justify-between">
-                        <p class="text-sm font-semibold text-slate-900">Pour sociétés & équipes</p>
-                        <span class="text-xs px-3 py-1.5 rounded-full bg-slate-900 text-white">
-                            Offres Équipe
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
                         </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
                     </div>
 
-                    <p class="mt-4 text-slate-600 text-sm leading-relaxed">
-                        Pensé pour les structures avec associés, TPE ou PME, et pour piloter plusieurs utilisateurs,
-                        cartes et flux financiers.
-                    </p>
-
-                    <div class="mt-6 space-y-2 text-sm text-slate-600">
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Plusieurs utilisateurs</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Volumes d’opérations plus élevés</p>
-                        <p><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Contrôles & gestion d’équipe</p>
-                    </div>
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Les offres évoluent vite en prix quand on augmente les plafonds, les cartes ou les
+                            utilisateurs.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Les limites de virements mensuels peuvent être contraignantes sur certaines formules.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Certaines activités sont exclues : vérifiez l’éligibilité avant de lancer la souscription.
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Cartes Qonto -->
-    <section class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-credit-card text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Cartes bancaires</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Les cartes Qonto : One, Plus et X
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            Qonto fonctionne par abonnement : chaque formule inclut un socle bancaire, puis des plafonds
+                            (virements,
+                            cartes, utilisateurs) et des fonctionnalités qui augmentent selon le niveau choisi. C’est
+                            pratique si
+                            vous savez combien d’opérations vous faites chaque mois, car cela évite de payer “trop
+                            grand” pour un
+                            usage simple.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Abonnement</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Clair</p>
+                                <p class="mt-2 text-xs text-gray-600">Socle + options</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Virements</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Plafonnés</p>
+                                <p class="mt-2 text-xs text-gray-600">Selon offre</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Cartes</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Multi-gammes</p>
+                                <p class="mt-2 text-xs text-gray-600">One / Plus / X</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comparez les offres de comptes professionnels
                         </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Chaque offre inclut généralement une carte MasterCard One. Selon vos besoins, vous pouvez
-                            ajouter
-                            des cartes supplémentaires ou monter en gamme avec les cartes Plus ou X (frais additionnels
-                            possibles).
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Qonto distingue souvent les formules pour indépendants (type “Solo”) et celles pour
+                            entreprises avec
+                            plusieurs personnes (type “Équipe”). Si vous travaillez seul, le point clé est le nombre
+                            d’opérations
+                            incluses. Si vous êtes plusieurs, regardez surtout le nombre d’utilisateurs, les niveaux
+                            d’accès et la
+                            gestion des cartes.
                         </p>
 
-                        <div class="mt-6 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Carte One incluse (selon offre).</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Cartes en option : Plus / X selon l’usage et les plafonds souhaités.</p>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
-                                <p>Possibilité de combiner plusieurs cartes pour l’équipe.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-6">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-1 text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">One</p>
-                            <p class="mt-2 text-sm text-slate-600">La carte standard, simple et efficace.</p>
-                        </div>
-
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-plus text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">Plus</p>
-                            <p class="mt-2 text-sm text-slate-600">Pour aller plus loin (options & plafonds).</p>
-                        </div>
-
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-12 w-12 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-xmark text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">X</p>
-                            <p class="mt-2 text-sm text-slate-600">Pour les besoins premium (selon plan).</p>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-900 p-7 text-white">
-                        <p class="text-sm font-semibold text-white/90">Astuce</p>
-                        <p class="mt-2 text-sm text-white/80 leading-relaxed">
-                            Le bon choix dépend surtout du nombre d’utilisateurs, du besoin en cartes et du volume de
-                            virements.
-                            Si vous payez régulièrement des prestataires, privilégiez un plan avec un quota confortable.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Fonctionnalités -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8 md:p-10">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-mobile-screen-button text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Fonctionnalités</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une app pensée pour la gestion pro
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Qonto propose une application orientée productivité : justificatifs, catégorisation
-                            automatique,
-                            détection de TVA, et intégrations comptables pour fluidifier le suivi.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-6">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-camera text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">Scan des justificatifs</p>
-                            <p class="mt-2 text-sm text-slate-600">
-                                Associez vos reçus aux dépenses en quelques secondes.
-                            </p>
-                        </div>
-
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-tags text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">Catégorisation</p>
-                            <p class="mt-2 text-sm text-slate-600">
-                                Classement automatique et suivi plus clair.
-                            </p>
-                        </div>
-
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-percent text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">TVA</p>
-                            <p class="mt-2 text-sm text-slate-600">
-                                Indicateurs et détection automatique selon cas.
-                            </p>
-                        </div>
-
-                        <div class="rounded-3xl border border-slate-200 bg-white p-7 hover:shadow-xl transition">
-                            <div
-                                class="h-11 w-11 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center">
-                                <i class="fa-solid fa-plug text-slate-900"></i>
-                            </div>
-                            <p class="mt-4 font-semibold text-slate-900">Intégrations comptables</p>
-                            <p class="mt-2 text-sm text-slate-600">
-                                Exports et connecteurs pour une gestion fluide.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Pack Créateurs -->
-    <section class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-building-circle-check text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Création d’entreprise</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Le pack dépôt de capital (créateurs)
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Qonto propose un pack pour aider au dépôt de capital social (selon formes juridiques).
-                            L’objectif : faciliter les démarches et obtenir une attestation de dépôt rapidement (délai
-                            annoncé).
-                        </p>
-
-                        <div class="mt-7 grid grid-cols-1 md:grid-cols-3 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pack Basic</p>
-                                <p class="mt-2 text-sm text-slate-600">Dépôt + 12 mois Basic (ou dépôt seul + abo)</p>
-                                <p class="mt-3 text-sm font-semibold text-slate-900">169€ / 69€</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pack Smart</p>
-                                <p class="mt-2 text-sm text-slate-600">Dépôt + 12 mois Smart (ou dépôt seul + abo)</p>
-                                <p class="mt-3 text-sm font-semibold text-slate-900">289€ / 69€</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pack Essential</p>
-                                <p class="mt-2 text-sm text-slate-600">Dépôt + 12 mois (ou dépôt seul + abo)</p>
-                                <p class="mt-3 text-sm font-semibold text-slate-900">399€ / 69€</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-7 rounded-3xl border border-slate-200 bg-white p-7">
-                            <p class="text-sm font-semibold text-slate-900">Documents souvent demandés</p>
-                            <div class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-slate-600">
-                                <div class="flex items-start gap-3">
-                                    <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                    <p>Justificatif siège social</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-user"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Offres Solo</p>
+                                            <p class="text-xs text-gray-600">Pour indépendants</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="flex items-start gap-3">
-                                    <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                    <p>Statuts</p>
-                                </div>
-                                <div class="flex items-start gap-3">
-                                    <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                    <p>Liste des souscripteurs</p>
-                                </div>
-                                <div class="flex items-start gap-3">
-                                    <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
-                                    <p>Pièces d’identité / domicile</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-8 md:p-10 text-white">
-                        <p class="text-sm font-semibold text-white/90">Pour qui ?</p>
-                        <h3 class="mt-2 text-xl font-semibold">
-                            Si vous créez une société
-                        </h3>
-                        <p class="mt-4 text-sm text-white/80 leading-relaxed">
-                            Le pack peut être pertinent si vous avez besoin de déposer le capital rapidement et de
-                            centraliser
-                            l’ouverture de compte pro et les démarches associées.
-                        </p>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
-                            Voir les offres Qonto
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Ouvrir un compte -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 md:p-10 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-id-card text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Ouvrir un compte</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Comment ouvrir un compte Qonto ?
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            L’ouverture se fait en ligne, via un formulaire. Qonto accueille les indépendants, les
-                            sociétés
-                            et peut aussi accepter les associations. Les entreprises immatriculées en France et DOM-TOM
-                            peuvent être éligibles selon conditions. Certaines activités sont exclues.
-                        </p>
-
-                        <div class="mt-7 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">Documents courants</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Identité + domicile du
-                                        mandataire</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Justifs bénéficiaires
-                                        effectifs</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Justif siège social</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Kbis / statuts / preuve
-                                        d’immatriculation</li>
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Budget maîtrisé</li>
+                                    <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>1
+                                        utilisateur</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Virements inclus selon
+                                        niveau</li>
                                 </ul>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="font-semibold text-slate-900">Mobilité bancaire</p>
-                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                                    Un service de transfert peut aider à rediriger automatiquement certains
-                                    virements/prélèvements
-                                    vers le nouveau compte (selon conditions).
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-users"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Offres Équipe</p>
+                                            <p class="text-xs text-gray-600">Pour sociétés</p>
+                                        </div>
+                                    </div>
+                                    <span
+                                        class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm">
+                                        Mensuel
+                                    </span>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Multi-utilisateurs
+                                    </li>
+                                    <li class="flex gap-2"><i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plus
+                                        de cartes</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Plafonds plus élevés
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Comment choisir ?</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Basez-vous sur <span class="font-semibold">le volume de virements</span>, le
+                                <span class="font-semibold">nombre de cartes</span> nécessaires et le besoin d’accès
+                                pour vos
+                                collaborateurs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Cartes bancaires
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Les offres incluent généralement une carte de base, puis vous pouvez choisir des gammes
+                            supérieures ou
+                            ajouter des cartes supplémentaires. C’est intéressant si vous devez séparer les achats
+                            (équipe, projets,
+                            dépenses récurrentes) ou donner une carte à un associé/collaborateur.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-credit-card mr-2"></i>Carte de base
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Incluse selon offre</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-plus mr-2"></i>Cartes optionnelles
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Pour équipe / besoins</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-crown mr-2"></i>Gamme supérieure
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Plus de services</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Application et fonctionnalités
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Qonto mise sur l’automatisation : ajout rapide des justificatifs, catégorisation des
+                            dépenses, règles de
+                            gestion, et intégration avec des outils comptables. Pour beaucoup d’indépendants, c’est le
+                            vrai gain de
+                            temps : moins d’allers-retours avec les documents et une comptabilité plus fluide.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-camera mr-2"></i>Justificatifs
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Scan & association</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-tags mr-2"></i>Catégories
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Dépenses triées</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-plug mr-2"></i>Compta
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Intégrations</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Pack dépôt de capital
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Pour les créateurs d’entreprise, Qonto propose un parcours de dépôt de capital pour
+                            certaines structures.
+                            Le principe : récupérer un RIB, faire verser les apports, puis obtenir une attestation une
+                            fois les fonds
+                            reçus. C’est surtout utile si vous cherchez à centraliser la création et la banque au même
+                            endroit.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-building mr-2"></i>Pour sociétés
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    SAS/SASU, SARL, EURL selon éligibilité.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-file-signature mr-2"></i>Justificatifs
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Siège social, statuts, souscripteurs et pièces d’identité.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’ouverture se fait en ligne : le représentant légal remplit le formulaire et transmet les
+                            documents
+                            demandés. Qonto accepte plusieurs statuts (indépendants, sociétés, parfois associations),
+                            pour des
+                            entreprises immatriculées en France et certains territoires. Certaines activités restent
+                            exclues : vérifiez
+                            la liste avant de souscrire.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents fréquemment demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Identité & domicile
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-location-dot mt-0.5 text-gray-900"></i>Justificatif du
+                                        siège</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-file-lines mt-0.5 text-gray-900"></i>Kbis / statuts /
+                                        immatriculation</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-user-shield mt-0.5 text-gray-900"></i>Bénéficiaires
+                                        effectifs</li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Choisir
+                                        l’offre</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Créer
+                                        le dossier en ligne</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Importer
+                                        les justificatifs</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Accéder
+                                        au compte</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Mobilité bancaire</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Un service de mobilité peut aider à transférer automatiquement certains virements et
+                                prélèvements
+                                récurrents depuis votre ancien compte, selon la situation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user-tie"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Freelances</p>
+                                        <p class="text-xs text-gray-500">Gestion simple</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-users"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Sociétés</p>
+                                        <p class="text-xs text-gray-500">Multi-utilisateurs</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-file-invoice"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Créateurs</p>
+                                        <p class="text-xs text-gray-500">Dépôt de capital</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
+                            </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Nous analysons les comptes pros en regardant l’adéquation prix/usage, la gestion des
+                                    justificatifs,
+                                    les plafonds de virements et la facilité d’ouverture.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-900 p-8 md:p-10 text-white">
-                        <p class="text-sm font-semibold text-white/90">Conseil Opti’ Scan</p>
-                        <h3 class="mt-2 text-xl font-semibold">
-                            Choisissez selon vos flux
-                        </h3>
-                        <p class="mt-4 text-sm text-white/80 leading-relaxed">
-                            Si vous réalisez souvent des virements, privilégiez un plan avec un quota confortable.
-                            Et si vous êtes plusieurs, comparez les besoins en utilisateurs et en cartes dès le départ.
-                        </p>
-
-                        <a href="#offres"
-                            class="inline-flex items-center justify-center gap-2 mt-7 w-full px-6 py-3 rounded-xl bg-white text-slate-900 font-medium hover:opacity-90 transition">
-                            Voir les offres Qonto
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Offres / CTA -->
-    <section id="offres" class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 md:p-12">
-                <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-                    <div class="max-w-3xl">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Accéder aux offres</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Vous hésitez entre Solo et Équipe ?
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            Comparez le nombre d’utilisateurs, les cartes, les quotas de virements et les fonctions de
-                            gestion
-                            pour choisir l’offre la plus cohérente avec votre activité.
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
-                        <a href="#"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                            Voir les offres Qonto
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="contact.html"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                            Demander un avis
-                            <i class="fa-solid fa-headset"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
-                    <span class="inline-flex items-center gap-2">
-                        <i class="fa-solid fa-circle-info text-emerald-600"></i>
-                        Informations indicatives : consultez les conditions officielles Qonto pour les détails à jour.
-                    </span>
-                </div>
-            </div>
-
-            <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-7">
-                <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                    Notre équipe de rédaction est composée de profils spécialisés dans le secteur financier.
-                    Notre objectif : vous aider à choisir le service le plus adapté à vos besoins, grâce à des
-                    comparaisons
-                    claires et des repères concrets.
-                </p>
-            </div>
-        </div>
-    </section>
 
 
 

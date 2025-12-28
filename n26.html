@@ -5,42 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Opti’ Scan | Comparateur banques, assurances & services financiers</title>
+    <title>Nuage Comparateur — Comparez banques, assurances & offres pro en France</title>
 
     <meta name="description"
-        content="Opti’ Scan compare les meilleures offres bancaires, assurances et services financiers. Trouvez rapidement l’offre la plus adaptée à vos besoins avec une comparaison claire et transparente." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#ffffff" />
+        content="Nuage Comparateur vous aide à comparer les meilleures banques en ligne, banques pro et assurances en France. Classements, avis, tableaux comparatifs et conseils pour choisir l’offre adaptée." />
 
-    <link rel="canonical" href="https://opti-scan.fr/" />
+    <meta name="keywords"
+        content="comparateur banque, banque en ligne, banque pro, compte pro, comparateur assurance, assurance auto, assurance habitation, mutuelle santé, avis banque, top banques, comparatif offres" />
+
+    <meta name="author" content="Nuage Comparateur" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nuagecomparateur.fr/" />
 
     <!-- Open Graph -->
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nuage Comparateur" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Opti’ Scan" />
-    <meta property="og:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta property="og:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta property="og:description"
-        content="Comparez les meilleures banques en ligne, assurances et services financiers. Faites un choix éclairé avec Opti’ Scan." />
-    <meta property="og:url" content="https://opti-scan.fr/" />
-    <meta property="og:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Comparez banques en ligne, banques pro et assurances en France. Avis, tableaux comparatifs et sélections pour faire le bon choix." />
+    <meta property="og:url" content="https://nuagecomparateur.fr/" />
+    <meta property="og:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Opti’ Scan | Comparateur banques, assurances & services financiers" />
+    <meta name="twitter:title" content="Nuage Comparateur — Comparez banques, assurances & offres pro" />
     <meta name="twitter:description"
-        content="Comparez les meilleures offres bancaires, assurances et services financiers en toute transparence." />
-    <meta name="twitter:image" content="https://opti-scan.fr/docs/assets/images/og-image.png" />
+        content="Avis, classements et tableaux comparatifs pour choisir une banque ou assurance adaptée en France." />
+    <meta name="twitter:image" content="https://nuagecomparateur.fr/assets/og/og-image.jpg" />
 
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="/docs/assets/images/favicon.png" />
-    <link rel="apple-touch-icon" href="/docs/assets/images/apple-touch-icon.png" />
+    <!-- Favicon / Icons -->
+    <link rel="icon" href="/docs/assets/images/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <!-- Optional: Performance hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
     <link rel="stylesheet" href="/docs/Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,22 +52,33 @@
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <!-- JSON-LD -->
+    <!-- Schema.org (Organization + WebSite) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Opti’ Scan",
-      "url": "https://opti-scan.fr/",
-      "inLanguage": "fr-FR",
-      "description": "Comparateur de banques, assurances et services financiers.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://opti-scan.fr/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "inLanguage":"fr-FR",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nuagecomparateur.fr/recherche?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Nuage Comparateur",
+  "url":"https://nuagecomparateur.fr/",
+  "logo":"https://nuagecomparateur.fr/assets/images/logo.png",
+  "sameAs":[]
+}
+</script>
+
 </head>
 
 
@@ -109,492 +122,550 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
-    <!-- N26 – Retail Detail Page -->
-    <section class="relative pt-28 pb-16 bg-white overflow-hidden">
-        <div class="absolute -top-28 -left-28 w-[420px] h-[420px] bg-indigo-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-24 -right-28 w-[420px] h-[420px] bg-emerald-500/10 rounded-full blur-3xl"></div>
+    <section id="bank-detail" class="relative overflow-hidden bg-white py-12 sm:py-16">
+        <div class="pointer-events-none absolute inset-0">
+            <div
+                class="absolute -top-40 -right-40 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-fuchsia-200 via-rose-200 to-amber-200 blur-3xl opacity-60">
+            </div>
+            <div
+                class="absolute -bottom-44 -left-44 h-[30rem] w-[30rem] rounded-full bg-gradient-to-tr from-amber-200 via-pink-200 to-violet-200 blur-3xl opacity-60">
+            </div>
+        </div>
 
-        <div class="max-w-7xl mx-auto px-6">
-            <nav class="flex items-center justify-between gap-6 mb-10">
-                <a href="banques.html"
-                    class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition">
-                    <i class="fa-solid fa-arrow-left"></i>
-                    Retour aux banques
-                </a>
-
-                <div class="flex items-center gap-2">
-                    <span
-                        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                        <i class="fa-solid fa-mobile-screen text-emerald-600"></i> Banque 100% mobile
-                    </span>
-                    <span
-                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs">
-                        <i class="fa-solid fa-bolt"></i> Gestion en temps réel
-                    </span>
-                </div>
-            </nav>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-7 space-y-7">
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-12 lg:items-start">
+                <div class="lg:col-span-8">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                        <i class="fa-solid fa-star text-amber-500"></i>
-                        <span class="text-sm font-medium text-slate-700">Notre avis sur N26</span>
+                        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm backdrop-blur">
+                        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gray-900 text-white">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        Notre avis sur
+                        <span
+                            class="bg-gradient-to-r from-fuchsia-600 via-rose-600 to-amber-500 bg-clip-text text-transparent">
+                            N26
+                        </span>
                     </div>
 
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
-                        N26 : la banque
-                        <span
-                            class="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-emerald-500">
-                            entièrement mobile, simple et innovante
-                        </span>
+                    <h1
+                        class="mt-5 text-4xl font-bold capitalize md:leading-tight tracking-tight text-gray-900 sm:text-5xl">
+                        Découvrez si cette banque est faite pour vous
                     </h1>
 
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        N26 mise sur une expérience mobile ultra fluide : ouverture, gestion, budgets, réglages de
-                        carte… tout se pilote
-                        depuis l’application. Sans paperasse, avec des fonctionnalités pensées pour gérer son argent en
-                        temps réel.
+                    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-gray-600">
+                        N26 est une néobanque conçue autour du mobile : ouverture de compte, cartes et gestion du budget
+                        se font
+                        directement depuis l’application, sans paperasse inutile. L’expérience est pensée pour piloter
+                        son argent en
+                        temps réel, avec des outils pratiques, des notifications instantanées et une approche très
+                        “digital-first”.
                     </p>
 
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Visiter le site
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                        <a href="#resume"
-                            class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                            Découvrez si c’est fait pour vous
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-6 pt-2 text-sm text-slate-600">
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i> App performante
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Assistance via app & téléphone
-                        </span>
-                        <span class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-circle-check text-emerald-600"></i> Intéressant pour voyageurs
-                        </span>
+                    <div class="mt-7 grid gap-4 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Profil</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Mobile • moderne</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">Points forts</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">App • temps réel</p>
+                        </div>
+                        <div class="rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                            <p class="text-xs font-semibold text-gray-500">À vérifier</p>
+                            <p class="mt-1 text-sm font-bold capitalize text-gray-900">Retraits • mobile</p>
+                        </div>
                     </div>
                 </div>
 
-                <aside class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="relative rounded-[2.5rem] border border-slate-200 bg-white shadow-xl p-8">
-                        <div class="flex items-center justify-between gap-4">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="h-12 w-12 rounded-2xl bg-gradient-to-br from-indigo-600 to-emerald-500 text-white flex items-center justify-center">
-                                    <i class="fa-solid fa-mobile-screen"></i>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-slate-900">N26</p>
-                                    <p class="text-sm text-slate-600">Banque en ligne 100% mobile</p>
-                                </div>
-                            </div>
-
+                <aside class="lg:col-span-4">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white/90 p-6 shadow-xl backdrop-blur">
+                        <div class="flex items-center gap-3">
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs text-slate-700">
-                                <i class="fa-solid fa-shield-halved text-emerald-600"></i>
-                                Nouvelle génération
+                                class="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                                <img src="/docs/assets/images/n26.png" alt="N26"
+                                    class="h-full w-full object-contain p-2" />
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold capitalize text-gray-900">N26 — en résumé</p>
+                                <p class="text-xs text-gray-500">Analyse éditoriale</p>
                             </div>
                         </div>
 
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Cartes</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">4 cartes</p>
-                                <p class="text-xs text-slate-500 mt-1">Particuliers & Business</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Retraits gratuits</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">3 à 8 max</p>
-                                <p class="text-xs text-slate-500 mt-1">Selon l’offre</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Conditions</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Aucun dépôt</p>
-                                <p class="text-xs text-slate-500 mt-1">Aucun revenu demandé</p>
-                            </div>
-
-                            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                                <p class="text-xs text-slate-500">Support</p>
-                                <p class="mt-1 text-sm font-semibold text-slate-900">Livechat</p>
-                                <p class="text-xs text-slate-500 mt-1">Téléphone & email</p>
-                            </div>
-                        </div>
-
-                        <a href="#cta"
-                            class="inline-flex items-center justify-center gap-2 mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition">
-                            Découvrir N26
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel de
-                            N26.
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            N26 se positionne comme une banque nouvelle génération : tout se fait depuis l’application,
+                            avec des
+                            fonctionnalités de suivi budgétaire et de contrôle de la carte très poussées. La formule
+                            peut être
+                            intéressante pour les voyageurs et certains indépendants, à condition d’être à l’aise avec
+                            une gestion
+                            principalement digitale.
                         </p>
+
+                        <div class="mt-5 grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Type</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Néobanque</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-white p-4">
+                                <p class="text-xs font-semibold text-gray-500">Accès</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Mobile & web</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                            <p class="text-xs font-semibold text-gray-500">Conseil Nuage Comparateur</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Regardez le nombre de <span class="font-semibold">retraits inclus</span>, la
+                                compatibilité avec le
+                                <span class="font-semibold">paiement mobile</span> et les avantages des offres premium
+                                si vous voyagez
+                                souvent.
+                            </p>
+                        </div>
                     </div>
                 </aside>
             </div>
-        </div>
-    </section>
 
-    <!-- Résumé + Pour / Contre -->
-    <section id="resume" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-file-lines text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">N26 en résumé</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Une banque pensée “mobile-first”, sans paperasse
-                        </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            N26 propose une expérience 100% digitale : ouverture, gestion du compte courant, réglages de
-                            carte,
-                            catégorisation des dépenses, et suivi en temps réel depuis l’application.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pour</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Support via
-                                        l’app + téléphone</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Bien adaptée
-                                        aux voyageurs</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Application
-                                        performante</li>
-                                </ul>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Contre</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>3 à 8
-                                        retraits gratuits max</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-triangle-exclamation text-amber-500 mt-0.5"></i>Non
-                                        compatible paiement mobile Android</li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                            <i class="fa-solid fa-thumbs-up text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Pour</h2>
                     </div>
+
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Support accessible depuis l’application, avec des options de contact selon la formule.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Une solution intéressante pour les voyageurs et certains entrepreneurs grâce à une gestion
+                            100% mobile.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check mt-0.5 text-emerald-600"></i>
+                            Application très complète : contrôle de la carte, suivi budget et notifications
+                            instantanées.
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <h3 class="text-xl font-semibold text-slate-900">Caractéristiques, frais et coûts</h3>
-
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            N26 se positionne comme une banque “nouvelle génération” : de l’ouverture du compte à la
-                            gestion quotidienne,
-                            tout se fait depuis le smartphone. La promesse : une expérience simple, transparente, et
-                            sans paperasse.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-wand-magic-sparkles text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Mobile-first</p>
-                                <p class="mt-2 text-sm text-slate-600">Tout est géré depuis l’application.</p>
-                            </div>
-
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <div
-                                    class="h-11 w-11 rounded-2xl bg-white border border-slate-200 flex items-center justify-center">
-                                    <i class="fa-solid fa-gift text-slate-900"></i>
-                                </div>
-                                <p class="mt-4 font-semibold text-slate-900">Parrainage</p>
-                                <p class="mt-2 text-sm text-slate-600">Bonus annoncé lors d’ouvertures via invitation.
-                                </p>
-                            </div>
-                        </div>
+                <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                    <div class="flex items-center gap-3">
+                        <span
+                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                            <i class="fa-solid fa-thumbs-down text-lg"></i>
+                        </span>
+                        <h2 class="text-lg font-bold capitalize text-gray-900 sm:text-xl">Contre</h2>
                     </div>
 
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-                            <div>
-                                <div
-                                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                                    <i class="fa-solid fa-credit-card text-emerald-600"></i>
-                                    <span class="text-sm font-medium text-slate-700">Comparez les offres de
-                                        cartes</span>
-                                </div>
-                                <h3 class="mt-5 text-xl font-semibold text-slate-900">4 cartes pour particuliers &
-                                    professionnels</h3>
-                                <p class="mt-2 text-slate-600">
-                                    N26 propose plusieurs formules de comptes, avec des options qui varient selon les
-                                    besoins (quotas de
-                                    retraits, services premium, etc.).
-                                </p>
-                            </div>
-
-                            <a href="#cta"
-                                class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50 transition">
-                                Découvrir
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-4 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Standard</p>
-                                <p class="mt-2 text-sm text-slate-600">Essentiel au quotidien.</p>
-                            </div>
-                            <div
-                                class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Smart</p>
-                                <p class="mt-2 text-sm text-slate-600">Plus de flexibilité.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">You</p>
-                                <p class="mt-2 text-sm text-slate-600">Usage premium / voyage.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6 hover:shadow-md transition">
-                                <p class="text-sm font-semibold text-slate-900">Metal</p>
-                                <p class="mt-2 text-sm text-slate-600">Expérience haut de gamme.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <ul class="mt-5 space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Nombre de retraits gratuits limité selon l’offre, au-delà desquels des frais peuvent
+                            s’appliquer.
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-xmark mt-0.5 text-rose-600"></i>
+                            Certaines fonctions de paiement mobile peuvent varier selon l’appareil et le système
+                            utilisé.
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Ouverture + App + Conditions + Crédit -->
-    <section class="relative py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-5">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-slate-50 p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-user-pen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Comment ouvrir un compte</span>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <div class="flex items-center justify-between gap-4">
+                            <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                                Caractéristiques, frais et coûts
+                            </h2>
                         </div>
 
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Ouverture simple en quelques étapes
+                        <p class="mt-4 text-sm leading-relaxed text-gray-600">
+                            N26 s’appuie sur une approche “app-first” : ouverture, carte et gestion se font depuis le
+                            smartphone.
+                            L’avantage, c’est une expérience rapide et sans paperasse. Côté tarifs, les frais dépendent
+                            surtout de la
+                            formule choisie (standard ou premium), des retraits et des services additionnels. Des
+                            avantages de type
+                            parrainage peuvent exister selon les périodes.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Ouverture</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Mobile</p>
+                                <p class="mt-2 text-xs text-gray-600">Parcours rapide</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Tarifs</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Selon offre</p>
+                                <p class="mt-2 text-xs text-gray-600">Retraits & options</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-xs font-semibold text-gray-500">Bonus</p>
+                                <p class="mt-1 text-sm font-bold capitalize text-gray-900">Parrainage</p>
+                                <p class="mt-2 text-xs text-gray-600">Selon conditions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comparez les offres de cartes bancaires
                         </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            N26 propose plusieurs cartes pour particuliers et professionnels, avec des différences sur
+                            les services
+                            inclus, l’accompagnement et les avantages liés aux voyages. L’idée est de comparer ce qui
+                            est vraiment
+                            utile : retraits, assurances, plafonds et fonctionnalités premium.
+                        </p>
 
-                        <div class="mt-5 space-y-3 text-sm text-slate-600">
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">1</span>
-                                <p>Compléter le formulaire en ligne.</p>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-credit-card"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Offre Standard</p>
+                                            <p class="text-xs text-gray-600">Pour démarrer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Gestion en temps réel
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Notifications
+                                        instantanées</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Retraits selon
+                                        conditions</li>
+                                </ul>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">2</span>
-                                <p>Valider via le code reçu par SMS.</p>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <div class="flex items-start justify-between gap-3">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                            <i class="fa-solid fa-crown"></i>
+                                        </span>
+                                        <div>
+                                            <p class="text-sm font-bold capitalize text-gray-900">Offres Premium</p>
+                                            <p class="text-xs text-gray-600">Voyage & services</p>
+                                        </div>
+                                    </div>
+                                    <span
+                                        class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm">
+                                        Mensuel
+                                    </span>
+                                </div>
+
+                                <ul class="mt-4 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Avantages à
+                                        l’international</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Services additionnels
+                                    </li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-check mt-0.5 text-emerald-600"></i>Assistance renforcée
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="flex items-start gap-3">
-                                <span
-                                    class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-semibold">3</span>
-                                <p>Soumettre les pièces justificatives (numérisées ou par courrier).</p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Comment ouvrir un compte
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’ouverture est conçue pour être rapide depuis l’application : vous saisissez vos
+                            informations, validez
+                            votre numéro, puis transmettez votre pièce d’identité via le parcours de vérification. Une
+                            fois votre
+                            dossier accepté, vous recevez vos accès et pouvez commander la carte associée.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Documents fréquemment demandés</p>
+                                <ul class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><i class="fa-solid fa-id-card mt-0.5 text-gray-900"></i>Pièce
+                                        d’identité</li>
+                                    <li class="flex gap-2"><i class="fa-solid fa-house mt-0.5 text-gray-900"></i>Adresse
+                                        de résidence</li>
+                                    <li class="flex gap-2"><i
+                                            class="fa-solid fa-mobile-screen mt-0.5 text-gray-900"></i>Téléphone
+                                        compatible</li>
+                                </ul>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">Étapes typiques</p>
+                                <ol class="mt-3 space-y-2 text-sm text-gray-700">
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">1</span>Créer
+                                        le compte</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">2</span>Vérifier
+                                        l’identité</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">3</span>Commander
+                                        la carte</li>
+                                    <li class="flex gap-2"><span
+                                            class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-xs font-bold text-white">4</span>Activer
+                                        et utiliser</li>
+                                </ol>
                             </div>
                         </div>
 
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-white p-6">
-                            <p class="text-sm font-semibold text-slate-900">Conditions bancaires</p>
-                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                                Les comptes N26 ne demandent pas de dépôt ni de condition de revenus. La banque accepte
-                                aussi certains profils
-                                spécifiques, selon éligibilité.
+                        <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-4">
+                            <p class="text-xs font-semibold text-gray-500">Bon à savoir</p>
+                            <p class="mt-1 text-sm text-gray-700">
+                                Les comptes N26 sont généralement accessibles sans condition de revenus ni dépôt
+                                initial, mais vous
+                                devez respecter les critères d’éligibilité (âge, pays, téléphone compatible).
                             </p>
                         </div>
                     </div>
-                </div>
 
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-mobile-screen text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Application mobile</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">Une gestion en temps réel, ultra pratique
-                        </h3>
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            Depuis l’app, vous suivez votre compte en direct, classez vos dépenses par catégories,
-                            modifiez vos plafonds,
-                            bloquez/débloquez votre carte et même associez des photos à certaines transactions.
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Budgets</p>
-                                <p class="mt-2 text-sm text-slate-600">Catégories & statistiques.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Sécurité carte</p>
-                                <p class="mt-2 text-sm text-slate-600">Blocage instantané.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Multi-device</p>
-                                <p class="mt-2 text-sm text-slate-600">Mobile, PC, tablette, montre.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-hand-holding-dollar text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Crédit à la consommation</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">Un parcours de devis directement dans
-                            l’app</h3>
-                        <p class="mt-3 text-slate-600 leading-relaxed">
-                            N26 propose un parcours de crédit à la consommation via l’application : devis rapide,
-                            réponse annoncée sous 24h
-                            après étude, signature électronique et versement ensuite sur le compte (selon conditions et
-                            pays).
-                        </p>
-
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Montant</p>
-                                <p class="mt-2 text-sm text-slate-600">Selon pays : 1 000€ à 50 000€.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Durée</p>
-                                <p class="mt-2 text-sm text-slate-600">6 à 72 mois.</p>
-                            </div>
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Taux</p>
-                                <p class="mt-2 text-sm text-slate-600">Indicatif : 3,60% à 15,96% (selon plan).</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Service Client + CTA -->
-    <section id="cta" class="relative py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-                <div class="lg:col-span-7">
-                    <div class="rounded-[2.25rem] border border-slate-200 bg-white p-8 shadow-sm">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200">
-                            <i class="fa-solid fa-headset text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Service client</span>
-                        </div>
-
-                        <h2 class="mt-6 text-2xl md:text-3xl font-semibold text-slate-900">
-                            Un support pensé pour le digital, mais multicanal
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Application mobile
                         </h2>
-
-                        <p class="mt-4 text-slate-600 leading-relaxed">
-                            N26 met à disposition plusieurs moyens de contact : livechat dans l’application
-                            (mobile/PC/tablette), téléphone,
-                            email et réseaux sociaux. Les horaires annoncés varient selon canal et jours.
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’application N26 met l’accent sur le contrôle : suivi en temps réel, catégorisation
+                            automatique des
+                            dépenses et statistiques utiles pour gérer son budget. Vous pouvez ajuster certains
+                            paramètres (plafonds,
+                            sécurité), personnaliser votre code PIN selon les règles, et bloquer/débloquer la carte en
+                            un instant.
+                            L’accès peut aussi se faire depuis ordinateur, tablette ou certains appareils connectés.
                         </p>
 
-                        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div class="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                                <p class="text-sm font-semibold text-slate-900">Canaux</p>
-                                <ul class="mt-3 space-y-2 text-sm text-slate-600">
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Livechat (app +
-                                        web)</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Téléphone
-                                        (numéro non surtaxé)</li>
-                                    <li class="flex gap-2"><i
-                                            class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>Email + réseaux
-                                        sociaux</li>
-                                </ul>
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-bell mr-2 text-gray-900"></i>Temps réel
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Notifications & suivi</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-sliders mr-2 text-gray-900"></i>Contrôle
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Plafonds & sécurité</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-globe mr-2 text-gray-900"></i>Budget
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Catégories & stats</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Produits bancaires disponibles
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            N26 se concentre avant tout sur le compte courant et la carte, avec des fonctionnalités
+                            digitales avancées.
+                            Selon les pays, certains services comme le crédit à la consommation peuvent être proposés,
+                            tandis que
+                            d’autres produits (livrets réglementés, assurance-vie, compte-titres) ne font pas toujours
+                            partie de
+                            l’écosystème.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-credit-card mr-2"></i>Compte & carte
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Gestion mobile et suivi en temps réel.
+                                </p>
                             </div>
 
-                            <div class="rounded-3xl border border-slate-200 bg-white p-6">
-                                <p class="text-sm font-semibold text-slate-900">Pour qui ?</p>
-                                <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                                    Les comptes N26 Business sont annoncés comme destinés aux auto-entrepreneurs /
-                                    micro-entrepreneurs, et ne
-                                    conviennent pas à certaines structures (SASU, SARL, etc.).
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-hand-holding-dollar mr-2"></i>Crédit conso
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Demande et simulation depuis l’application selon pays.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-plane mr-2"></i>Voyage
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Offres premium pensées pour l’international.
+                                </p>
+                            </div>
+
+                            <div class="rounded-3xl border border-gray-200 bg-gray-50 p-5">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-briefcase mr-2"></i>Business
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600">
+                                    Comptes dédiés aux indépendants selon critères.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Conditions à connaître
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            Les comptes N26 sont généralement accessibles sans condition de revenus ni dépôt initial. En
+                            revanche, il
+                            faut respecter des critères : être majeur, vivre dans un pays éligible, disposer d’un
+                            smartphone compatible
+                            et d’un document d’identité valide. Les comptes N26 Business s’adressent surtout aux
+                            indépendants et micro-
+                            entrepreneurs, avec un usage exclusivement professionnel.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-euro-sign mr-2"></i>Revenus
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Pas de condition</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-circle-arrow-down mr-2"></i>Dépôt initial
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Non requis</p>
+                            </div>
+
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900">
+                                    <i class="fa-solid fa-users mr-2"></i>Éligibilité
+                                </p>
+                                <p class="mt-2 text-xs text-gray-600">Pays + mobile</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
+                        <h2 class="text-xl font-bold capitalize text-gray-900 sm:text-2xl">
+                            Service client
+                        </h2>
+                        <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                            L’assistance N26 est pensée pour un usage digital : support depuis l’application (chat), et
+                            autres canaux
+                            selon les options disponibles. Pour les demandes plus spécifiques, un contact téléphonique
+                            et un support par
+                            email peuvent aussi exister. L’idée est de privilégier l’app, où l’accès au support est
+                            généralement le plus
+                            direct.
+                        </p>
+
+                        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-comment-dots mr-2"></i>Chat</p>
+                                <p class="mt-2 text-xs text-gray-600">Via l’application</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-phone mr-2"></i>Téléphone</p>
+                                <p class="mt-2 text-xs text-gray-600">Selon offre</p>
+                            </div>
+                            <div class="rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                                <p class="text-sm font-bold capitalize text-gray-900"><i
+                                        class="fa-solid fa-envelope mr-2"></i>Email</p>
+                                <p class="mt-2 text-xs text-gray-600">Support dédié</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-4">
+                    <div class="lg:sticky lg:top-6 space-y-6">
+                        <div class="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-gray-900">Pour qui c’est idéal ?</h3>
+                            <div class="mt-4 space-y-3 text-sm text-gray-700">
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Utilisateurs mobiles</p>
+                                        <p class="text-xs text-gray-500">Gestion en temps réel</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-plane"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Voyageurs</p>
+                                        <p class="text-xs text-gray-500">Offres premium utiles</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <span
+                                        class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gray-900 text-white">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                    </span>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Indépendants</p>
+                                        <p class="text-xs text-gray-500">Compte business dédié</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-[2rem] border border-gray-200 bg-gray-900 p-6 shadow-sm">
+                            <h3 class="text-base font-bold capitalize text-white">Transparence</h3>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Nos contenus sont informatifs et basés sur une lecture des offres. Les conditions
+                                peuvent évoluer.
+                                Vérifiez toujours les détails officiels avant de souscrire.
+                            </p>
+                            <div class="mt-4 rounded-2xl bg-white/10 p-4">
+                                <p class="text-xs font-semibold text-white/80">Par</p>
+                                <p class="mt-1 text-sm font-semibold text-white">L’équipe Nuage Comparateur</p>
+                                <p class="mt-1 text-xs text-gray-300">
+                                    Nous analysons les banques et néobanques pour vous aider à comparer l’essentiel :
+                                    frais, services,
+                                    accessibilité et expérience mobile.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-8">
-                        <div
-                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200">
-                            <i class="fa-solid fa-arrow-pointer text-emerald-600"></i>
-                            <span class="text-sm font-medium text-slate-700">Passer à l’action</span>
-                        </div>
-
-                        <h3 class="mt-6 text-xl font-semibold text-slate-900">
-                            Vous cherchez une banque 100% mobile ?
-                        </h3>
-
-                        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                            Comparez les retraits inclus, les services premium, la compatibilité paiement mobile et le
-                            type de statut
-                            accepté pour un compte Business.
-                        </p>
-
-                        <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                            <a href="#"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-slate-900 text-white font-medium hover:opacity-90 transition w-full sm:w-auto">
-                                Visiter le site
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a href="contact.html"
-                                class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-slate-300 text-slate-700 hover:bg-white transition w-full sm:w-auto">
-                                Demander un avis
-                                <i class="fa-solid fa-headset"></i>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 rounded-3xl border border-slate-200 bg-white p-6">
-                            <p class="text-sm font-semibold text-slate-900">À propos de l’équipe éditoriale</p>
-                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-                                Notre équipe de rédaction est composée d’éditeurs spécialisés dans le secteur financier.
-                                Notre objectif : faciliter le processus de choix du service financier qui répond le
-                                mieux à vos besoins.
-                            </p>
-                        </div>
-
-                        <p class="mt-4 text-xs text-slate-500">
-                            Informations indicatives : vérifiez conditions, tarifs et options sur le site officiel de
-                            N26.
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
+
 
 
     <!-- Footer Section -->
